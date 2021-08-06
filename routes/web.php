@@ -14,16 +14,20 @@ use TCG\Voyager\Facades\Voyager;
 | contains the "web" middleware group. Now create something great!
 |
 */
+/* Группа всех пользователей */
+Route::group(['middleware' => ['web']], function () {
+
+    Auth::routes();
+
+    Route::group(['prefix' => 'admin'], function () {
+        Voyager::routes();
+    });
+});
+
+
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});
