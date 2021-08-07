@@ -1,15 +1,15 @@
 @extends('layouts.layouts')
 @section('title')
-    Страница не найдена
+    Политика конфиденциальности
 @endsection
 @section('head-js')
-    <script defer src="{{ asset('js/404.js') }}"></script>
+    <script defer src="{{ asset('js/policy.js') }}"></script>
 @endsection
 @section('head-css')
-    <link href="{{ asset('css/404.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/policy.css') }}" rel="stylesheet">
 @endsection
 @section('style-body')
-    class="body-min"
+    class="body-service"
 @endsection
 @section('svg-icons')
     <svg-icons></svg-icons>
@@ -21,8 +21,8 @@
     <header-main></header-main>
 @endsection
 @section('content')
-    <page-not-found></page-not-found>
+    <page-policy></page-policy>
 @endsection
 @section('footer')
-    <footer-main></footer-main>
+    <footer-info></footer-info>
 @endsection

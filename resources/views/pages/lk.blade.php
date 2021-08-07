@@ -1,15 +1,12 @@
 @extends('layouts.layouts')
 @section('title')
-    Страница не найдена
+    Личный кабинет
 @endsection
 @section('head-js')
-    <script defer src="{{ asset('js/404.js') }}"></script>
+    <script defer src="{{ asset('js/lk.js') }}"></script>
 @endsection
 @section('head-css')
-    <link href="{{ asset('css/404.css') }}" rel="stylesheet">
-@endsection
-@section('style-body')
-    class="body-min"
+    <link href="{{ asset('css/lk.css') }}" rel="stylesheet">
 @endsection
 @section('svg-icons')
     <svg-icons></svg-icons>
@@ -21,7 +18,7 @@
     <header-main></header-main>
 @endsection
 @section('content')
-    <page-not-found></page-not-found>
+    <page-lk></page-lk>
 @endsection
 @section('footer')
     <footer-main></footer-main>

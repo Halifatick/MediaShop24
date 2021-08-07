@@ -1,12 +1,12 @@
 @extends('layouts.layouts')
 @section('title')
-    Страница не найдена
+    Заказ оформлен
 @endsection
 @section('head-js')
-    <script defer src="{{ asset('js/404.js') }}"></script>
+    <script defer src="{{ asset('js/cartcomplete.js') }}"></script>
 @endsection
 @section('head-css')
-    <link href="{{ asset('css/404.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/cartcomplete.css') }}" rel="stylesheet">
 @endsection
 @section('style-body')
     class="body-min"
@@ -21,7 +21,7 @@
     <header-main></header-main>
 @endsection
 @section('content')
-    <page-not-found></page-not-found>
+    <page-cart-complete></page-cart-complete>
 @endsection
 @section('footer')
     <footer-main></footer-main>

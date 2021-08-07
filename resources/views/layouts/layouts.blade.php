@@ -33,6 +33,7 @@
     </div>
     @yield('footer')
     <template id="template">
+        <modal-layout></modal-layout>
         @yield('template')
     </template>
     <a class="to-top arrow arrow--up" href="#top-level" aria-label="подняться в начало страницы"></a>

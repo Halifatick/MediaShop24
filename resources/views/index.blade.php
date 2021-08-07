@@ -1,27 +1,27 @@
 @extends('layouts.layouts')
 @section('title')
-    Страница не найдена
+    Главная
 @endsection
 @section('head-js')
-    <script defer src="{{ asset('js/404.js') }}"></script>
+    <script defer src="{{ asset('js/index.js') }}"></script>
 @endsection
 @section('head-css')
-    <link href="{{ asset('css/404.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/index.css') }}" rel="stylesheet">
 @endsection
 @section('style-body')
-    class="body-min"
+    class="body-main"
 @endsection
 @section('svg-icons')
     <svg-icons></svg-icons>
 @endsection
 @section('aside')
-    <aside-main></aside-main>
+    <aside-index></aside-index>
 @endsection
 @section('header')
-    <header-main></header-main>
+    <header-index></header-index>
 @endsection
 @section('content')
-    <page-not-found></page-not-found>
+    <page-index></page-index>
 @endsection
 @section('footer')
     <footer-main></footer-main>

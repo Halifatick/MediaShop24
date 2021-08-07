@@ -1,15 +1,12 @@
 @extends('layouts.layouts')
 @section('title')
-    Страница не найдена
+    Избранное
 @endsection
 @section('head-js')
-    <script defer src="{{ asset('js/404.js') }}"></script>
+    <script defer src="{{ asset('js/favorite.js') }}"></script>
 @endsection
 @section('head-css')
-    <link href="{{ asset('css/404.css') }}" rel="stylesheet">
-@endsection
-@section('style-body')
-    class="body-min"
+    <link href="{{ asset('css/favorite.css') }}" rel="stylesheet">
 @endsection
 @section('svg-icons')
     <svg-icons></svg-icons>
@@ -21,7 +18,7 @@
     <header-main></header-main>
 @endsection
 @section('content')
-    <page-not-found></page-not-found>
+    <page-favorite></page-favorite>
 @endsection
 @section('footer')
     <footer-main></footer-main>

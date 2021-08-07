@@ -1,12 +1,12 @@
 @extends('layouts.layouts')
 @section('title')
-    Страница не найдена
+    Вакансии
 @endsection
 @section('head-js')
-    <script defer src="{{ asset('js/404.js') }}"></script>
+    <script defer src="{{ asset('js/vacancies.js') }}"></script>
 @endsection
 @section('head-css')
-    <link href="{{ asset('css/404.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/vacancies.css') }}" rel="stylesheet">
 @endsection
 @section('style-body')
     class="body-min"
@@ -21,8 +21,11 @@
     <header-main></header-main>
 @endsection
 @section('content')
-    <page-not-found></page-not-found>
+    <page-vacancies></page-vacancies>
 @endsection
 @section('footer')
     <footer-main></footer-main>
+@endsection
+@section('template')
+    <modal-vacancy></modal-vacancy>
 @endsection
