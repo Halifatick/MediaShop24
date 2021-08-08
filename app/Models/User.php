@@ -40,4 +40,21 @@ class User extends \TCG\Voyager\Models\User implements MustVerifyEmail
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function profile()
+    {
+        return $this->HasOne(Profile::class);
+    }
+    public function orders()
+    {
+        return $this->HasMany(Order::class);
+    }
+    public function favourites()
+    {
+        return $this->HasMany(Favourite::class);
+    }
+    public function comments()
+    {
+        return $this->HasMany(Comment::class);
+    }
 }

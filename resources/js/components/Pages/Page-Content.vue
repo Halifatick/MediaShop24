@@ -1,152 +1,104 @@
 <template>
     <main>
-        <style>
-            header,
-            footer,
-            .aside-container {
-                display: none !important;
-                visibility: hidden !important;
-                position: absolute !important;
-                opacity: 0;
-                top: 0;
-                left: 0;
-            }
-
-            body {
-                background-color: moccasin;
-            }
-
-            .cont {
-                display: grid;
-                gap: 50px;
-                background-color: moccasin;
-            }
-
-            @media (min-width: 769px) {
-                .cont {
-                    grid-template-columns: max-content max-content;
-                    gap: 30px;
-                }
-            }
-
-            .cont > div {
-                padding: 20px;
-            }
-
-            .cont h2 {
-                margin-bottom: 30px;
-            }
-
-            .cont > div a {
-                font-weight: 400;
-                font-size: 20px;
-                color: initial;
-                text-decoration: underline;
-            }
-
-            li {
-                margin-bottom: 20px;
-            }
-        </style>
         <div class="cont">
             <div>
                 <h2>Страницы</h2>
                 <ul>
                     <li>
-                        <a href="index.html">Главная</a>
+                        <a href="index">Главная</a>
                     </li>
                     <li>
-                        <a href="catalogmain.html">Каталог-главная</a>
+                        <a href="catalogmain">Каталог-главная</a>
                     </li>
                     <li>
-                        <a href="catalog.html">Каталог</a>
+                        <a href="catalog">Каталог</a>
                     </li>
                     <li>
-                        <a href="card.html">Карточка товара</a>
+                        <a href="card">Карточка товара</a>
                     </li>
                     <li>
-                        <a href="card2.html">Карточка товара пустая</a>
+                        <a href="card2">Карточка товара пустая</a>
                     </li>
                     <li>
-                        <a href="compare.html">Сравнение</a>
+                        <a href="compare">Сравнение</a>
                     </li>
                     <li>
-                        <a href="favorite.html">Избранное</a>
+                        <a href="favorite">Избранное</a>
                     </li>
                     <li>
-                        <a href="news.html">Новости</a>
+                        <a href="news">Новости</a>
                     </li>
                     <li>
-                        <a href="review.html">Обзоры</a>
+                        <a href="review">Обзоры</a>
                     </li>
                     <li>
-                        <a href="review2.html">Обзор2</a>
+                        <a href="review2">Обзор2</a>
                     </li>
                     <li>
-                        <a href="article.html">Статья</a>
+                        <a href="article">Статья</a>
                     </li>
                     <li>
-                        <a href="stock.html">Акции</a>
+                        <a href="stock">Акции</a>
                     </li>
                     <li>
-                        <a href="stock2.html">Акции2</a>
+                        <a href="stock2">Акции2</a>
                     </li>
                     <li>
-                        <a href="vacancies.html">Вакансии</a>
+                        <a href="vacancies">Вакансии</a>
                     </li>
                     <li>
-                        <a href="about.html">О нас</a>
+                        <a href="about">О нас</a>
                     </li>
                     <li>
-                        <a href="cart.html">Корзина</a>
+                        <a href="cart">Корзина</a>
                     </li>
                     <li>
-                        <a href="cart1.html">Оформление заказа</a>
+                        <a href="cart1">Оформление заказа</a>
                     </li>
                     <li>
-                        <a href="cartcomplete.html">Заказ Оформлен</a>
+                        <a href="cartcomplete">Заказ Оформлен</a>
                     </li>
                     <li>
-                        <a href="contact.html">Контакты</a>
+                        <a href="contact">Контакты</a>
                     </li>
                     <li>
-                        <a href="policy.html">Политика конфиденциальности</a>
+                        <a href="policy">Политика конфиденциальности</a>
                     </li>
                     <li>
-                        <a href="warranty.html">Гарантия и возврат</a>
+                        <a href="warranty">Гарантия и возврат</a>
                     </li>
                     <li>
-                        <a href="delivery.html">Доставка и оплата</a>
+                        <a href="delivery">Доставка и оплата</a>
                     </li>
                     <li>
-                        <a href="faq.html">Вопросы и ответы</a>
+                        <a href="faq">Вопросы и ответы</a>
                     </li>
                     <li>
-                        <a href="help.html">Помощь главная</a>
+                        <a href="help">Помощь главная</a>
                     </li>
                     <li>
-                        <a href="lk.html">Личный кабинет</a>
+                        <a href="lk">Личный кабинет</a>
                     </li>
                     <li>
-                        <a href="profile.html">ЛК Личные данные</a>
+                        <a href="profile">ЛК Личные данные</a>
                     </li>
                     <li>
-                        <a href="orderlist.html">ЛК Мои заказы</a>
+                        <a href="orderlist">ЛК Мои заказы</a>
                     </li>
                     <li>
-                        <a href="orderdetails.html">ЛК Заказ подробности</a>
+                        <a href="orderdetails">ЛК Заказ подробности</a>
                     </li>
                     <li>
-                        <a href="waitlist.html">ЛК Лист Ожидания</a>
+                        <a href="waitlist">ЛК Лист Ожидания</a>
                     </li>
                     <li>
-                        <a href="fblist.html">ЛК Мои отзывы</a>
+                        <a href="fblist">ЛК Мои отзывы</a>
                     </li>
                     <li>
-                        <a href="404.html">404</a>
+                        <a href="404">404</a>
                     </li>
                     <li>
-                        <a href="email.html">email</a>
+                        <a href="email">email</a>
                     </li>
                 </ul>
             </div>
@@ -211,5 +163,50 @@ export default {
 </script>
 
 <style scoped>
+header,
+footer,
+.aside-container {
+    display: none !important;
+    visibility: hidden !important;
+    position: absolute !important;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
 
+body {
+    background-color: moccasin;
+}
+
+.cont {
+    display: grid;
+    gap: 50px;
+    background-color: moccasin;
+}
+
+@media (min-width: 769px) {
+    .cont {
+        grid-template-columns: max-content max-content;
+        gap: 30px;
+    }
+}
+
+.cont > div {
+    padding: 20px;
+}
+
+.cont h2 {
+    margin-bottom: 30px;
+}
+
+.cont > div a {
+    font-weight: 400;
+    font-size: 20px;
+    color: initial;
+    text-decoration: underline;
+}
+
+li {
+    margin-bottom: 20px;
+}
 </style>
