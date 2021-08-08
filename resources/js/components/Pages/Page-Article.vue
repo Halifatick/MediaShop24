@@ -1,8 +1,8 @@
 <template>
     <main>
         <div class="bread-crumbs ">
-            <a href="index.html">Главная</a>
-            <a href="news.html">Новости</a>
+            <a href="index">Главная</a>
+            <a href="news">Новости</a>
             <a href="#!" aria-current="location">Iphone 11, почему такой же как и Pro Max</a>
         </div>
         <div class="article wrapper">

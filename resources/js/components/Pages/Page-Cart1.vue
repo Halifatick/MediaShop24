@@ -4,7 +4,7 @@
             <h1 class="visually-hidden">Оформление заказа</h1>
             <div class="cart-checkout">
                 <div class="bread-crumbs ">
-                    <a href="index.html">Главная</a>
+                    <a href="index">Главная</a>
                     <a href="cart">Корзина</a>
                     <a href="cart1" aria-current="location">Оформление заказа</a>
                 </div>

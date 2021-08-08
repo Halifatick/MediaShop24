@@ -1,8 +1,8 @@
 <template>
     <main>
         <div class="bread-crumbs ">
-            <a href="index.html">Главная</a>
-            <a href="review.html">Обзоры</a>
+            <a href="index">Главная</a>
+            <a href="review">Обзоры</a>
             <a href="#!" aria-current="location">Iphone 11, почему такой же как и Pro Max</a>
         </div>
         <div class="article article--review">
@@ -608,7 +608,7 @@
             </div>
             <div class="news__articles view-column">
                 <article class="article-el">
-                    <a href="review2.html" class="article-el__img">
+                    <a href="review2" class="article-el__img">
                         <picture>
                             <source type="image/webp"
                                     srcset="img/content/review/review.webp 345w, img/content/review/review@2x.webp 700w"
@@ -619,7 +619,7 @@
                         </picture>
                     </a>
                     <div class="article-el__body">
-                        <h3><a class="text-limiter" href="review2.html">Iphone 11, почему такой же как и Pro Max, может
+                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max, может
                             быть в 3
                             строки и вот таким большим</a></h3>
                         <div class="article-el__mark has-video">
@@ -628,11 +628,11 @@
                         <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть
                             большим в 3
                             строки, видео разбор с ответами на самые часто задаваемые</p>
-                        <a href="review2.html" class="link">Читать далее</a>
+                        <a href="review2" class="link">Читать далее</a>
                     </div>
                 </article>
                 <article class="article-el">
-                    <a href="review2.html" class="article-el__img">
+                    <a href="review2" class="article-el__img">
                         <picture>
                             <source type="image/webp"
                                     srcset="img/content/review/review.webp 345w, img/content/review/review@2x.webp 700w"
@@ -643,7 +643,7 @@
                         </picture>
                     </a>
                     <div class="article-el__body">
-                        <h3><a class="text-limiter" href="review2.html">Iphone 11, почему такой же как и Pro Max, может
+                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max, может
                             быть в 3
                             строки и вот таким большим</a></h3>
                         <div class="article-el__mark has-video">
@@ -652,7 +652,7 @@
                         <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть
                             большим в 3
                             строки, видео разбор с ответами на самые часто задаваемые</p>
-                        <a href="review2.html" class="link">Читать далее</a>
+                        <a href="review2" class="link">Читать далее</a>
                     </div>
                 </article>
             </div>

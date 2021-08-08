@@ -3,8 +3,8 @@
         <div class="contact">
             <div class="contact__content">
                 <div class="bread-crumbs ">
-                    <a href="index.html">Главная</a>
-                    <a href="contact.html" aria-current="location">Контакты</a>
+                    <a href="index">Главная</a>
+                    <a href="contact" aria-current="location">Контакты</a>
                 </div>
                 <h1 class="title">Контакты</h1>
                 <h2 class="subtitle subtitle--point">Пункт самовывоза</h2>

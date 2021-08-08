@@ -1,8 +1,8 @@
 <template>
     <main>
         <div class="bread-crumbs bread-crumbs--lk">
-            <a href="index.html">Главная</a>
-            <a href="lk.html" aria-current="location">Личный кабинет</a>
+            <a href="index">Главная</a>
+            <a href="lk" aria-current="location">Личный кабинет</a>
         </div>
         <div class="lk lk--main">
             <h1 class="title title-lk wrapper">Личный кабинет</h1>
@@ -21,7 +21,7 @@
                             <a class="lk__nav-link link arrow arrow--right" href="waitlist">Лист ожидания</a>
                             <a class="lk__nav-link link arrow arrow--right" href="fblist">Мои отзывы</a>
                             <a class="lk__nav-link link arrow arrow--right" href="help">Помощь</a>
-                            <a class="lk__logout" href="index.html">Выход</a>
+                            <a class="lk__logout" href="index">Выход</a>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                             </dl>
                         </div>
                         <div class="lk__right-icons">
-                            <a class="link-compare-js" href="favorite.html">
+                            <a class="link-compare-js" href="favorite">
                   <span class="counter counter--red" data-count="2">
                     <svg width="32" height="32">
                       <use href="#icon-favorite"></use>
@@ -55,7 +55,7 @@
                   </span>
                                 Избранное
                             </a>
-                            <a class="link-compare-js" href="compare.html">
+                            <a class="link-compare-js" href="compare">
                   <span class="counter counter--red" data-count="3">
                     <svg width="32" height="32">
                       <use href="#icon-equal"></use>
@@ -63,7 +63,7 @@
                   </span>
                                 Сравнение
                             </a>
-                            <a class="link-compare-js" href="waitlist.html">
+                            <a class="link-compare-js" href="waitlist">
                   <span class="counter counter--red" data-count="4">
                     <svg width="32" height="32">
                       <use href="#icon-clock"></use>
@@ -71,7 +71,7 @@
                   </span>
                                 Лист ожидания
                             </a>
-                            <a class="link-compare-js" href="fblist.html">
+                            <a class="link-compare-js" href="fblist">
                   <span class="counter counter--red" data-count="5">
                     <svg width="32" height="32">
                       <use href="#icon-comment"></use>

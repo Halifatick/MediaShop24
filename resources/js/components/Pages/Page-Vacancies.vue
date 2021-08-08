@@ -1,8 +1,8 @@
 <template>
     <main>
         <div class="bread-crumbs bread-crumbs--vacancies">
-            <a href="index.html">Главная</a>
-            <a href="vacancies.html" aria-current="location">Вакансии</a>
+            <a href="index">Главная</a>
+            <a href="vacancies" aria-current="location">Вакансии</a>
         </div>
         <div class="vacancies">
             <h1>Вакансии</h1>

@@ -1,9 +1,9 @@
 <template>
     <main>
         <div class="bread-crumbs bread-crumbs--lk">
-            <a href="index.html">Главная</a>
-            <a href="lk.html">Личный кабинет</a>
-            <a href="orderlist.html" aria-current="location">Мои заказы</a>
+            <a href="index">Главная</a>
+            <a href="lk">Личный кабинет</a>
+            <a href="orderlist" aria-current="location">Мои заказы</a>
         </div>
         <div class="lk lk--order-details">
             <h1 class="title title-lk wrapper">Личный кабинет</h1>
@@ -22,7 +22,7 @@
                             <a class="lk__nav-link link arrow arrow--right" href="waitlist">Лист ожидания</a>
                             <a class="lk__nav-link link arrow arrow--right" href="fblist">Мои отзывы</a>
                             <a class="lk__nav-link link arrow arrow--right" href="help">Помощь</a>
-                            <a class="lk__logout" href="index.html">Выход</a>
+                            <a class="lk__logout" href="index">Выход</a>
                         </div>
                     </div>
                 </div>

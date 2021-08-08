@@ -3,28 +3,28 @@
         <div class="service">
             <div class="service-aside">
                 <div class="service-aside__inner">
-                    <a class="logo logo--big" href="index.html">
+                    <a class="logo logo--big" href="index">
                         <svg width="240" height="43">
                             <use href="#icon-logo-big"></use>
                         </svg>
                     </a>
                     <div class="service-aside__links">
-                        <a href="delivery.html">Доставка и оплата</a>
-                        <a href="warranty.html">Гарантия и возврат</a>
-                        <a href="faq.html">Покупки в кредит</a>
-                        <a href="faq.html">Сервисные услуги</a>
-                        <a href="faq.html">Частые вопросы</a>
-                        <a href="faq.html">Условия продажи товаров</a>
-                        <a href="policy.html">Политика конфиденциальности</a>
-                        <a href="contact.html">Контакты</a>
-                        <a href="index.html">Вернуться на главную</a>
+                        <a href="delivery">Доставка и оплата</a>
+                        <a href="warranty">Гарантия и возврат</a>
+                        <a href="faq">Покупки в кредит</a>
+                        <a href="faq">Сервисные услуги</a>
+                        <a href="faq">Частые вопросы</a>
+                        <a href="faq">Условия продажи товаров</a>
+                        <a href="policy">Политика конфиденциальности</a>
+                        <a href="contact">Контакты</a>
+                        <a href="index">Вернуться на главную</a>
                     </div>
                 </div>
             </div>
             <div class="service__container">
                 <div class="bread-crumbs ">
-                    <a href="index.html">Главная</a>
-                    <a href="warranty.html" aria-current="location">Гарантия и возврат</a>
+                    <a href="index">Главная</a>
+                    <a href="warranty" aria-current="location">Гарантия и возврат</a>
                 </div>
                 <h1 class="title">Гарантия и возврат</h1>
                 <div class="service__banner">

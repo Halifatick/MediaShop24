@@ -12,38 +12,30 @@
             <ul class="social-icons">
                 <li>
                     <a href="#!" aria-label="наша страница в контакте">
-
-                        <svg  width="18" height="18">
+                        <svg width="18" height="18">
                             <use href="#icon-vk"></use>
                         </svg>
-
                     </a>
                 </li>
                 <li>
                     <a href="#!" aria-label="наша страница на фейсбуке">
-
-                        <svg  width="18" height="18">
+                        <svg width="18" height="18">
                             <use href="#icon-fb"></use>
                         </svg>
-
                     </a>
                 </li>
                 <li>
                     <a href="#!" aria-label="наша страница в инстаграм">
-
-                        <svg  width="18" height="18">
+                        <svg width="18" height="18">
                             <use href="#icon-ig"></use>
                         </svg>
-
                     </a>
                 </li>
                 <li>
                     <a href="#!" aria-label="наша страница в ютубе">
-
-                        <svg  width="18" height="18">
+                        <svg width="18" height="18">
                             <use href="#icon-yt"></use>
                         </svg>
-
                     </a>
                 </li>
             </ul>

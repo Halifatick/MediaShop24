@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="bread-crumbs ">
-            <a href="index.html">Главная</a>
+            <a href="index">Главная</a>
             <a href="#" aria-current="location">Избранное</a>
         </div>
         <div class="compare favorite">

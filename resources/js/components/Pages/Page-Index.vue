@@ -55,7 +55,7 @@
         <div class="main-catalog-links slider-container">
             <ul class="aside__list swiper-wrapper">
                 <li class="aside__item swiper-slide">
-                    <a href="catalogmain.html" class="aside__link">
+                    <a href="catalogmain" class="aside__link">
                         <svg width="24" height="24">
                             <use href="#icon-circles"></use>
                         </svg>

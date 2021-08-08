@@ -1,8 +1,8 @@
 <template>
     <main>
         <div class="bread-crumbs ">
-            <a href="index.html">Главная</a>
-            <a href="catalogmain.html">Каталог</a>
+            <a href="index">Главная</a>
+            <a href="catalogmain">Каталог</a>
             <a href="#!" aria-current="location">Телевизоры</a>
         </div>
         <section class="catalog">
@@ -2043,7 +2043,7 @@
             <div class="catalog__review-container slider-container">
                 <div class="catalog__review-wrapper swiper-wrapper">
                     <article class="article-el swiper-slide">
-                        <a href="review2.html" class="article-el__img">
+                        <a href="review2" class="article-el__img">
                             <picture>
                                 <source type="image/webp"
                                         srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
@@ -2052,7 +2052,7 @@
                             </picture>
                         </a>
                         <div class="article-el__body">
-                            <h3><a class="text-limiter" href="review2.html">Iphone 11, почему такой же как и Pro Max,
+                            <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max,
                                 может быть в 3
                                 строки и вот таким большим</a></h3>
                             <span class="article-el__mark has-video">
@@ -2061,11 +2061,11 @@
                             <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                 задаваемые вопросы
                                 может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                            <a href="review2.html" class="link">Перейти к обзору</a>
+                            <a href="review2" class="link">Перейти к обзору</a>
                         </div>
                     </article>
                     <article class="article-el swiper-slide">
-                        <a href="review2.html" class="article-el__img">
+                        <a href="review2" class="article-el__img">
                             <picture>
                                 <source type="image/webp"
                                         srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
@@ -2074,7 +2074,7 @@
                             </picture>
                         </a>
                         <div class="article-el__body">
-                            <h3><a class="text-limiter" href="review2.html">Iphone 11, почему такой же как и Pro Max,
+                            <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max,
                                 может быть в 3
                                 строки и вот таким большим</a></h3>
                             <span class="article-el__mark has-video">
@@ -2083,11 +2083,11 @@
                             <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                 задаваемые вопросы
                                 может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                            <a href="review2.html" class="link">Перейти к обзору</a>
+                            <a href="review2" class="link">Перейти к обзору</a>
                         </div>
                     </article>
                     <article class="article-el swiper-slide">
-                        <a href="review2.html" class="article-el__img">
+                        <a href="review2" class="article-el__img">
                             <picture>
                                 <source type="image/webp"
                                         srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
@@ -2096,7 +2096,7 @@
                             </picture>
                         </a>
                         <div class="article-el__body">
-                            <h3><a class="text-limiter" href="review2.html">Iphone 11, почему такой же как и Pro Max,
+                            <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max,
                                 может быть в 3
                                 строки и вот таким большим</a></h3>
                             <span class="article-el__mark has-video">
@@ -2105,11 +2105,11 @@
                             <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                 задаваемые вопросы
                                 может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                            <a href="review2.html" class="link">Перейти к обзору</a>
+                            <a href="review2" class="link">Перейти к обзору</a>
                         </div>
                     </article>
                     <article class="article-el swiper-slide">
-                        <a href="review2.html" class="article-el__img">
+                        <a href="review2" class="article-el__img">
                             <picture>
                                 <source type="image/webp"
                                         srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
@@ -2118,7 +2118,7 @@
                             </picture>
                         </a>
                         <div class="article-el__body">
-                            <h3><a class="text-limiter" href="review2.html">Iphone 11, почему такой же как и Pro Max,
+                            <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max,
                                 может быть в 3
                                 строки и вот таким большим</a></h3>
                             <span class="article-el__mark has-video">
@@ -2127,11 +2127,11 @@
                             <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                 задаваемые вопросы
                                 может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                            <a href="review2.html" class="link">Перейти к обзору</a>
+                            <a href="review2" class="link">Перейти к обзору</a>
                         </div>
                     </article>
                     <article class="article-el swiper-slide">
-                        <a href="review2.html" class="article-el__img">
+                        <a href="review2" class="article-el__img">
                             <picture>
                                 <source type="image/webp"
                                         srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
@@ -2140,7 +2140,7 @@
                             </picture>
                         </a>
                         <div class="article-el__body">
-                            <h3><a class="text-limiter" href="review2.html">Iphone 11, почему такой же как и Pro Max,
+                            <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max,
                                 может быть в 3
                                 строки и вот таким большим</a></h3>
                             <span class="article-el__mark has-video">
@@ -2149,11 +2149,11 @@
                             <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                 задаваемые вопросы
                                 может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                            <a href="review2.html" class="link">Перейти к обзору</a>
+                            <a href="review2" class="link">Перейти к обзору</a>
                         </div>
                     </article>
                     <article class="article-el swiper-slide">
-                        <a href="review2.html" class="article-el__img">
+                        <a href="review2" class="article-el__img">
                             <picture>
                                 <source type="image/webp"
                                         srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
@@ -2162,7 +2162,7 @@
                             </picture>
                         </a>
                         <div class="article-el__body">
-                            <h3><a class="text-limiter" href="review2.html">Iphone 11, почему такой же как и Pro Max,
+                            <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max,
                                 может быть в 3
                                 строки и вот таким большим</a></h3>
                             <span class="article-el__mark has-video">
@@ -2171,11 +2171,11 @@
                             <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                 задаваемые вопросы
                                 может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                            <a href="review2.html" class="link">Перейти к обзору</a>
+                            <a href="review2" class="link">Перейти к обзору</a>
                         </div>
                     </article>
                     <article class="article-el swiper-slide">
-                        <a href="review2.html" class="article-el__img">
+                        <a href="review2" class="article-el__img">
                             <picture>
                                 <source type="image/webp"
                                         srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
@@ -2184,7 +2184,7 @@
                             </picture>
                         </a>
                         <div class="article-el__body">
-                            <h3><a class="text-limiter" href="review2.html">Iphone 11, почему такой же как и Pro Max,
+                            <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max,
                                 может быть в 3
                                 строки и вот таким большим</a></h3>
                             <span class="article-el__mark has-video">
@@ -2193,11 +2193,11 @@
                             <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                 задаваемые вопросы
                                 может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                            <a href="review2.html" class="link">Перейти к обзору</a>
+                            <a href="review2" class="link">Перейти к обзору</a>
                         </div>
                     </article>
                     <article class="article-el swiper-slide">
-                        <a href="review2.html" class="article-el__img">
+                        <a href="review2" class="article-el__img">
                             <picture>
                                 <source type="image/webp"
                                         srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
@@ -2206,7 +2206,7 @@
                             </picture>
                         </a>
                         <div class="article-el__body">
-                            <h3><a class="text-limiter" href="review2.html">Iphone 11, почему такой же как и Pro Max,
+                            <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max,
                                 может быть в 3
                                 строки и вот таким большим</a></h3>
                             <span class="article-el__mark has-video">
@@ -2215,11 +2215,11 @@
                             <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                 задаваемые вопросы
                                 может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                            <a href="review2.html" class="link">Перейти к обзору</a>
+                            <a href="review2" class="link">Перейти к обзору</a>
                         </div>
                     </article>
                     <article class="article-el swiper-slide">
-                        <a href="review2.html" class="article-el__img">
+                        <a href="review2" class="article-el__img">
                             <picture>
                                 <source type="image/webp"
                                         srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
@@ -2228,7 +2228,7 @@
                             </picture>
                         </a>
                         <div class="article-el__body">
-                            <h3><a class="text-limiter" href="review2.html">Iphone 11, почему такой же как и Pro Max,
+                            <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max,
                                 может быть в 3
                                 строки и вот таким большим</a></h3>
                             <span class="article-el__mark has-video">
@@ -2237,7 +2237,7 @@
                             <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                 задаваемые вопросы
                                 может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                            <a href="review2.html" class="link">Перейти к обзору</a>
+                            <a href="review2" class="link">Перейти к обзору</a>
                         </div>
                     </article>
                 </div>

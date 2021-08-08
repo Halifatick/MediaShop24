@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="bread-crumbs ">
-            <a href="index.html">Главная</a>
+            <a href="index">Главная</a>
             <a href="cart" aria-current="location">Корзина</a>
         </div>
         <section class="cart">

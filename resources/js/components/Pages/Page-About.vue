@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="bread-crumbs bread-crumbs--about">
-            <a href="index.html">Главная</a>
+            <a href="index">Главная</a>
             <a href="#!" aria-current="location">Новости</a>
         </div>
         <div class="about">

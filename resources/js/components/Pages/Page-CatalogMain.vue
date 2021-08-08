@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="bread-crumbs ">
-            <a href="index.html">Главная</a>
+            <a href="index">Главная</a>
             <a href="#" aria-current="location">Каталог</a>
         </div>
         <section class="aside catalog-main">
@@ -9,7 +9,7 @@
             <ul class="aside__list catalog-main__category-list">
                 <li class=" submenu-item">
                     <h2 class="aside__link catalog-main__category-title">
-                        <a href="catalog.html" aria-label="Телевизоры">
+                        <a href="catalog" aria-label="Телевизоры">
                             <svg width="24" height="24">
                                 <use href="#icon-tv"></use>
                             </svg>
@@ -23,7 +23,7 @@
                         </div>
                         <ul class="aside__list catalog-main__subcategory-list">
                             <li class="submenu-item catalog-main__subcategory-item">
-                                <a class="aside__link" href="catalog.html">
+                                <a class="aside__link" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-brand"></use>
                                     </svg>
@@ -36,28 +36,28 @@
                                     </div>
                                     <ul class="aside__list">
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Телевизоры Sony</a>
+                                            <a class="aside__link no-arrow" href="catalog">Телевизоры Sony</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Телевизоры Samsung</a>
+                                            <a class="aside__link no-arrow" href="catalog">Телевизоры Samsung</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Телевизоры LG</a>
+                                            <a class="aside__link no-arrow" href="catalog">Телевизоры LG</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Телевизоры Philips</a>
+                                            <a class="aside__link no-arrow" href="catalog">Телевизоры Philips</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Телевизоры ProCaster</a>
+                                            <a class="aside__link no-arrow" href="catalog">Телевизоры ProCaster</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Телевизоры Panasonic</a>
+                                            <a class="aside__link no-arrow" href="catalog">Телевизоры Panasonic</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="submenu-item catalog-main__subcategory-item">
-                                <a class="aside__link" href="catalog.html">
+                                <a class="aside__link" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-size"></use>
                                     </svg>
@@ -70,28 +70,28 @@
                                     </div>
                                     <ul class="aside__list">
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Телевизоры до 20&quot;</a>
+                                            <a class="aside__link no-arrow" href="catalog">Телевизоры до 20&quot;</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Телевизоры 20&quot;- 30&quot;</a>
+                                            <a class="aside__link no-arrow" href="catalog">Телевизоры 20&quot;- 30&quot;</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Телевизоры 20&quot;- 30&quot;</a>
+                                            <a class="aside__link no-arrow" href="catalog">Телевизоры 20&quot;- 30&quot;</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Телевизоры 40&quot;- 50&quot;</a>
+                                            <a class="aside__link no-arrow" href="catalog">Телевизоры 40&quot;- 50&quot;</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Телевизоры 50&quot;- 60&quot;</a>
+                                            <a class="aside__link no-arrow" href="catalog">Телевизоры 50&quot;- 60&quot;</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Телевизоры более 60&quot; </a>
+                                            <a class="aside__link no-arrow" href="catalog">Телевизоры более 60&quot; </a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="submenu-item catalog-main__subcategory-item">
-                                <a class="aside__link" href="catalog.html">
+                                <a class="aside__link" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-tv-small"></use>
                                     </svg>
@@ -104,25 +104,25 @@
                                     </div>
                                     <ul class="aside__list">
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">ЖК(LED)</a>
+                                            <a class="aside__link no-arrow" href="catalog">ЖК(LED)</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">ЖК(LCD)</a>
+                                            <a class="aside__link no-arrow" href="catalog">ЖК(LCD)</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">OLED</a>
+                                            <a class="aside__link no-arrow" href="catalog">OLED</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">QLED</a>
+                                            <a class="aside__link no-arrow" href="catalog">QLED</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Nano Cell</a>
+                                            <a class="aside__link no-arrow" href="catalog">Nano Cell</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="submenu-item catalog-main__subcategory-item">
-                                <a class="aside__link" href="catalog.html">
+                                <a class="aside__link" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-hometv"></use>
                                     </svg>
@@ -135,58 +135,58 @@
                                     </div>
                                     <ul class="aside__list">
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Для бизнеса</a>
+                                            <a class="aside__link no-arrow" href="catalog">Для бизнеса</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Для киноманов</a>
+                                            <a class="aside__link no-arrow" href="catalog">Для киноманов</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Для гостиной</a>
+                                            <a class="aside__link no-arrow" href="catalog">Для гостиной</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Для кухни</a>
+                                            <a class="aside__link no-arrow" href="catalog">Для кухни</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Для спальни</a>
+                                            <a class="aside__link no-arrow" href="catalog">Для спальни</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Для дачи</a>
+                                            <a class="aside__link no-arrow" href="catalog">Для дачи</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="submenu-item catalog-main__subcategory-item catalog-main__all-category">
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-tv"></use>
                                     </svg>
                                     Все телевизоры
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-tv"></use>
                                     </svg>
                                     Новинки
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-tv"></use>
                                     </svg>
                                     Лидеры продаж
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-tv"></use>
                                     </svg>
                                     Распродажа
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-tv"></use>
                                     </svg>
                                     Уценка
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-tv"></use>
                                     </svg>
@@ -198,7 +198,7 @@
                 </li>
                 <li class=" submenu-item">
                     <h2 class="aside__link catalog-main__category-title">
-                        <a href="catalog.html" aria-label="Apple">
+                        <a href="catalog" aria-label="Apple">
                             <svg width="24" height="24">
                                 <use href="#icon-apple"></use>
                             </svg>
@@ -212,7 +212,7 @@
                         </div>
                         <ul class="aside__list catalog-main__subcategory-list">
                             <li class="submenu-item catalog-main__subcategory-item">
-                                <a class="aside__link" href="catalog.html">
+                                <a class="aside__link" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-ipad"></use>
                                     </svg>
@@ -225,25 +225,25 @@
                                     </div>
                                     <ul class="aside__list">
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPad Air (2019)</a>
+                                            <a class="aside__link no-arrow" href="catalog">iPad Air (2019)</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPad mini (2019)</a>
+                                            <a class="aside__link no-arrow" href="catalog">iPad mini (2019)</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Apple iPad (2019)</a>
+                                            <a class="aside__link no-arrow" href="catalog">Apple iPad (2019)</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPad Pro 11 (2018)</a>
+                                            <a class="aside__link no-arrow" href="catalog">iPad Pro 11 (2018)</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPad Pro 11 (2020)</a>
+                                            <a class="aside__link no-arrow" href="catalog">iPad Pro 11 (2020)</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="submenu-item catalog-main__subcategory-item">
-                                <a class="aside__link" href="catalog.html">
+                                <a class="aside__link" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-iphone"></use>
                                     </svg>
@@ -256,61 +256,61 @@
                                     </div>
                                     <ul class="aside__list">
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPhone Pro Max</a>
+                                            <a class="aside__link no-arrow" href="catalog">iPhone Pro Max</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPhone 11 Pro</a>
+                                            <a class="aside__link no-arrow" href="catalog">iPhone 11 Pro</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPhone 11</a>
+                                            <a class="aside__link no-arrow" href="catalog">iPhone 11</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPhone XS Max</a>
+                                            <a class="aside__link no-arrow" href="catalog">iPhone XS Max</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPhone XS</a>
+                                            <a class="aside__link no-arrow" href="catalog">iPhone XS</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPhone XR</a>
+                                            <a class="aside__link no-arrow" href="catalog">iPhone XR</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPhone 8 Plus</a>
+                                            <a class="aside__link no-arrow" href="catalog">iPhone 8 Plus</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPhone 8</a>
+                                            <a class="aside__link no-arrow" href="catalog">iPhone 8</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPhone 7 Plus </a>
+                                            <a class="aside__link no-arrow" href="catalog">iPhone 7 Plus </a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPhone 7</a>
+                                            <a class="aside__link no-arrow" href="catalog">iPhone 7</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">iPhone SE </a>
+                                            <a class="aside__link no-arrow" href="catalog">iPhone SE </a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="submenu-item catalog-main__subcategory-item catalog-main__all-category">
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-apple"></use>
                                     </svg>
                                     Все категории
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-apple"></use>
                                     </svg>
                                     iPad
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-apple"></use>
                                     </svg>
                                     iPhone
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-apple"></use>
                                     </svg>
@@ -322,7 +322,7 @@
                 </li>
                 <li class=" submenu-item">
                     <h2 class="aside__link catalog-main__category-title">
-                        <a href="catalog.html" aria-label="Техника для кухни">
+                        <a href="catalog" aria-label="Техника для кухни">
                             <svg width="24" height="24">
                                 <use href="#icon-fridge"></use>
                             </svg>
@@ -336,7 +336,7 @@
                         </div>
                         <ul class="aside__list catalog-main__subcategory-list">
                             <li class="submenu-item catalog-main__subcategory-item">
-                                <a class="aside__link" href="catalog.html">
+                                <a class="aside__link" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-brand"></use>
                                     </svg>
@@ -349,16 +349,16 @@
                                     </div>
                                     <ul class="aside__list">
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Электрический гриль</a>
+                                            <a class="aside__link no-arrow" href="catalog">Электрический гриль</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Противень для гриля</a>
+                                            <a class="aside__link no-arrow" href="catalog">Противень для гриля</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="submenu-item catalog-main__subcategory-item">
-                                <a class="aside__link" href="catalog.html">
+                                <a class="aside__link" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-mixer"></use>
                                     </svg>
@@ -371,22 +371,22 @@
                                     </div>
                                     <ul class="aside__list">
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Стационарные миксеры</a>
+                                            <a class="aside__link no-arrow" href="catalog">Стационарные миксеры</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Ручные миксеры</a>
+                                            <a class="aside__link no-arrow" href="catalog">Ручные миксеры</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Планетарные миксеры</a>
+                                            <a class="aside__link no-arrow" href="catalog">Планетарные миксеры</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Кухонные комбайны</a>
+                                            <a class="aside__link no-arrow" href="catalog">Кухонные комбайны</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="submenu-item catalog-main__subcategory-item">
-                                <a class="aside__link" href="catalog.html">
+                                <a class="aside__link" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-coffeem"></use>
                                     </svg>
@@ -399,16 +399,16 @@
                                     </div>
                                     <ul class="aside__list">
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Кофемашины</a>
+                                            <a class="aside__link no-arrow" href="catalog">Кофемашины</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Капельные кофеварки</a>
+                                            <a class="aside__link no-arrow" href="catalog">Капельные кофеварки</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="submenu-item catalog-main__subcategory-item">
-                                <a class="aside__link" href="catalog.html">
+                                <a class="aside__link" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-blender"></use>
                                     </svg>
@@ -421,16 +421,16 @@
                                     </div>
                                     <ul class="aside__list">
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Погружные блендеры</a>
+                                            <a class="aside__link no-arrow" href="catalog">Погружные блендеры</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Стационарные блендеры</a>
+                                            <a class="aside__link no-arrow" href="catalog">Стационарные блендеры</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="submenu-item catalog-main__subcategory-item">
-                                <a class="aside__link" href="catalog.html">
+                                <a class="aside__link" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-teapot"></use>
                                     </svg>
@@ -443,58 +443,58 @@
                                     </div>
                                     <ul class="aside__list">
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Чайники</a>
+                                            <a class="aside__link no-arrow" href="catalog">Чайники</a>
                                         </li>
                                         <li class="submenu-item">
-                                            <a class="aside__link no-arrow" href="catalog.html">Противень для гриля</a>
+                                            <a class="aside__link no-arrow" href="catalog">Противень для гриля</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="submenu-item catalog-main__subcategory-item catalog-main__all-category">
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-fridge"></use>
                                     </svg>
                                     Все категории
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-fridge"></use>
                                     </svg>
                                     OBH Nordica
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-fridge"></use>
                                     </svg>
                                     Миксеры и кухонные комбайны
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-fridge"></use>
                                     </svg>
                                     Кофеварки и кофемашины
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-fridge"></use>
                                     </svg>
                                     Блендеры
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-fridge"></use>
                                     </svg>
                                     Чайники и тостеры
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-fridge"></use>
                                     </svg>
                                     Посуда
                                 </a>
-                                <a class="aside__link no-arrow" href="catalog.html">
+                                <a class="aside__link no-arrow" href="catalog">
                                     <svg width="48" height="48">
                                         <use href="#icon-fridge"></use>
                                     </svg>
