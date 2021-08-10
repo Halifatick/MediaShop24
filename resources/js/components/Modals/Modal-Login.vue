@@ -109,7 +109,7 @@ export default {
     methods: {
         async loginUser() {
             await this.form.post('login')
-            //location.reload()
+            location.reload()
         },
     },
     computed: {

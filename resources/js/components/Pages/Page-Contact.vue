@@ -3,7 +3,7 @@
         <svg-icons></svg-icons>
         <div id="top-level" class="site-container">
             <aside-main></aside-main>
-            <header-main></header-main>
+            <header-main :user="auth_user"></header-main>
             <main>
                 <div class="contact">
                     <div class="contact__content">
@@ -90,7 +90,21 @@
         </div>
         <footer-main></footer-main>
         <template id="template">
-            <modal-layout></modal-layout>
+            <!-- На всех страницах -->
+            <modal-login></modal-login>
+            <modal-fast-order></modal-fast-order>
+            <modal-register></modal-register>
+            <modal-recover></modal-recover>
+            <modal-recover-next></modal-recover-next>
+            <modal-call></modal-call>
+            <modal-location></modal-location>
+            <modal-search-header></modal-search-header>
+            <modal-success-order></modal-success-order>
+            <modal-fail></modal-fail>
+            <modal-error></modal-error>
+            <modal-subscribe></modal-subscribe>
+            <modal-help></modal-help>
+            <!-- Только на этой странице -->
             <modal-write-us></modal-write-us>
         </template>
         <a class="to-top arrow arrow--up" href="#top-level" aria-label="подняться в начало страницы"></a>
@@ -100,7 +114,12 @@
 
 <script>
 export default {
-    name: "Page-Contact"
+    name: "Page-Contact",
+    props:{
+        auth_user:{
+            default: null
+        }
+    }
 }
 </script>
 

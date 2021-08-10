@@ -45,8 +45,6 @@ Vue.component('footer-email', require('./components/Footer/Footer-Email').defaul
 Vue.component('cookies', require('./components/Cookies/Cookies').default);
 //---------------------------------------------------------------------------------
 // Modals
-// Modals Layout (те которые повторяются на всех страницах)
-Vue.component('modal-layout', require('./components/Modals/Modal-Layout').default);
 // Modals Layout: Login
 Vue.component('modal-login', require('./components/Modals/Modal-Login').default);
 // Modals Layout: Fast Order

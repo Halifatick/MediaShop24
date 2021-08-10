@@ -3,7 +3,7 @@
         <svg-icons></svg-icons>
         <div id="top-level" class="site-container">
             <aside-main></aside-main>
-            <header-main></header-main>
+            <header-main :user="auth_user"></header-main>
             <main>
                 <div class="cont">
                     <div>
@@ -162,8 +162,21 @@
         </div>
         <footer-main></footer-main>
         <template id="template">
-            <modal-layout></modal-layout>
-
+            <!-- На всех страницах -->
+            <modal-login></modal-login>
+            <modal-fast-order></modal-fast-order>
+            <modal-register></modal-register>
+            <modal-recover></modal-recover>
+            <modal-recover-next></modal-recover-next>
+            <modal-call></modal-call>
+            <modal-location></modal-location>
+            <modal-search-header></modal-search-header>
+            <modal-success-order></modal-success-order>
+            <modal-fail></modal-fail>
+            <modal-error></modal-error>
+            <modal-subscribe></modal-subscribe>
+            <modal-help></modal-help>
+            <!-- Только на этой странице -->
             <modal-write-us></modal-write-us>
             <modal-vacancy></modal-vacancy>
             <modal-feedback></modal-feedback>
@@ -178,7 +191,12 @@
 
 <script>
 export default {
-    name: "Page-Content"
+    name: "Page-Content",
+    props:{
+        auth_user:{
+            default: null
+        }
+    }
 }
 </script>
 

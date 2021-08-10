@@ -2844,22 +2844,22 @@
                 <nav class="header__nav">
                     <ul id="main-menu" class="header__nav-list">
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="#!">Каталог</a>
+                            <a class="header__nav-link" href="catalog">Каталог</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="#!">Акции</a>
+                            <a class="header__nav-link" href="stock">Акции</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="#!">Доставка и Оплата</a>
+                            <a class="header__nav-link" href="delivery">Доставка и Оплата</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="#!">О магазине</a>
+                            <a class="header__nav-link" href="about">О магазине</a>
                         </li>
                         <li class="header__nav-item">
                             <a class="header__nav-link" href="#!">Кредит и Рассрочка</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="#!">Поддержка</a>
+                            <a class="header__nav-link" href="help">Поддержка</a>
                         </li>
                         <li class="header__nav-item header__nav-more">
                             <button class="header__nav-link header__more-link arrow arrow--down">Еще</button>
@@ -2882,23 +2882,30 @@
                         </svg>
                     </a>
                     <div class="header__btn header__btn--sign">
-                        <a href="#!" data-modal-open="modal-login">
+                        <a v-if="user===null" href="#!" data-modal-open="modal-login">
                             <svg width="24" height="24">
                                 <use href="#icon-sign"></use>
                             </svg>
-                            <span class="touch">Вход/Регистрация</span>
-                            <span class="desktop">Войти</span>
+                            <span v-if="user===null" class="touch">Вход/Регистрация</span>
+                            <span v-if="user===null" class="desktop">Войти</span>
+                        </a>
+                        <a v-if="user!==null" href="lk">
+                            <svg width="24" height="24">
+                                <use href="#icon-sign"></use>
+                            </svg>
+                            <span v-if="user!==null" class="touch">Личный кабинет</span>
+                            <span v-if="user!==null" class="desktop">Личный кабинет</span>
                         </a>
                         <div v-if="user!==null" class="header__additional-menu">
                             <div>
                                 <ul>
-                                    <li><a class="link" href="#!">Профиль</a></li>
-                                    <li><a class="link" href="#!">Личные данные</a></li>
-                                    <li><a class="link" href="#!">Мои заказы</a></li>
-                                    <li><a class="link" href="#!">Избранное</a></li>
-                                    <li><a class="link" href="#!">Лист ожидания</a></li>
-                                    <li><a class="link" href="#!">Мои отзывы</a></li>
-                                    <li><a class="link" href="#!">Помощь</a></li>
+                                    <li><a class="link" href="lk">Профиль</a></li>
+                                    <li><a class="link" href="profile">Личные данные</a></li>
+                                    <li><a class="link" href="orderlist">Мои заказы</a></li>
+                                    <li><a class="link" href="favorite">Избранное</a></li>
+                                    <li><a class="link" href="waitlist">Лист ожидания</a></li>
+                                    <li><a class="link" href="fblist">Мои отзывы</a></li>
+                                    <li><a class="link" href="help">Помощь</a></li>
                                 </ul>
                                 <button class="logout-btn" type="button"
                                         @click.prevent="logout">
@@ -2919,28 +2926,28 @@
                         </div>
                     </div>
                     <a id="header-equal" class="header__btn link-compare-js header__btn--equal" href="compare">
-              <span class="counter counter--red" data-count="3">
-                <svg width="24" height="24">
-                  <use href="#icon-equal"></use>
-                </svg>
-              </span>
+                        <span class="counter counter--red" data-count="3">
+                            <svg width="24" height="24">
+                                <use href="#icon-equal"></use>
+                            </svg>
+                        </span>
                         Сравнить
                     </a>
                     <a id="header-favorite" class="header__btn link-compare-js header__btn--favorite" href="favorite">
-              <span class="counter counter--red" data-count="4">
-                <svg width="24" height="24">
-                  <use href="#icon-favorite"></use>
-                </svg>
-              </span>
+                        <span class="counter counter--red" data-count="4">
+                            <svg width="24" height="24">
+                                <use href="#icon-favorite"></use>
+                            </svg>
+                        </span>
                         Избранное
                     </a>
                     <a id="header-cart" class="header__btn header__btn--cart" href="cart"
                        aria-label="открыть корзину">
-              <span class="counter counter--red">
-                <svg width="24" height="24">
-                  <use href="#icon-cart"></use>
-                </svg>
-              </span>
+                        <span class="counter counter--red">
+                            <svg width="24" height="24">
+                                <use href="#icon-cart"></use>
+                            </svg>
+                        </span>
                         Корзина
                     </a>
                 </div>
