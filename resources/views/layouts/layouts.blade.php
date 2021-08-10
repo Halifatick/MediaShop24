@@ -23,21 +23,7 @@
 </head>
 <body @yield('style-body')>
 <div id="app">
-    @yield('svg-icons')
-    <div id="top-level" class="site-container">
-        @yield('aside')
-        @yield('header')
-        <main>
-            @yield('content')
-        </main>
-    </div>
-    @yield('footer')
-    <template id="template">
-        <modal-layout></modal-layout>
-        @yield('template')
-    </template>
-    <a class="to-top arrow arrow--up" href="#top-level" aria-label="подняться в начало страницы"></a>
-    <cookies></cookies>
+    @yield('content')
 </div>
 </body>
 </html>

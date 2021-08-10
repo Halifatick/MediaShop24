@@ -11,18 +11,6 @@
 @section('style-body')
     class="parent"
 @endsection
-@section('svg-icons')
-    <svg-icons></svg-icons>
-@endsection
-@section('aside')
-    <aside-main></aside-main>
-@endsection
-@section('header')
-    <header-main></header-main>
-@endsection
 @section('content')
-    <page-catalog-main></page-catalog-main>
-@endsection
-@section('footer')
-    <footer-main></footer-main>
+    <page-catalog-main :auth_user='{!! json_encode($profile) !!}'></page-catalog-main>
 @endsection

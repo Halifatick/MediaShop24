@@ -39,6 +39,10 @@ class Product extends Model
     {
         return $this->belongsTo(Subcategory::class, 'subcategory_id');
     }
+    public function types()
+    {
+        return $this->belongsTo(ProductType::class, 'type_id');
+    }
     public function reviews()
     {
         return $this->belongsToMany(News::class)->using(ProductReview::class);

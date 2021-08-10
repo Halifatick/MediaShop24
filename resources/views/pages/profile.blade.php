@@ -8,21 +8,6 @@
 @section('head-css')
     <link href="{{ asset('css/profile.css') }}" rel="stylesheet">
 @endsection
-@section('svg-icons')
-    <svg-icons></svg-icons>
-@endsection
-@section('aside')
-    <aside-main></aside-main>
-@endsection
-@section('header')
-    <header-main></header-main>
-@endsection
 @section('content')
-    <page-profile></page-profile>
-@endsection
-@section('footer')
-    <footer-main></footer-main>
-@endsection
-@section('template')
-    <modal-add-address></modal-add-address>
+    <page-profile :auth_user='{!! json_encode($profile) !!}'></page-profile>
 @endsection

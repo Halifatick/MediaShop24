@@ -11,18 +11,6 @@
 @section('style-body')
     class="body-service"
 @endsection
-@section('svg-icons')
-    <svg-icons></svg-icons>
-@endsection
-@section('aside')
-    <aside-main></aside-main>
-@endsection
-@section('header')
-    <header-main></header-main>
-@endsection
 @section('content')
-    <page-warranty></page-warranty>
-@endsection
-@section('footer')
-    <footer-info></footer-info>
+    <page-warranty :auth_user='{!! json_encode($profile) !!}'></page-warranty>
 @endsection

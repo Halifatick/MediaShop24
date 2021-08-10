@@ -23,74 +23,25 @@ Vue.use(Fragment.Plugin)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 //--------------------------------------------------------------------------------
-// SVG Icons
+// SVG Icons (для всех страниц)
 Vue.component('svg-icons', require('./components/SVG-Icons/SVG-Icons').default);
 // SVG Icons для Email
 Vue.component('svg-icons-email', require('./components/SVG-Icons/SVG-Icons-Email').default);
 //--------------------------------------------------------------------------------
-// Aside Layout Search
-Vue.component('aside-search', require('./components/Aside/Aside-Layouts/Aside-Search').default);
-// Aside для всех страниц
+// Aside (для всех страниц)
 Vue.component('aside-main', require('./components/Aside/Aside').default);
-// Aside для главной странице
-Vue.component('aside-index', require('./components/Aside/Aside-Index').default);
 //--------------------------------------------------------------------------------
-// Header Layouts:
-// Header Toggle
-Vue.component('header-toggle', require('./components/Header/Header-Layouts/Header-Toggle').default);
-// Header Logo
-Vue.component('header-logo', require('./components/Header/Header-Layouts/Header-Logo').default);
-// Header Right
-Vue.component('header-right', require('./components/Header/Header-Layouts/Header-Right').default);
-// Header Burger-Menu:
-// Header Burger-Menu Logo
-Vue.component('header-burger-menu-logo', require('./components/Header/Header-Layouts/Header-Burger-Menu/Header-Burger-Menu-Logo').default);
-// Header Burger-Menu Menu Head
-Vue.component('header-burger-menu-menu-head', require('./components/Header/Header-Layouts/Header-Burger-Menu/Header-Burger-Menu-Head').default);
-// Header Burger-Menu Aside Wrap
-Vue.component('header-burger-menu-aside-wrap', require('./components/Header/Header-Layouts/Header-Burger-Menu/Header-Burger-Menu-Aside').default);
-// Header Burger-Menu Header Nav
-Vue.component('header-burger-menu-header-nav', require('./components/Header/Header-Layouts/Header-Burger-Menu/Header-Burger-Menu-Nav').default);
-// Header Burger-Menu Header Interactive Wrap
-Vue.component('header-burger-menu-header-interactive-wrap', require('./components/Header/Header-Layouts/Header-Burger-Menu/Header-Burger-Menu-Interactive').default);
-// Header Burger-Menu Header Contact
-Vue.component('header-burger-menu-header-contact', require('./components/Header/Header-Layouts/Header-Burger-Menu/Header-Burger-Menu-Contact').default);
-// Header Burger-Menu Button Header Close
-Vue.component('header-burger-menu-header-close-button', require('./components/Header/Header-Layouts/Header-Burger-Menu/Header-Burger-Menu-Button-Close').default);
-// Header:
-// Header Main
+// Header (для всех страниц)
 Vue.component('header-main', require('./components/Header/Header').default);
-// Header Index (для главной)
-Vue.component('header-index', require('./components/Header/Header-Index').default);
 // Header для Email
 Vue.component('header-email', require('./components/Header/Header-Email').default);
 //--------------------------------------------------------------------------------
-// Footer Layout:
-// Main footer layout
-Vue.component('footer-layout', require('./components/Footer/Footer-Layout').default);
-// Footer Company
-Vue.component('footer-company', require('./components/Footer/Footer-Layout/Footer-Company').default);
-// Footer Top
-Vue.component('footer-top', require('./components/Footer/Footer-Layout/Footer-Top').default);
-// Footer Middle
-Vue.component('footer-middle', require('./components/Footer/Footer-Layout/Footer-Middle').default);
-// Footer Bottom
-Vue.component('footer-bottom', require('./components/Footer/Footer-Layout/Footer-Bottom').default);
-// Footer Copyright (для обычного футера и футер card)
-Vue.component('footer-copyright', require('./components/Footer/Footer-Layout/Footer-Copyright').default);
-// Footer Copyright Info (для футера Info)
-Vue.component('footer-copyright-info', require('./components/Footer/Footer-Layout/Footer-Copyright-Info').default);
-// Footer for pages:
-// Main footer
+// Footer (для всех страниц)
 Vue.component('footer-main', require('./components/Footer/Footer').default);
-// Footer card
-Vue.component('footer-card', require('./components/Footer/Footer-Card').default);
-// Footer v2 (вся информация носит справочный характер и т.д.)
-Vue.component('footer-info', require('./components/Footer/Footer-Info').default);
 // Footer для Email
 Vue.component('footer-email', require('./components/Footer/Footer-Email').default);
 //---------------------------------------------------------------------------------
-// Cookies для всех страниц
+// Cookies (для всех страниц)
 Vue.component('cookies', require('./components/Cookies/Cookies').default);
 //---------------------------------------------------------------------------------
 // Modals

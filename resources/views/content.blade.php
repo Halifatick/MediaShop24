@@ -11,26 +11,6 @@
 @section('style-body')
     class="body-min"
 @endsection
-@section('svg-icons')
-    <svg-icons></svg-icons>
-@endsection
-@section('aside')
-    <aside-main></aside-main>
-@endsection
-@section('header')
-    <header-main></header-main>
-@endsection
 @section('content')
-    <page-content></page-content>
-@endsection
-@section('footer')
-    <footer-main></footer-main>
-@endsection
-@section('template')
-    <modal-write-us></modal-write-us>
-    <modal-vacancy></modal-vacancy>
-    <modal-feedback></modal-feedback>
-    <modal-feedback-full></modal-feedback-full>
-    <modal-add-address></modal-add-address>
-    <modal-cancel-order></modal-cancel-order>
+    <page-content :auth_user='{!! json_encode($profile) !!}'></page-content>
 @endsection

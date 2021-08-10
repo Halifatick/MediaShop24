@@ -19,7 +19,6 @@ class CreateSubcategoriesTable extends Migration
             $table->foreign('category_id')
                 ->references('id')->on('categories');
             $table->string('title');
-            $table->json('properties')->nullable();
             $table->timestamps();
         });
     }

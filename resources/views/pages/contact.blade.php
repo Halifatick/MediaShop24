@@ -8,27 +8,13 @@
 @section('head-css')
     <link href="{{ asset('css/contact.css') }}" rel="stylesheet">
 @endsection
-@section('svg-icons')
-    <svg-icons></svg-icons>
-@endsection
-@section('aside')
-    <aside-main></aside-main>
-@endsection
-@section('header')
-    <header-main></header-main>
-@endsection
 @section('content')
-    <page-contact></page-contact>
-@endsection
-@section('footer')
-    <footer-main></footer-main>
-@endsection
-@section('template')
-    <modal-write-us></modal-write-us>
+    <page-contact :auth_user='{!! json_encode($profile) !!}'></page-contact>
 @endsection
 
-<!-- РАЗОБРАТЬСЯ СО СКРИПТОМ -->
+
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<!-- РАЗОБРАТЬСЯ СО СКРИПТОМ -->
 <script>
     const map = document.getElementById('map');
     let isMapReady = false;

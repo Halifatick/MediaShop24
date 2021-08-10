@@ -1,5 +1,37 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Pages\AboutPage\AboutController;
+use App\Http\Controllers\Pages\ArticlePage\ArticleController;
+use App\Http\Controllers\Pages\Card2Page\Card2Controller;
+use App\Http\Controllers\Pages\CardPage\CardController;
+use App\Http\Controllers\Pages\Cart1Page\Cart1Controller;
+use App\Http\Controllers\Pages\CartCompletePage\CartCompleteController;
+use App\Http\Controllers\Pages\CartPage\CartController;
+use App\Http\Controllers\Pages\CatalogMainPage\CatalogMainController;
+use App\Http\Controllers\Pages\CatalogPage\CatalogController;
+use App\Http\Controllers\Pages\ComparePage\CompareController;
+use App\Http\Controllers\Pages\ContactPage\ContactController;
+use App\Http\Controllers\Pages\ContentPage\ContentController;
+use App\Http\Controllers\Pages\DeliveryPage\DeliveryController;
+use App\Http\Controllers\Pages\FAQPage\FAQController;
+use App\Http\Controllers\Pages\FavoritePage\FavoriteController;
+use App\Http\Controllers\Pages\HelpPage\HelpController;
+use App\Http\Controllers\Pages\IndexPage\IndexController;
+use App\Http\Controllers\Pages\NewsPage\NewsController;
+use App\Http\Controllers\Pages\PersonalAccount\FBListPage\FBListController;
+use App\Http\Controllers\Pages\PersonalAccount\LKPage\LKController;
+use App\Http\Controllers\Pages\PersonalAccount\OrderDetailsPage\OrderDetailsController;
+use App\Http\Controllers\Pages\PersonalAccount\OrderListPage\OrderListController;
+use App\Http\Controllers\Pages\PersonalAccount\ProfilePage\ProfileController;
+use App\Http\Controllers\Pages\PersonalAccount\WaitListPage\WaitListController;
+use App\Http\Controllers\Pages\PolicyPage\PolicyController;
+use App\Http\Controllers\Pages\Review2Page\Review2Controller;
+use App\Http\Controllers\Pages\ReviewPage\ReviewController;
+use App\Http\Controllers\Pages\Stock2Page\Stock2Controller;
+use App\Http\Controllers\Pages\StockPage\StockController;
+use App\Http\Controllers\Pages\VacanciesPage\VacanciesController;
+use App\Http\Controllers\Pages\WarrantyPage\WarrantyController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use TCG\Voyager\Facades\Voyager;
@@ -23,42 +55,39 @@ Route::group(['middleware' => ['web']], function () {
     |--------------------------------------------------------------------------
     */
 
-    Route::get('/index', function () {
-        return view('index');
-    });
-    Route::get('/content', function () {
-        return view('content');
-    });
+    Route::get('/index', [IndexController::class, 'getAuthUser']);
+    Route::get('/content', [ContentController::class, 'getAuthUser']);
 
-    Route::get('/about', function () { return view('pages.about'); });
-    Route::get('/article', function () { return view('pages.article'); });
-    Route::get('/card', function () { return view('pages.card'); });
-    Route::get('/card2', function () { return view('pages.card2'); });
-    Route::get('/cart', function () { return view('pages.cart'); });
-    Route::get('/cart1', function () { return view('pages.cart1'); });
-    Route::get('/cartcomplete', function () { return view('pages.cartcomplete'); });
-    Route::get('/catalog', function () { return view('pages.catalog'); });
-    Route::get('/catalogmain', function () { return view('pages.catalogmain'); });
-    Route::get('/compare', function () { return view('pages.compare'); });
-    Route::get('/contact', function () { return view('pages.contact'); });
-    Route::get('/delivery', function () { return view('pages.delivery-page'); });
-    Route::get('/faq', function () { return view('pages.faq'); });
-    Route::get('/favorite', function () { return view('pages.favorite'); });
-    Route::get('/fblist', function () { return view('pages.fblist'); });
-    Route::get('/help', function () { return view('pages.help'); });
-    Route::get('/lk', function () { return view('pages.lk'); });
-    Route::get('/news', function () { return view('pages.news'); });
-    Route::get('/orderdetails', function () { return view('pages.orderdetails'); });
-    Route::get('/orderlist', function () { return view('pages.orderlist'); });
-    Route::get('/policy', function () { return view('pages.policy'); });
-    Route::get('/profile', function () { return view('pages.profile'); });
-    Route::get('/review', function () { return view('pages.review'); });
-    Route::get('/review2', function () { return view('pages.review2'); });
-    Route::get('/stock', function () { return view('pages.stock'); });
-    Route::get('/stock2', function () { return view('pages.stock2'); });
-    Route::get('/vacancies', function () { return view('pages.vacancies'); });
-    Route::get('/waitlist', function () { return view('pages.waitlist'); });
-    Route::get('/warranty', function () { return view('pages.warranty'); });
+
+    Route::get('/about', [AboutController::class, 'getAuthUser']);
+    Route::get('/article', [ArticleController::class, 'getAuthUser']);
+    Route::get('/card', [CardController::class, 'getAuthUser']);
+    Route::get('/card2', [Card2Controller::class, 'getAuthUser']);
+    Route::get('/cart', [CartController::class, 'getAuthUser']);
+    Route::get('/cart1', [Cart1Controller::class, 'getAuthUser']);
+    Route::get('/cartcomplete', [CartCompleteController::class, 'getAuthUser']);
+    Route::get('/catalog', [CatalogController::class, 'getAuthUser']);
+    Route::get('/catalogmain', [CatalogMainController::class, 'getAuthUser']);
+    Route::get('/compare', [CompareController::class, 'getAuthUser']);
+    Route::get('/contact', [ContactController::class, 'getAuthUser']);
+    Route::get('/delivery', [DeliveryController::class, 'getAuthUser']);
+    Route::get('/faq', [FAQController::class, 'getAuthUser']);
+    Route::get('/favorite', [FavoriteController::class, 'getAuthUser']);
+    Route::get('/fblist', [FBListController::class, 'getAuthUser']);
+    Route::get('/help', [HelpController::class, 'getAuthUser']);
+    Route::get('/lk', [LKController::class, 'getAuthUser']);
+    Route::get('/news', [NewsController::class, 'getAuthUser']);
+    Route::get('/orderdetails', [OrderDetailsController::class, 'getAuthUser']);
+    Route::get('/orderlist', [OrderListController::class, 'getAuthUser']);
+    Route::get('/policy', [PolicyController::class, 'getAuthUser']);
+    Route::get('/profile', [ProfileController::class, 'getAuthUser']);
+    Route::get('/review', [ReviewController::class, 'getAuthUser']);
+    Route::get('/review2', [Review2Controller::class, 'getAuthUser']);
+    Route::get('/stock', [StockController::class, 'getAuthUser']);
+    Route::get('/stock2', [Stock2Controller::class, 'getAuthUser']);
+    Route::get('/vacancies', [VacanciesController::class, 'getAuthUser']);
+    Route::get('/waitlist', [WaitListController::class, 'getAuthUser']);
+    Route::get('/warranty', [WarrantyController::class, 'getAuthUser']);
     /*
     |--------------------------------------------------------------------------
     */
@@ -74,4 +103,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');

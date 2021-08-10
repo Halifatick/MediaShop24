@@ -6,28 +6,32 @@
                     <h3 class="menu-title">Войти</h3>
                 </div>
                 <div class="modal-main">
-                    <form class="form form--login" method="post" autocomplete="on">
+                    <form class="form form--login" method="post" autocomplete="on"
+                          @submit.prevent="loginUser"
+                          @keydown="form.onKeydown($event)">
                         <label class="form__field-wrap">
                             Электронная почта
-                            <input type="text" name="email" placeholder="Введите адрес электронной почты"
-                                   data-validate="email"
-                                   required>
+                            <input type="email" name="email" placeholder="Введите адрес электронной почты"
+                                   data-validate="email" required
+                                   id="email" v-model="form.email">
                         </label>
                         <span class="form__field-wrap">
                             Пароль
                             <label class="form__field-password">
                                 <input type="password" placeholder="Введите пароль" name="password"
-                                       data-validate="password" required>
+                                       data-validate="password" autocomplete="off" required
+                                       id="password" v-model="form.password">
                                 <span class="show-password">
                                     <svg width="20" height="20">
                                         <use href="#icon-password-eye"></use>
                                 </svg>
-                              </span>
+                                </span>
                             </label>
                         </span>
                         <a class="form__forgot-pass form__link" href="#!" data-modal-open="modal-recover">Не помню
                             пароль</a>
-                        <button class="form__submit btn btn-purple" type="submit">Вход</button>
+                        <button class="form__submit btn btn-purple" type="submit"
+                                :disabled='form.errors.any() || !isComplete'>Вход</button>
                     </form>
                     <div class="modal-login-footer">
                         <p>Нет аккаунта? <a class="form__link" href="#!" data-modal-open="modal-register">Зарегистрироваться</a>
@@ -87,8 +91,32 @@
 </template>
 
 <script>
+import Form from "vform"
+import {HasError} from "vform/src/components/bootstrap5"
+
 export default {
-    name: "Modal-Login"
+    components: {HasError},
+    name: "Modal-Login",
+    data: function () {
+        return {
+            form: new Form({
+                email: '',
+                password: ''
+            }),
+
+        }
+    },
+    methods: {
+        async loginUser() {
+            await this.form.post('login')
+            //location.reload()
+        },
+    },
+    computed: {
+        isComplete () {
+            return this.form.email && this.form.password;
+        }
+    }
 }
 </script>
 

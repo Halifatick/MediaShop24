@@ -11,24 +11,12 @@
 @section('style-body')
     class="body-service"
 @endsection
-@section('svg-icons')
-    <svg-icons></svg-icons>
-@endsection
-@section('aside')
-    <aside-main></aside-main>
-@endsection
-@section('header')
-    <header-main></header-main>
-@endsection
 @section('content')
-    <page-delivery></page-delivery>
-@endsection
-@section('footer')
-    <footer-main></footer-main>
+    <page-delivery :auth_user='{!! json_encode($profile) !!}'></page-delivery>
 @endsection
 
-<!-- РАЗОБРАТЬСЯ СО СКРИПТОМ -->
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<!-- РАЗОБРАТЬСЯ СО СКРИПТОМ -->
 <script>
     const map = document.getElementById('map');
     let isMapReady = false;

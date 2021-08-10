@@ -11,18 +11,6 @@
 @section('style-body')
     class="body-min"
 @endsection
-@section('svg-icons')
-    <svg-icons></svg-icons>
-@endsection
-@section('aside')
-    <aside-main></aside-main>
-@endsection
-@section('header')
-    <header-main></header-main>
-@endsection
 @section('content')
-    <page-not-found></page-not-found>
-@endsection
-@section('footer')
-    <footer-main></footer-main>
+    <page-not-found :auth_user='{!! json_encode($profile) !!}'></page-not-found>
 @endsection

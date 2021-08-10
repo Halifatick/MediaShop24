@@ -8,24 +8,6 @@
 @section('head-css')
     <link href="{{ asset('css/card2.css') }}" rel="stylesheet">
 @endsection
-@section('svg-icons')
-    <svg-icons></svg-icons>
-@endsection
-@section('aside')
-    <aside-main></aside-main>
-@endsection
-@section('header')
-    <header-main></header-main>
-@endsection
 @section('content')
-    <page-card2></page-card2>
-@endsection
-@section('footer')
-    <footer-main></footer-main>
-@endsection
-@section('template')
-    <modal-card-slider></modal-card-slider>
-    <modal-feedback-slider></modal-feedback-slider>
-    <modal-feedback></modal-feedback>
-    <modal-feedback-full></modal-feedback-full>
+    <page-card2 :auth_user='{!! json_encode($profile) !!}'></page-card2>
 @endsection

@@ -8,18 +8,6 @@
 @section('head-css')
     <link href="{{ asset('css/stock.css') }}" rel="stylesheet">
 @endsection
-@section('svg-icons')
-    <svg-icons></svg-icons>
-@endsection
-@section('aside')
-    <aside-main></aside-main>
-@endsection
-@section('header')
-    <header-main></header-main>
-@endsection
 @section('content')
-    <page-stock></page-stock>
-@endsection
-@section('footer')
-    <footer-main></footer-main>
+    <page-stock :auth_user='{!! json_encode($profile) !!}'></page-stock>
 @endsection

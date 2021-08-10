@@ -8,18 +8,6 @@
 @section('head-css')
     <link href="{{ asset('css/review.css') }}" rel="stylesheet">
 @endsection
-@section('svg-icons')
-    <svg-icons></svg-icons>
-@endsection
-@section('aside')
-    <aside-main></aside-main>
-@endsection
-@section('header')
-    <header-main></header-main>
-@endsection
 @section('content')
-    <page-review></page-review>
-@endsection
-@section('footer')
-    <footer-main></footer-main>
+    <page-review :auth_user='{!! json_encode($profile) !!}'></page-review>
 @endsection

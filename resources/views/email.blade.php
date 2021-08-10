@@ -11,19 +11,8 @@
     <link href="{{asset('css/email.css')}}" rel="stylesheet">
 </head>
 <body>
-<svg-icons-email></svg-icons-email>
-<div class="email">
-    <header-email></header-email>
+<div id="app">
     <page-email></page-email>
-    <footer-email></footer-email>
-    <p class="email__disclaimer">ИП Демидова Л.И. (ИНН 781128388406, ОГРН 304784725700099 (13.09.2004 г.)
-        Представленная в настоящем письме информация носит справочный характер и не является публичной офертой,
-        определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации.
-        Письмо создано автоматически, пожалуйста, не отвечайте на него. Если у вас возникли дополнительные вопросы,
-        пишите
-        нам на
-        <a href="mailto:info@mediashop24.ru">info@mediashop24.ru</a>
-    </p>
 </div>
 </body>
 </html>

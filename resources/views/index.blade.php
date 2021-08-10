@@ -11,18 +11,6 @@
 @section('style-body')
     class="body-main"
 @endsection
-@section('svg-icons')
-    <svg-icons></svg-icons>
-@endsection
-@section('aside')
-    <aside-index></aside-index>
-@endsection
-@section('header')
-    <header-index></header-index>
-@endsection
 @section('content')
-    <page-index></page-index>
-@endsection
-@section('footer')
-    <footer-main></footer-main>
+    <page-index :auth_user='{!! json_encode($profile) !!}'></page-index>
 @endsection

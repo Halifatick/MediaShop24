@@ -11,21 +11,6 @@
 @section('style-body')
     class="body-min"
 @endsection
-@section('svg-icons')
-    <svg-icons></svg-icons>
-@endsection
-@section('aside')
-    <aside-main></aside-main>
-@endsection
-@section('header')
-    <header-main></header-main>
-@endsection
 @section('content')
-    <page-vacancies></page-vacancies>
-@endsection
-@section('footer')
-    <footer-main></footer-main>
-@endsection
-@section('template')
-    <modal-vacancy></modal-vacancy>
+    <page-vacancies :auth_user='{!! json_encode($profile) !!}'></page-vacancies>
 @endsection
