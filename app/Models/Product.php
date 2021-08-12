@@ -10,7 +10,7 @@ class Product extends Model
     use HasFactory;
     protected $table = 'products';
     protected $fillable = ['article', 'title', 'description', 'properties', 'new_price',
-        'previous_price', 'images', 'status_id'];
+        'previous_price', 'images', 'status_id', 'subcategory_id'];
     public function status(){
         return $this->belongsTo(ProductStatus::class, 'status_id');
 
@@ -35,16 +35,18 @@ class Product extends Model
     {
         return $this->belongsTo(ProductSubscrition::class);
     }
+
     public function subcategories()
     {
         return $this->belongsTo(Subcategory::class, 'subcategory_id');
     }
-    public function types()
-    {
-        return $this->belongsTo(ProductType::class, 'type_id');
-    }
+
     public function reviews()
     {
         return $this->belongsToMany(News::class)->using(ProductReview::class);
+    }
+    public function filters()
+    {
+        return $this->belongsToMany(ProductFilter::class)->using(ProductsFilters::class);
     }
 }

@@ -42,6 +42,5 @@ class CategoriesTableSeeder extends Seeder
             Category::create([
                 'title'=>$category['title']
             ]);
-
     }
 }
