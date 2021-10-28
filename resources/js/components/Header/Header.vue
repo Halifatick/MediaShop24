@@ -5,7 +5,7 @@
                     aria-expanded="false" data-modal-open="burger-menu">
                 <span class="header__menu-icon"></span>
             </button>
-            <a class="logo logo--small" href="index" aria-label="логотип">
+            <a class="logo logo--small" href="/" aria-label="логотип">
                 <svg width="60" height="24">
                     <use href="#icon-logo"></use>
                 </svg>
@@ -2836,7 +2836,7 @@
                         </a>
                     </div>
                 </div>
-                <a v-if="isIndex" class="logo logo--big" href="index">
+                <a v-if="isIndex" class="logo logo--big" href="/">
                     <svg width="290" height="50">
                         <use href="#icon-logo-big"></use>
                     </svg>
@@ -2844,31 +2844,31 @@
                 <nav class="header__nav">
                     <ul id="main-menu" class="header__nav-list">
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="catalog">Каталог</a>
+                            <a class="header__nav-link" href="/catalog">Каталог</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="stock">Акции</a>
+                            <a class="header__nav-link" href="/stock">Акции</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="delivery">Доставка и Оплата</a>
+                            <a class="header__nav-link" href="/delivery">Доставка и Оплата</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="about">О магазине</a>
+                            <a class="header__nav-link" href="/about">О магазине</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="#!">Кредит и Рассрочка</a>
+                            <a class="header__nav-link" href="/">Кредит и Рассрочка</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="help">Поддержка</a>
+                            <a class="header__nav-link" href="/help">Поддержка</a>
                         </li>
                         <li class="header__nav-item header__nav-more">
                             <button class="header__nav-link header__more-link arrow arrow--down">Еще</button>
                             <div class="header__additional-menu">
                                 <ul>
-                                    <li><a class="link" href="#!">элемент меню 1</a></li>
-                                    <li><a class="link" href="#!">элемент меню 2</a></li>
-                                    <li><a class="link" href="#!">элемент меню 3</a></li>
-                                    <li><a class="link" href="#!">элемент меню 4</a></li>
+                                    <li><a class="link" href="/">элемент меню 1</a></li>
+                                    <li><a class="link" href="/">элемент меню 2</a></li>
+                                    <li><a class="link" href="/">элемент меню 3</a></li>
+                                    <li><a class="link" href="/">элемент меню 4</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -2889,23 +2889,23 @@
                             <span v-if="user===null" class="touch">Вход/Регистрация</span>
                             <span v-if="user===null" class="desktop">Войти</span>
                         </a>
-                        <a v-if="user!==null" href="lk">
+                        <a v-if="user!==null" :href="'/'+user.name+'/lk'">
                             <svg width="24" height="24">
                                 <use href="#icon-sign"></use>
                             </svg>
-                            <span v-if="user!==null" class="touch">Личный кабинет</span>
-                            <span v-if="user!==null" class="desktop">Личный кабинет</span>
+                            <span v-if="user!==null" class="touch">{{ user.name }}</span>
+                            <span v-if="user!==null" class="desktop">{{ user.name }}</span>
                         </a>
                         <div v-if="user!==null" class="header__additional-menu">
                             <div>
                                 <ul>
-                                    <li><a class="link" href="lk">Профиль</a></li>
-                                    <li><a class="link" href="profile">Личные данные</a></li>
-                                    <li><a class="link" href="orderlist">Мои заказы</a></li>
-                                    <li><a class="link" href="favorite">Избранное</a></li>
-                                    <li><a class="link" href="waitlist">Лист ожидания</a></li>
-                                    <li><a class="link" href="fblist">Мои отзывы</a></li>
-                                    <li><a class="link" href="help">Помощь</a></li>
+                                    <li><a class="link" :href="'/'+user.name+'/lk'">Профиль</a></li>
+                                    <li><a class="link" :href="'/'+user.name+'/profile'">Личные данные</a></li>
+                                    <li><a class="link" :href="'/'+user.name+'/orderlist'">Мои заказы</a></li>
+                                    <li><a class="link" href="/favorite">Избранное</a></li>
+                                    <li><a class="link" :href="'/'+user.name+'/waitlist'">Лист ожидания</a></li>
+                                    <li><a class="link" :href="'/'+user.name+'/fblist'">Мои отзывы</a></li>
+                                    <li><a class="link" href="/help">Помощь</a></li>
                                 </ul>
                                 <button class="logout-btn" type="button"
                                         @click.prevent="logout">
@@ -2925,7 +2925,7 @@
                             </div>
                         </div>
                     </div>
-                    <a id="header-equal" class="header__btn link-compare-js header__btn--equal" href="compare">
+                    <a id="header-equal" class="header__btn link-compare-js header__btn--equal" href="/compare">
                         <span class="counter counter--red" data-count="3">
                             <svg width="24" height="24">
                                 <use href="#icon-equal"></use>
@@ -2933,7 +2933,7 @@
                         </span>
                         Сравнить
                     </a>
-                    <a id="header-favorite" class="header__btn link-compare-js header__btn--favorite" href="favorite">
+                    <a id="header-favorite" class="header__btn link-compare-js header__btn--favorite" href="/favorite">
                         <span class="counter counter--red" data-count="4">
                             <svg width="24" height="24">
                                 <use href="#icon-favorite"></use>
@@ -2941,9 +2941,9 @@
                         </span>
                         Избранное
                     </a>
-                    <a id="header-cart" class="header__btn header__btn--cart" href="cart"
+                    <a id="header-cart" class="header__btn header__btn--cart" href="/cart"
                        aria-label="открыть корзину">
-                        <span class="counter counter--red">
+                        <span class="counter counter--red" data-count="4">
                             <svg width="24" height="24">
                                 <use href="#icon-cart"></use>
                             </svg>
@@ -3015,18 +3015,12 @@ export default {
         }
     },
     methods: {
-        logout: function () {
-            axios.post('logout').then(response => {
+        async logout() {
+            await axios.post('/logout').then(response => {
                 if (response.status === 302 || 401) {
                     location.reload()
-                } else {
-                    // throw error and go to catch block
-                }
-            }).catch(error => {
-
-            });
+                } else {}}).catch(error => {});
         }
-
     }
 }
 </script>

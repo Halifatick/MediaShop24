@@ -2,7 +2,7 @@
     <footer class="footer">
         <div class="footer__container container">
             <div class="footer__company">
-                <a class="footer__logo" href="index">
+                <a class="footer__logo" href="/">
                     <svg width="180" height="32">
                         <use href="#icon-logo-white"></use>
                     </svg>

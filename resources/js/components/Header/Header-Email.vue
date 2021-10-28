@@ -1,7 +1,7 @@
 <template>
     <header class="header">
         <div>
-            <a href="index">
+            <a href="/">
                 <svg width="78" height="14">
                     <use href="#icon-logo-big"></use>
                 </svg>

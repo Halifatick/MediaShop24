@@ -6,31 +6,14 @@
             <header-main :user="auth_user"></header-main>
             <main>
                 <div class="bread-crumbs bread-crumbs--lk">
-                    <a href="index">Главная</a>
-                    <a href="lk">Личный кабинет</a>
-                    <a href="fblist" aria-current="location">Мои отзывы</a>
+                    <a href="/">Главная</a>
+                    <a :href="'/'+auth_user.name+'/lk'">Личный кабинет</a>
+                    <a :href="'/'+auth_user.name+'/fblist'" aria-current="location">Мои отзывы</a>
                 </div>
                 <div class="lk">
                     <h1 class="title title-lk wrapper">Личный кабинет</h1>
                     <div class="lk__container">
-                        <div class="lk__left">
-                            <div class="lk__left-inner">
-                                <div class="lk__name">
-                                    <p>Александр Меладзе</p>
-                                    <div>Бонусный счет: <span>12.256</span></div>
-                                </div>
-                                <div class="lk__nav">
-                                    <a class="lk__nav-link link arrow arrow--right" href="lk">Профиль</a>
-                                    <a class="lk__nav-link link arrow arrow--right" href="profile">Личные данные</a>
-                                    <a class="lk__nav-link link arrow arrow--right" href="orderlist">Мои заказы</a>
-                                    <a class="lk__nav-link link arrow arrow--right" href="favorite">Избранное</a>
-                                    <a class="lk__nav-link link arrow arrow--right" href="waitlist">Лист ожидания</a>
-                                    <a class="lk__nav-link link arrow arrow--right" href="fblist">Мои отзывы</a>
-                                    <a class="lk__nav-link link arrow arrow--right" href="help">Помощь</a>
-                                    <a class="lk__logout" href="index">Выход</a>
-                                </div>
-                            </div>
-                        </div>
+                        <lk-left :user="auth_user"></lk-left>
                         <div class="lk__main lk-fb">
                             <h2 class="title wrapper">Мои отзывы</h2>
                             <div class="lk-fb__list wrapper">
@@ -209,6 +192,19 @@ export default {
     props:{
         auth_user:{
             default: null
+        }
+    },
+    methods: {
+        logout: function () {
+            axios.post('/logout').then(response => {
+                if (response.status === 302 || 401) {
+                    location.reload()
+                } else {
+                    // throw error and go to catch block
+                }
+            }).catch(error => {
+                //errors
+            });
         }
     }
 }

@@ -6,7 +6,7 @@
             <header-main :user="auth_user"></header-main>
             <main>
                 <div class="bread-crumbs ">
-                    <a href="index">Главная</a>
+                    <a href="/">Главная</a>
                     <a href="#!" aria-current="location">Новости</a>
                 </div>
                 <div class="news">
@@ -14,21 +14,8 @@
                     <div class="news__category slider-container">
                         <div class="news__category-slider slider-container">
                             <div class="news__slider-wrapper swiper-wrapper">
-                                <label class="news__category-item swiper-slide">
-                                    <input class="visually-hidden" type="checkbox" name="Все" checked>
-                                    <span>Все</span>
-                                </label>
-                                <label class="news__category-item swiper-slide">
-                                    <input class="visually-hidden" type="checkbox" name="Пресс-релизы">
-                                    <span>Пресс-релизы</span>
-                                </label>
-                                <label class="news__category-item swiper-slide">
-                                    <input class="visually-hidden" type="checkbox" name="Новости">
-                                    <span>Новости</span>
-                                </label>
-                                <label class="news__category-item swiper-slide">
-                                    <input class="visually-hidden" type="checkbox" name="СМИ о нас">
-                                    <span>СМИ о нас</span>
+                                <label class="news__category-item swiper-slide" v-for="tagsArticle in newsTags">
+                                    <tags-slide :tagsArticle="tagsArticle"></tags-slide>
                                 </label>
                             </div>
                         </div>
@@ -45,6 +32,7 @@
                             </button>
                         </div>
                     </div>
+
                     <div class="news__body">
                         <div class="news__sorting">
                             <fieldset class="sort-fieldset">
@@ -66,121 +54,11 @@
                                 </label>
                             </fieldset>
                         </div>
+
                         <div class="news__content">
                             <div class="news__articles view-row">
-                                <article class="article-el">
-                                    <a href="article" class="article-el__img">
-                                        <picture>
-                                            <source type="image/webp"
-                                                    srcset="img/content/news/news.webp 345w, img/content/news/news@2x.webp 700w"
-                                                    sizes="(max-width: 768px) 100vw, 345px">
-                                            <img src="img/content/news/news.jpg" srcset="img/content/news/news@2x.jpg 700w"
-                                                 sizes="(max-width: 769px) 100vw, 345px" alt="новость" decoding="async" loading="lazy">
-                                        </picture>
-                                    </a>
-                                    <div class="article-el__body">
-                                        <h3><a class="text-limiter" href="article">Iphone 11, почему такой же как и Pro Max, может быть в
-                                            3 строки и вот таким большим</a></h3>
-                                        <time datetime="2005-09-11">11 сентября 2005</time>
-                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть большим
-                                            в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                                        <a href="article" class="link">Читать далее</a>
-                                    </div>
-                                </article>
-                                <article class="article-el">
-                                    <a href="article" class="article-el__img">
-                                        <picture>
-                                            <source type="image/webp"
-                                                    srcset="img/content/news/news.webp 345w, img/content/news/news@2x.webp 700w"
-                                                    sizes="(max-width: 768px) 100vw, 345px">
-                                            <img src="img/content/news/news.jpg" srcset="img/content/news/news@2x.jpg 700w"
-                                                 sizes="(max-width: 769px) 100vw, 345px" alt="новость" decoding="async" loading="lazy">
-                                        </picture>
-                                    </a>
-                                    <div class="article-el__body">
-                                        <h3><a class="text-limiter" href="article">Iphone 11, почему такой же как и Pro Max, может быть в
-                                            3 строки и вот таким большим</a></h3>
-                                        <time datetime="2005-09-11">11 сентября 2005</time>
-                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть большим
-                                            в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                                        <a href="article" class="link">Читать далее</a>
-                                    </div>
-                                </article>
-                                <article class="article-el">
-                                    <a href="article" class="article-el__img">
-                                        <picture>
-                                            <source type="image/webp"
-                                                    srcset="img/content/news/news.webp 345w, img/content/news/news@2x.webp 700w"
-                                                    sizes="(max-width: 768px) 100vw, 345px">
-                                            <img src="img/content/news/news.jpg" srcset="img/content/news/news@2x.jpg 700w"
-                                                 sizes="(max-width: 769px) 100vw, 345px" alt="новость" decoding="async" loading="lazy">
-                                        </picture>
-                                    </a>
-                                    <div class="article-el__body">
-                                        <h3><a class="text-limiter" href="article">Iphone 11, почему такой же как и Pro Max, может быть в
-                                            3 строки и вот таким большим</a></h3>
-                                        <time datetime="2005-09-11">11 сентября 2005</time>
-                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть большим
-                                            в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                                        <a href="article" class="link">Читать далее</a>
-                                    </div>
-                                </article>
-                                <article class="article-el">
-                                    <a href="article" class="article-el__img">
-                                        <picture>
-                                            <source type="image/webp"
-                                                    srcset="img/content/news/news.webp 345w, img/content/news/news@2x.webp 700w"
-                                                    sizes="(max-width: 768px) 100vw, 345px">
-                                            <img src="img/content/news/news.jpg" srcset="img/content/news/news@2x.jpg 700w"
-                                                 sizes="(max-width: 769px) 100vw, 345px" alt="новость" decoding="async" loading="lazy">
-                                        </picture>
-                                    </a>
-                                    <div class="article-el__body">
-                                        <h3><a class="text-limiter" href="article">Iphone 11, почему такой же как и Pro Max, может быть в
-                                            3 строки и вот таким большим</a></h3>
-                                        <time datetime="2005-09-11">11 сентября 2005</time>
-                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть большим
-                                            в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                                        <a href="article" class="link">Читать далее</a>
-                                    </div>
-                                </article>
-                                <article class="article-el">
-                                    <a href="article" class="article-el__img">
-                                        <picture>
-                                            <source type="image/webp"
-                                                    srcset="img/content/news/news.webp 345w, img/content/news/news@2x.webp 700w"
-                                                    sizes="(max-width: 768px) 100vw, 345px">
-                                            <img src="img/content/news/news.jpg" srcset="img/content/news/news@2x.jpg 700w"
-                                                 sizes="(max-width: 769px) 100vw, 345px" alt="новость" decoding="async" loading="lazy">
-                                        </picture>
-                                    </a>
-                                    <div class="article-el__body">
-                                        <h3><a class="text-limiter" href="article">Iphone 11, почему такой же как и Pro Max, может быть в
-                                            3 строки и вот таким большим</a></h3>
-                                        <time datetime="2005-09-11">11 сентября 2005</time>
-                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть большим
-                                            в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                                        <a href="article" class="link">Читать далее</a>
-                                    </div>
-                                </article>
-                                <article class="article-el">
-                                    <a href="article" class="article-el__img">
-                                        <picture>
-                                            <source type="image/webp"
-                                                    srcset="img/content/news/news.webp 345w, img/content/news/news@2x.webp 700w"
-                                                    sizes="(max-width: 768px) 100vw, 345px">
-                                            <img src="img/content/news/news.jpg" srcset="img/content/news/news@2x.jpg 700w"
-                                                 sizes="(max-width: 769px) 100vw, 345px" alt="новость" decoding="async" loading="lazy">
-                                        </picture>
-                                    </a>
-                                    <div class="article-el__body">
-                                        <h3><a class="text-limiter" href="article">Iphone 11, почему такой же как и Pro Max, может быть в
-                                            3 строки и вот таким большим</a></h3>
-                                        <time datetime="2005-09-11">11 сентября 2005</time>
-                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть большим
-                                            в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
-                                        <a href="article" class="link">Читать далее</a>
-                                    </div>
+                                <article class="article-el" v-for="cardArticle in newsArticles">
+                                    <card-article :cardArticle="cardArticle"></card-article>
                                 </article>
                             </div>
                             <div class="news__pagination">
@@ -219,8 +97,64 @@
 </template>
 
 <script>
+import moment from "moment";
+moment.locale('ru');
+
 export default {
     name: "Page-News",
+    data() {
+        return {
+            newsTags: [
+                {title: 'Все'},
+                {title: 'Пресс-релизы'},
+                {title: 'Новости'},
+                {title: 'СМИ о нас'},
+                {title: 'Другое'}
+            ],
+
+            newsArticles: [
+                { title: 'Iphone 5, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
+                    description: '5 Видео разбор с ответами на самые часто задаваемые вопросы может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые',
+                    image: 'img/content/news/news.jpg',
+                    image1: 'img/content/news/news@2x.jpg',
+                    image2: 'img/content/news/news.webp',
+                    image3: 'img/content/news/news@2x.webp',
+                    dateOfPublication: moment().format('LL')},
+
+                { title: 'Iphone 6, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
+                    description: '6 Видео разбор с ответами на самые часто задаваемые вопросы может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые',
+                    image: 'img/content/news/news.jpg',
+                    image1: 'img/content/news/news@2x.jpg',
+                    image2: 'img/content/news/news.webp',
+                    image3: 'img/content/news/news@2x.webp',
+                    dateOfPublication: moment().format('LL')},
+
+                { title: 'Iphone 7, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
+                    description: '7 Видео разбор с ответами на самые часто задаваемые вопросы может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые',
+                    image: 'img/content/news/news.jpg',
+                    image1: 'img/content/news/news@2x.jpg',
+                    image2: 'img/content/news/news.webp',
+                    image3: 'img/content/news/news@2x.webp',
+                    dateOfPublication: moment().format('LL')},
+
+                { title: 'Iphone 8, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
+                    description: '8 Видео разбор с ответами на самые часто задаваемые вопросы может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые',
+                    image: 'img/content/news/news.jpg',
+                    image1: 'img/content/news/news@2x.jpg',
+                    image2: 'img/content/news/news.webp',
+                    image3: 'img/content/news/news@2x.webp',
+                    dateOfPublication: moment().format('LL')},
+
+                { title: 'Iphone 9, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
+                    description: '9 Видео разбор с ответами на самые часто задаваемые вопросы может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые',
+                    image: 'img/content/news/news.jpg',
+                    image1: 'img/content/news/news@2x.jpg',
+                    image2: 'img/content/news/news.webp',
+                    image3: 'img/content/news/news@2x.webp',
+                    dateOfPublication: moment().format('LL')},
+            ],
+        }
+    },
     props:{
         auth_user:{
             default: null

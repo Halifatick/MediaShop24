@@ -6,7 +6,7 @@
             <header-main :user="auth_user"></header-main>
             <main>
                 <div class="bread-crumbs bread-crumbs--vacancies">
-                    <a href="index">Главная</a>
+                    <a href="/">Главная</a>
                     <a href="vacancies" aria-current="location">Вакансии</a>
                 </div>
                 <div class="vacancies">

@@ -11,6 +11,7 @@ class WaitListController extends Controller
     public function getAuthUser()
     {
         $profile = Auth::user();
-        return view('pages.waitlist', compact('profile'));
+        $username = Auth::user()->getAuthIdentifierName();
+        return view('pages.waitlist', compact('profile','username'));
     }
 }

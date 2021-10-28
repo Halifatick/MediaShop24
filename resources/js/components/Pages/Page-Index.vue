@@ -2149,9 +2149,9 @@
                                                 один клик
                                             </button>
                                             <button class="product-card__cart add-to-cart" type="button">
-                      <span class="counter counter--red" data-count="">
-                        <span>В корзину</span>
-                      </span>
+                                              <span class="counter counter--red" data-count="">
+                                                <span>В корзину</span>
+                                              </span>
                                                 <svg width="32" height="32">
                                                     <use href="#icon-cart"></use>
                                                 </svg>
@@ -2214,9 +2214,9 @@
                                                 один клик
                                             </button>
                                             <button class="product-card__cart add-to-cart" type="button">
-                      <span class="counter counter--red" data-count="">
-                        <span>В корзину</span>
-                      </span>
+                                              <span class="counter counter--red" data-count="">
+                                                <span>В корзину</span>
+                                              </span>
                                                 <svg width="32" height="32">
                                                     <use href="#icon-cart"></use>
                                                 </svg>
@@ -2280,11 +2280,92 @@
 </template>
 
 <script>
+import Form from "vform"
+
 export default {
     name: "Page-Index",
     props:{
         auth_user:{
             default: null
+        }
+    },
+    data: () => ({
+        form: new Form({
+            password: '',
+            password_confirmation: '',
+            id: 0
+        })
+    }),
+    methods: {
+        async profileNewUserPassword() {
+            await this.form.post('/api/settings/profile/new-password')
+                .then((response) => {
+                    if (response.data.newPasswordSucceess === 'Успешно изменён пароль') {
+                        this.$swal.fire({
+                            icon: 'success',
+                            title: 'Успех!',
+                            text: 'Вы сменили пароль!',
+                            toast: true,
+                            position: 'top-end',
+                            showConfirmButton: false,
+                            timer: 3000,
+                            timerProgressBar: true,
+                            didOpen: (toast) => {
+                                toast.addEventListener('mouseenter', this.$swal.stopTimer)
+                                toast.addEventListener('mouseleave', this.$swal.resumeTimer)
+                            }
+                        })
+                    }
+                })
+                .catch((error) => {
+                    if (error.response.data.newPasswordError === 'Новый пароль не совпадает') {
+                        this.$swal.fire({
+                            icon: 'error',
+                            title: 'Ошибка!',
+                            text: 'Новый пароль не совпадает! Проверьте правильность ввода!',
+                        })
+                    }
+                });
+        },
+        async successLoginSocial() {
+            const { value: formValues } = await this.$swal.fire({
+                title: 'Пароль',
+                html:
+                '<span class="form__field-wrap swal-form__field-wrap">Введите новый пароль<label class="form__field-password">\n' +
+                    '<input type="password" placeholder="Введите новый пароль" name="password" data-pass-origin\n' +
+                    'data-validate="password" required id="swal-password" autocomplete="new-password">\n' +
+                    '<span class="show-password"><svg width="20" height="20"><use href="#icon-password-eye"></use>\n' +
+                    '</svg></span></label></span>\n' +
+                    '<span class="form__field-wrap swal-form__field-wrap">Повторите новый пароль<label class="form__field-password password-repeat">\n' +
+                    '<input type="password" placeholder="Повторите ввод пароля" name="password_confirmation" data-pass-repeat\n' +
+                    'data-validate="password" required id="swal-password-confirmation"\n' +
+                    'autocomplete="new-password"> <span class="show-password"> <svg width="20" height="20">\n' +
+                    '<use href="#icon-password-eye"></use></svg></span></label></span>',
+                focusConfirm: false,
+                allowEscapeKey: false,
+                allowOutsideClick: false,
+                preConfirm: () => {
+                    return [
+                        document.getElementById('swal-password').value,
+                        document.getElementById('swal-password-confirmation').value
+                    ]
+                }
+            })
+
+            if (formValues) {
+                this.form.id = this.auth_user.id
+                this.form.password = formValues[0].toString()
+                this.form.password_confirmation = formValues[1].toString()
+                this.profileNewUserPassword()
+            }
+        }
+    },
+    mounted() {
+        if (/#success-socials/.test(location.href)) {
+            if (this.auth_user !== null) {
+                this.successLoginSocial()
+            }
+        } else {
         }
     }
 }

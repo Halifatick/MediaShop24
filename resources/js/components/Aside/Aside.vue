@@ -1,7 +1,7 @@
 <template>
     <div class="aside-container">
         <div class="aside-main">
-            <a v-if="isIndex" class="logo logo--big" href="index">
+            <a v-if="isIndex" class="logo logo--big" href="/">
                 <svg width="290" height="50">
                     <use href="#icon-logo-big"></use>
                 </svg>

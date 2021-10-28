@@ -8,7 +8,7 @@
                 <div class="service service--faq">
                     <div class="service-aside">
                         <div class="service-aside__inner">
-                            <a class="logo logo--big" href="index">
+                            <a class="logo logo--big" href="/">
                                 <svg width="240" height="43">
                                     <use href="#icon-logo-big"></use>
                                 </svg>
@@ -22,13 +22,13 @@
                                 <a href="faq">Условия продажи товаров</a>
                                 <a href="policy">Политика конфиденциальности</a>
                                 <a href="contact">Контакты</a>
-                                <a href="index">Вернуться на главную</a>
+                                <a href="/">Вернуться на главную</a>
                             </div>
                         </div>
                     </div>
                     <div class="service__container">
                         <div class="bread-crumbs ">
-                            <a href="index">Главная</a>
+                            <a href="/">Главная</a>
                             <a href="faq" aria-current="location">Вопросы и ответы</a>
                         </div>
                         <h1 class="title">Вопросы и ответы</h1>

@@ -12,5 +12,5 @@
     class="body-min"
 @endsection
 @section('content')
-    <page-not-found :auth_user='{!! json_encode($profile) !!}'></page-not-found>
+    <page-not-found></page-not-found>
 @endsection

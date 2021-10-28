@@ -37,7 +37,7 @@
                                     <p>Транспортной компанией до двери</p>
                                 </div>
                             </div>
-                            <a class="cart-complete__back arrow arrow--right" href="index">Вернуться на главную</a>
+                            <a class="cart-complete__back arrow arrow--right" href="/">Вернуться на главную</a>
                         </div>
                         <div class="cart-complete__wrap-social wrap-block">
                             <strong>Следи за нами через социальные сети:</strong>

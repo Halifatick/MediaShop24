@@ -11,6 +11,7 @@ class FBListController extends Controller
     public function getAuthUser()
     {
         $profile = Auth::user();
-        return view('pages.fblist', compact('profile'));
+        $username = Auth::user()->getAuthIdentifierName();
+        return view('pages.fblist', compact('profile','username'));
     }
 }

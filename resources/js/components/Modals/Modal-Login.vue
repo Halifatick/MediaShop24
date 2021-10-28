@@ -10,17 +10,17 @@
                           @submit.prevent="loginUser"
                           @keydown="form.onKeydown($event)">
                         <label class="form__field-wrap">
-                            Электронная почта
-                            <input type="email" name="email" placeholder="Введите адрес электронной почты"
-                                   data-validate="email" required
-                                   id="email" v-model="form.email">
+                            Логин или Электронная почта
+                            <input type="text" name="email" placeholder="Введите логин или адрес электронной почты"
+                                   required id="email" v-model="form.email">
+                            <HasError :form="form" field="email" />
                         </label>
                         <span class="form__field-wrap">
                             Пароль
                             <label class="form__field-password">
                                 <input type="password" placeholder="Введите пароль" name="password"
-                                       data-validate="password" autocomplete="off" required
-                                       id="password" v-model="form.password">
+                                       autocomplete="off" required id="password" v-model="form.password">
+                                 <HasError :form="form" field="password" />
                                 <span class="show-password">
                                     <svg width="20" height="20">
                                         <use href="#icon-password-eye"></use>
@@ -39,42 +39,42 @@
                         <strong>Войти через социальные сети:</strong>
                         <ul class="social-icons">
                             <li>
-                                <a href="#!" aria-label="наша страница фейсбук">
+                                <a href="social-auth/facebook" aria-label="Вход через Facebook">
                                     <svg width="40" height="40">
                                         <use href="#icon-fb"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="#!" aria-label="наша страница в контакте">
+                                <a href="social-auth/vkontakte" aria-label="Вход через ВКонтакте">
                                     <svg width="40" height="40">
                                         <use href="#icon-vk"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="#!" aria-label="наша страница твиттер">
+                                <a href="social-auth/twitter" aria-label="Вход через Twitter">
                                     <svg width="40" height="40">
                                         <use href="#icon-tw"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="#!" aria-label="наша страница одноклассники">
+                                <a href="social-auth/odnoklassniki" aria-label="Вход через Одноклассники">
                                     <svg width="40" height="40">
                                         <use href="#icon-ok"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="#!" aria-label="наша страница гугл плюс">
+                                <a href="social-auth/google" aria-label="Вход через Google+">
                                     <svg width="40" height="40">
                                         <use href="#icon-gp"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="#!" aria-label="наша страница майл ру">
+                                <a href="social-auth/mailru" aria-label="Вход через Mail.ru">
                                     <svg width="40" height="40">
                                         <use href="#icon-mr"></use>
                                     </svg>
@@ -108,9 +108,11 @@ export default {
     },
     methods: {
         async loginUser() {
-            await this.form.post('login')
-            location.reload()
-        },
+            await this.form.post('/login').then(response => {
+                if (response.status === 302 || 401) {
+                    location.reload()
+                    } else {}}).catch(error => {});
+        }
     },
     computed: {
         isComplete () {

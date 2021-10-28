@@ -6,7 +6,7 @@
             <header-main :user="auth_user"></header-main>
             <main>
                 <div class="bread-crumbs bread-crumbs--about">
-                    <a href="index">Главная</a>
+                    <a href="/">Главная</a>
                     <a href="#!" aria-current="location">Новости</a>
                 </div>
                 <div class="about">

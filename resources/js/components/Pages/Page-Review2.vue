@@ -6,7 +6,7 @@
             <header-main :user="auth_user"></header-main>
             <main>
                 <div class="bread-crumbs ">
-                    <a href="index">Главная</a>
+                    <a href="/">Главная</a>
                     <a href="review">Обзоры</a>
                     <a href="#!" aria-current="location">Iphone 11, почему такой же как и Pro Max</a>
                 </div>

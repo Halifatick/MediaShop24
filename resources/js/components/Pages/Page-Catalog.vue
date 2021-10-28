@@ -6,7 +6,7 @@
             <header-main :user="auth_user"></header-main>
             <main>
                 <div class="bread-crumbs ">
-                    <a href="index">Главная</a>
+                    <a href="/">Главная</a>
                     <a href="catalogmain">Каталог</a>
                     <a href="#!" aria-current="location">Телевизоры</a>
                 </div>
@@ -130,7 +130,7 @@
                                         Цена
                                     </div>
                                     <div class="filters__list double-range" data-min="1000" data-max="100000" data-step="1000"
-                                         data-low="20000" data-high="50000">
+                                         data-low="2000" data-high="90000" @click="callFunction">
                                         <fieldset class="double-range-inner">
                                             <legend class="visually-hidden">диапазон цен</legend>
                                             <output data-key="low" data-value="">От</output>
@@ -2283,7 +2283,23 @@ export default {
         auth_user:{
             default: null
         }
+    },
+    data() {
+        return {
+            minPrice: '',
+            maxPrice: ''
+        }
+    },
+    methods: {
+        callFunction: function (event) {
+            this.minPrice = event.currentTarget.getAttribute('data-low');
+
+            this.maxPrice = event.currentTarget.getAttribute('data-high');
+
+            console.log(this.minPrice, this.maxPrice);
+        }
     }
+
 }
 </script>
 

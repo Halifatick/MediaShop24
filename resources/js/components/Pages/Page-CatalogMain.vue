@@ -6,7 +6,7 @@
             <header-main :user="auth_user"></header-main>
             <main>
                 <div class="bread-crumbs ">
-                    <a href="index">Главная</a>
+                    <a href="/">Главная</a>
                     <a href="#" aria-current="location">Каталог</a>
                 </div>
                 <section class="aside catalog-main">
@@ -61,6 +61,7 @@
                                             </ul>
                                         </div>
                                     </li>
+
                                     <li class="submenu-item catalog-main__subcategory-item">
                                         <a class="aside__link" href="catalog">
                                             <svg width="48" height="48">
@@ -160,6 +161,7 @@
                                             </ul>
                                         </div>
                                     </li>
+
                                     <li class="submenu-item catalog-main__subcategory-item catalog-main__all-category">
                                         <a class="aside__link no-arrow" href="catalog">
                                             <svg width="48" height="48">

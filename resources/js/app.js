@@ -11,6 +11,21 @@ window.Vue = require('vue').default;
 import Fragment from 'vue-fragment'
 
 Vue.use(Fragment.Plugin)
+
+import moment from 'moment';
+
+Vue.filter('myDate', function(date){
+    moment.locale('ru');
+    return moment(date).format("LL");
+});
+
+import VueSweetalert2 from 'vue-sweetalert2';
+// If you don't need the styles, do not connect
+import 'sweetalert2/dist/sweetalert2.min.css';
+Vue.use(VueSweetalert2);
+
+import VueTheMask from 'vue-the-mask'
+Vue.use(VueTheMask)
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -162,6 +177,27 @@ Vue.component('page-email', require('./components/Pages/Page-Email').default);
 
 // Content (Все страницы и модальные окна сайта)
 Vue.component('page-content', require('./components/Pages/Page-Content').default);
+
+// Соц сети (новости)
+Vue.component('social-icons', require('./components/PagesComponents/SocialIcons').default);
+
+// Tags Slide (news stock)
+Vue.component('tags-slide', require('./components/PagesComponents/TagsSlide').default);
+// Card Article (news stock)
+Vue.component('card-article', require('./components/PagesComponents/CardArticle').default);
+
+// Comments Отзывы (card товар)
+Vue.component('comment-main', require('./components/PagesComponents/Comments/CommentsMain').default);
+// Comments rating Отзывы рейтинг (card товар)
+Vue.component('comment-rating', require('./components/PagesComponents/Comments/CommentsRating').default);
+// Comments Author Отзывы автор (card товар)
+Vue.component('comment-author', require('./components/PagesComponents/Comments/CommentsAuthor').default);
+// Comments Content Отзывы текст отзыва (card товар)
+Vue.component('comment-content', require('./components/PagesComponents/Comments/CommentsContent').default);
+
+
+// Личный кабинет Левая менюшка (на всех страницах)
+Vue.component('lk-left', require('./components/PagesComponents/Profile/LKLeft').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

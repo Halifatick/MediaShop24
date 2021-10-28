@@ -6,6 +6,7 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Facades\Mail;
 
 class User extends \TCG\Voyager\Models\User implements MustVerifyEmail
 {
@@ -20,6 +21,18 @@ class User extends \TCG\Voyager\Models\User implements MustVerifyEmail
         'name',
         'email',
         'password',
+
+        'firstname',
+        'lastname' ,
+        'birthdate',
+        'gender',
+        'city',
+        'address',
+        'phone',
+        'status',
+        'employment',
+        'socials',
+        'subscription'
     ];
 
     /**
@@ -41,10 +54,6 @@ class User extends \TCG\Voyager\Models\User implements MustVerifyEmail
         'email_verified_at' => 'datetime',
     ];
 
-    public function profile()
-    {
-        return $this->HasOne(Profile::class);
-    }
     public function orders()
     {
         return $this->HasMany(Order::class);

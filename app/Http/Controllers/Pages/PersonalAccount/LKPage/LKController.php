@@ -8,9 +8,10 @@ use Illuminate\Support\Facades\Auth;
 
 class LKController extends Controller
 {
-    public function getAuthUser()
+    public function getAuthUser($id)
     {
         $profile = Auth::user();
-        return view('pages.lk', compact('profile'));
+        $username = Auth::user()->getAuthIdentifierName();
+        return view('pages.lk', compact('profile','username'));
     }
 }

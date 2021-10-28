@@ -11,6 +11,7 @@ class OrderListController extends Controller
     public function getAuthUser()
     {
         $profile = Auth::user();
-        return view('pages.orderlist', compact('profile'));
+        $username = Auth::user()->getAuthIdentifierName();
+        return view('pages.orderlist', compact('profile','username'));
     }
 }

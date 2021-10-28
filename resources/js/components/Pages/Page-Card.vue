@@ -6,7 +6,7 @@
             <header-main :user="auth_user"></header-main>
             <main>
                 <div class="bread-crumbs ">
-                    <a href="index">Главная</a>
+                    <a href="/">Главная</a>
                     <a href="#">Каталог товаров</a>
                     <a href="#">Apple</a>
                     <a href="#">iPhone Pro Max</a>
@@ -1133,123 +1133,14 @@
                                     </dd>
                                 </dl>
                             </div>
+                            <!---------------------------------------------------------------------------------------->
                             <h3 class="card-main__accordion-title accordion__title arrow arrow--down " id=feedback-tab>
                                 Отзывы
                                 <sup class="title-counter">7</sup>
                             </h3>
                             <div class="accordion__content card-main__accordion-content card-main__accordion-content--feedback">
-                                <div class="card-main__rating">
-                                    <h4>Рейтинг пользователей</h4>
-                                    <div class="card-main__rating-header">
-                                        <span class="card-main__rating-score">5,0</span>
-                                        <div class="card-main__rating-star">
-                                            <div class="star-rating star-rating--5"></div>
-                                            <span class="card-main__feedback-count">243 отзыва</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-main__statistic">
-                                        <div>
-                                            5
-                                            <meter value="0.4"></meter>
-                                            <span>1234</span>
-                                        </div>
-                                        <div>
-                                            4
-                                            <meter value="0.8"></meter>
-                                            <span>4567</span>
-                                        </div>
-                                        <div>
-                                            3
-                                            <meter value="0.3"></meter>
-                                            <span>5692</span>
-                                        </div>
-                                        <div>
-                                            2
-                                            <meter value="0.6"></meter>
-                                            <span>10997</span>
-                                        </div>
-                                        <div>
-                                            1
-                                            <meter value="0.1"></meter>
-                                            <span>2222</span>
-                                        </div>
-                                    </div>
-                                    <div class="card-main__rating-footer">
-                                        <p>Для расчёта рейтинга используются общие оценки товара и оценки по характеристикам за
-                                            всё время.
-                                            Оставьте свой отзыв о товаре:</p>
-                                        <button class="card-main__btn-feedback btn btn-purple" type="button"
-                                                data-modal-open="feedback-full">Оставить отзыв
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="card-main__feedback">
-                                    <div class="card-main__feedback-author">
-                                        <b class="card-main__person">Медведев Анатолий
-                                            <svg width="18" height="18">
-                                                <use href="#icon-like"></use>
-                                            </svg>
-                                        </b>
-                                        <time datetime="2020-09-11">11 сентября 2020</time>
-                                        <div class="card-main__experience">
-                                            Опыт использования:&nbsp;<span> несколько месяцев</span>
-                                        </div>
-                                        <dl class="card-main__feedback-list">
-                                            <dt>Качество</dt>
-                                            <dd class="star-rating star-rating--5"></dd>
-                                            <dt>Сервис</dt>
-                                            <dd class="star-rating star-rating--5"></dd>
-                                            <dt>Доставка</dt>
-                                            <dd class="star-rating star-rating--5"></dd>
-                                        </dl>
-                                    </div>
-                                    <div class="card-main__feedback-content">
-                                        <div class="card-main__feedback-top">
-                                            <h5>Достоинства:</h5>
-                                            <ul class="unmarked-list">
-                                                <li>Хорошая автономная работа</li>
-                                                <li>Хорошая камера</li>
-                                                <li>Производительность</li>
-                                                <li>Интересные цвета корпуса</li>
-                                            </ul>
-                                            <h5>Недостатки</h5>
-                                            <ul class="unmarked-list">
-                                                <li>Размер</li>
-                                                <li>Крепкое заднее стекло</li>
-                                            </ul>
-                                            <h5>Комментарий</h5>
-                                            <p>После 8ки пересел на 11, решил что 6"1 не станет проблемой - но ошибся, не смотря
-                                                на мои
-                                                достаточно большие
-                                                руки, пользоваться одной рукой из-за некоторых нюансов интерфейса</p>
-                                        </div>
-                                        <div class="card-main__feedback-gallery slider-container">
-                                            <div class="card-main__feedback-slider swiper-wrapper">
-                                                <div class="swiper-slide">
-                                                    <img src="img/content/fb1.jpg" alt="задняя крышка телефона" loading="lazy"
-                                                         decoding="async">
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <img src="img/content/fb2.jpg" alt="боковая сторона телефона" loading="lazy"
-                                                         decoding="async">
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <img src="img/content/fb3.jpg" alt="боковая сторона телефона" loading="lazy"
-                                                         decoding="async">
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <img src="img/content/fb4.jpg" alt="боковая сторона телефона" loading="lazy"
-                                                         decoding="async">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card-main__feedback-bottom">
-                                            <b class="card-main__person">Администратор MediaShop 24</b>
-                                            <time datetime="2020-09-11">11 сентября 2020</time>
-                                            <p>Спасибо за ваш комментарий. Вы абсолютно правы.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                <comment-main></comment-main>
+
                                 <button class="card-main__show-more arrow arrow--down" type="button">Показать больше</button>
                                 <button class="card-main__show-all" type="button">Посмотреть все отзывы</button>
                                 <div class="pagination card-main__pagination">
@@ -1258,6 +1149,8 @@
                                     <a href="#!">3</a>
                                 </div>
                             </div>
+
+                            <!---------------------------------------------------------------------------------------->
                             <h3 class="card-main__accordion-title accordion__title arrow arrow--down card-main__accordion-review">
                                 Обзоры
                             </h3>

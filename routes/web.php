@@ -1,5 +1,11 @@
 <?php
 
+use App\Http\Controllers\Auth\ConfirmPasswordController;
+use App\Http\Controllers\Auth\ForgotPasswordController;
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\Auth\ResetPasswordController;
+use App\Http\Controllers\Auth\VerificationController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Pages\AboutPage\AboutController;
 use App\Http\Controllers\Pages\ArticlePage\ArticleController;
@@ -32,7 +38,7 @@ use App\Http\Controllers\Pages\Stock2Page\Stock2Controller;
 use App\Http\Controllers\Pages\StockPage\StockController;
 use App\Http\Controllers\Pages\VacanciesPage\VacanciesController;
 use App\Http\Controllers\Pages\WarrantyPage\WarrantyController;
-use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\Social\SocialController;
 use Illuminate\Support\Facades\Route;
 use TCG\Voyager\Facades\Voyager;
 
@@ -48,6 +54,36 @@ use TCG\Voyager\Facades\Voyager;
 */
 /* Группа всех пользователей */
 Route::group(['middleware' => ['web']], function () {
+    /*
+    |--------------------------------------------------------------------------
+    | Auth Route
+    |--------------------------------------------------------------------------
+    */
+    // Login Routes...
+    Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');
+    Route::post('login', [LoginController::class, 'login']);
+
+    // Logout Routes...
+    Route::post('logout', [LoginController::class, 'logout'])->name('logout');
+
+    // Registration Routes...
+    Route::get('register', [RegisterController::class, 'showRegistrationForm'])->name('register');
+    Route::post('register', [RegisterController::class, 'register']);
+
+    // Password Reset Routes...
+    Route::get('password/reset', [ForgotPasswordController::class, 'showLinkRequestForm'])->name('password.request');
+    Route::post('password/email', [ForgotPasswordController::class, 'sendResetLinkEmail'])->name('password.email');
+    Route::get('password/reset/{token}', [ResetPasswordController::class, 'showResetForm'])->name('password.reset');
+    Route::post('password/reset', [ResetPasswordController::class, 'reset'])->name('password.update');
+
+    // Password Confirmation Routes...
+    Route::get('password/confirm', [ConfirmPasswordController::class, 'showConfirmForm'])->name('password.confirm');
+    Route::post('password/confirm', [ConfirmPasswordController::class, 'confirm']);
+
+    // Email Verification Routes...
+    Route::get('email/verify', [VerificationController::class, 'show'])->name('verification.notice');
+    Route::get('email/verify/{id}/{hash}', [VerificationController::class, 'verify'])->name('verification.verify');
+    Route::post('email/resend', [VerificationController::class, 'resend'])->name('verification.resend');
 
     /*
     |--------------------------------------------------------------------------
@@ -55,7 +91,7 @@ Route::group(['middleware' => ['web']], function () {
     |--------------------------------------------------------------------------
     */
 
-    Route::get('/index', [IndexController::class, 'getAuthUser']);
+    Route::get('/', [IndexController::class, 'getAuthUser'])->name('index');
     Route::get('/content', [ContentController::class, 'getAuthUser']);
 
 
@@ -73,34 +109,33 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/delivery', [DeliveryController::class, 'getAuthUser']);
     Route::get('/faq', [FAQController::class, 'getAuthUser']);
     Route::get('/favorite', [FavoriteController::class, 'getAuthUser']);
-    Route::get('/fblist', [FBListController::class, 'getAuthUser']);
     Route::get('/help', [HelpController::class, 'getAuthUser']);
-    Route::get('/lk', [LKController::class, 'getAuthUser']);
     Route::get('/news', [NewsController::class, 'getAuthUser']);
-    Route::get('/orderdetails', [OrderDetailsController::class, 'getAuthUser']);
-    Route::get('/orderlist', [OrderListController::class, 'getAuthUser']);
     Route::get('/policy', [PolicyController::class, 'getAuthUser']);
-    Route::get('/profile', [ProfileController::class, 'getAuthUser']);
     Route::get('/review', [ReviewController::class, 'getAuthUser']);
     Route::get('/review2', [Review2Controller::class, 'getAuthUser']);
     Route::get('/stock', [StockController::class, 'getAuthUser']);
     Route::get('/stock2', [Stock2Controller::class, 'getAuthUser']);
     Route::get('/vacancies', [VacanciesController::class, 'getAuthUser']);
-    Route::get('/waitlist', [WaitListController::class, 'getAuthUser']);
     Route::get('/warranty', [WarrantyController::class, 'getAuthUser']);
+    /* Авторизация через социальные сети */
+    Route::get('/social-auth/{provider}', [SocialController::class, 'redirectToProvider'])->name('auth.social');
+    Route::get('/social-auth/{provider}/callback', [SocialController::class, 'handleProviderCallback'])->name('auth.social.callback');
     /*
     |--------------------------------------------------------------------------
     */
-    Auth::routes();
-
-    Route::group(['prefix' => 'admin'], function () {
+    Route::group(['as' => 'user.', 'prefix' => '{username}', 'middleware' => ['auth']], function () {
+        Route::get('lk', [LKController::class, 'getAuthUser']);
+        Route::get('profile', [ProfileController::class, 'getAuthUser'])->name('profile');
+        Route::get('orderdetails', [OrderDetailsController::class, 'getAuthUser']);
+        Route::get('orderlist', [OrderListController::class, 'getAuthUser']);
+        Route::get('fblist', [FBListController::class, 'getAuthUser']);
+        Route::get('waitlist', [WaitListController::class, 'getAuthUser']);
+    });
+    /*
+    |--------------------------------------------------------------------------
+    */
+    Route::group( ['middleware' => ['auth'], 'prefix' => 'admin'], function () {
         Voyager::routes();
     });
 });
-
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/home', [HomeController::class, 'index'])->name('home');

@@ -6,9 +6,9 @@
             <header-main :user="auth_user"></header-main>
             <main>
                 <div class="bread-crumbs ">
-                    <a href="index">Главная</a>
+                    <a href="/">Главная</a>
                     <a href="news">Новости</a>
-                    <a href="#!" aria-current="location">Iphone 11, почему такой же как и Pro Max</a>
+                    <a href="#!" aria-current="location">Название статьи - Iphone 11, почему такой же как и Pro Max</a>
                 </div>
                 <div class="article wrapper">
                     <div class="article-content">
@@ -37,58 +37,17 @@
                             пополнилась уже 3-мя устройствами, каждое из которых найдет своего покупателяя, а мы рассмотрим с вами
                             основные плюсы и минусы данной линейки в нашем небольшом видео.</p>
                         <strong class="article__shear-title">Поделиться</strong>
-                        <ul class="social-icons">
-                            <li>
-                                <a href="#!" aria-label="наша страница фейсбук">
-                                    <svg width="40" height="40">
-                                        <use href="#icon-fb"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" aria-label="наша страница в контакте">
-                                    <svg width="40" height="40">
-                                        <use href="#icon-vk"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" aria-label="наша страница твиттер">
-                                    <svg width="40" height="40">
-                                        <use href="#icon-tw"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" aria-label="наша страница одноклассники">
-                                    <svg width="40" height="40">
-                                        <use href="#icon-ok"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" aria-label="наша страница гугл плюс">
-                                    <svg width="40" height="40">
-                                        <use href="#icon-gp"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" aria-label="наша страница майл ру">
-                                    <svg width="40" height="40">
-                                        <use href="#icon-mr"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
+
+                        <social-icons></social-icons>
+
                     </div>
                     <div class="article-aside">
                         <div class="article-aside__inner">
                             <h2>Последние новости</h2>
                             <div class="article-aside__list">
-                                <a href="#">В Сибири за 2019 год вырос спрос на проводные и беспроводные внешние аккумуляторы</a>
-                                <a href="#">Какие смартфоны выбирали жители Красноярска на Новый Год</a>
-                                <a href="#">В 2019 году продажи устройств для умного дома выросли в 3,5 раза</a>
+                                <a href="#">Последняя новость - В Сибири за 2019 год вырос спрос на проводные и беспроводные внешние аккумуляторы</a>
+                                <a href="#">Предпоследняя новость - Какие смартфоны выбирали жители Красноярска на Новый Год</a>
+                                <a href="#">Предппредоследняя новость - В 2019 году продажи устройств для умного дома выросли в 3,5 раза</a>
                             </div>
                         </div>
                     </div>

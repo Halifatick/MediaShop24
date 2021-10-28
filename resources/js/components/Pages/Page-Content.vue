@@ -10,7 +10,7 @@
                         <h2>Страницы</h2>
                         <ul>
                             <li>
-                                <a href="index">Главная</a>
+                                <a href="/">Главная</a>
                             </li>
                             <li>
                                 <a href="catalogmain">Каталог-главная</a>
@@ -82,22 +82,22 @@
                                 <a href="help">Помощь главная</a>
                             </li>
                             <li>
-                                <a href="lk">Личный кабинет</a>
+                                <a :href="'/'+auth_user.name+'/lk'">Личный кабинет</a>
                             </li>
                             <li>
-                                <a href="profile">ЛК Личные данные</a>
+                                <a :href="'/'+auth_user.name+'/profile'">ЛК Личные данные</a>
                             </li>
                             <li>
-                                <a href="orderlist">ЛК Мои заказы</a>
+                                <a :href="'/'+auth_user.name+'/orderlist'">ЛК Мои заказы</a>
                             </li>
                             <li>
-                                <a href="orderdetails">ЛК Заказ подробности</a>
+                                <a :href="'/'+auth_user.name+'/orderdetails'">ЛК Заказ подробности</a>
                             </li>
                             <li>
-                                <a href="waitlist">ЛК Лист Ожидания</a>
+                                <a :href="'/'+auth_user.name+'/waitlist'">ЛК Лист Ожидания</a>
                             </li>
                             <li>
-                                <a href="fblist">ЛК Мои отзывы</a>
+                                <a :href="'/'+auth_user.name+'/fblist'">ЛК Мои отзывы</a>
                             </li>
                             <li>
                                 <a href="404">404</a>

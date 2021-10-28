@@ -8,15 +8,21 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^7.4|^8.0",
         "ext-json": "*",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "jhaoda/socialite-mailru": "^4.0",
+        "jhaoda/socialite-odnoklassniki": "^4.0",
         "laravel-lang/lang": "~8.0",
         "laravel/framework": "^8.40",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.3",
+        "socialiteproviders/facebook": "^4.1",
+        "socialiteproviders/google": "^4.1",
+        "socialiteproviders/twitter": "^4.1",
+        "socialiteproviders/vkontakte": "^4.2",
         "tcg/voyager": "^1.4"
     },
     "require-dev": {

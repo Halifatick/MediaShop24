@@ -6,30 +6,13 @@
             <header-main :user="auth_user"></header-main>
             <main>
                 <div class="bread-crumbs bread-crumbs--lk">
-                    <a href="index">Главная</a>
-                    <a href="lk" aria-current="location">Личный кабинет</a>
+                    <a href="/">Главная</a>
+                    <a :href="'/'+auth_user.name+'/lk'" aria-current="location">Личный кабинет</a>
                 </div>
                 <div class="lk lk--main">
                     <h1 class="title title-lk wrapper">Личный кабинет</h1>
                     <div class="lk__container">
-                        <div class="lk__left">
-                            <div class="lk__left-inner">
-                                <div class="lk__name">
-                                    <p>Александр Меладзе</p>
-                                    <div>Бонусный счет: <span>12.256</span></div>
-                                </div>
-                                <div class="lk__nav">
-                                    <a class="lk__nav-link link arrow arrow--right" href="lk">Профиль</a>
-                                    <a class="lk__nav-link link arrow arrow--right" href="profile">Личные данные</a>
-                                    <a class="lk__nav-link link arrow arrow--right" href="orderlist">Мои заказы</a>
-                                    <a class="lk__nav-link link arrow arrow--right" href="favorite">Избранное</a>
-                                    <a class="lk__nav-link link arrow arrow--right" href="waitlist">Лист ожидания</a>
-                                    <a class="lk__nav-link link arrow arrow--right" href="fblist">Мои отзывы</a>
-                                    <a class="lk__nav-link link arrow arrow--right" href="help">Помощь</a>
-                                    <a class="lk__logout" href="index">Выход</a>
-                                </div>
-                            </div>
-                        </div>
+                        <lk-left :user="auth_user"></lk-left>
                         <div class="lk__main">
                             <div class="lk-form lk-form-adjacent">
                                 <h2 class="title">Профиль</h2>
@@ -53,35 +36,35 @@
                                 </div>
                                 <div class="lk__right-icons">
                                     <a class="link-compare-js" href="favorite">
-                  <span class="counter counter--red" data-count="2">
-                    <svg width="32" height="32">
-                      <use href="#icon-favorite"></use>
-                    </svg>
-                  </span>
+                                        <span class="counter counter--red" data-count="2">
+                                            <svg width="32" height="32">
+                                                <use href="#icon-favorite"></use>
+                                            </svg>
+                                        </span>
                                         Избранное
                                     </a>
                                     <a class="link-compare-js" href="compare">
-                  <span class="counter counter--red" data-count="3">
-                    <svg width="32" height="32">
-                      <use href="#icon-equal"></use>
-                    </svg>
-                  </span>
+                                        <span class="counter counter--red" data-count="3">
+                                            <svg width="32" height="32">
+                                                <use href="#icon-equal"></use>
+                                            </svg>
+                                        </span>
                                         Сравнение
                                     </a>
-                                    <a class="link-compare-js" href="waitlist">
-                  <span class="counter counter--red" data-count="4">
-                    <svg width="32" height="32">
-                      <use href="#icon-clock"></use>
-                    </svg>
-                  </span>
+                                    <a class="link-compare-js" :href="'/'+auth_user.name+'/waitlist'">
+                                        <span class="counter counter--red" data-count="4">
+                                            <svg width="32" height="32">
+                                                <use href="#icon-clock"></use>
+                                            </svg>
+                                        </span>
                                         Лист ожидания
                                     </a>
-                                    <a class="link-compare-js" href="fblist">
-                  <span class="counter counter--red" data-count="5">
-                    <svg width="32" height="32">
-                      <use href="#icon-comment"></use>
-                    </svg>
-                  </span>
+                                    <a class="link-compare-js" :href="'/'+auth_user.name+'/fblist'">
+                                        <span class="counter counter--red" data-count="5">
+                                            <svg width="32" height="32">
+                                                <use href="#icon-comment"></use>
+                                            </svg>
+                                        </span>
                                         Мои отзывы
                                     </a>
                                 </div>
@@ -98,7 +81,8 @@
                                                 <span class="promo-code">B12a45vasyzgon1t</span>
                                                 <small>Скидка 10% на телефон</small>
                                             </div>
-                                            <button class="lk__copy-btn" type="button" title="Скопировать в буфер обмена">
+                                            <button class="lk__copy-btn" type="button"
+                                                    title="Скопировать в буфер обмена">
                                                 Скопировать
                                             </button>
                                             <time class="time" datetime="2021-09-11">до 11.09.2021</time>
@@ -127,7 +111,8 @@
                                     <div class="lk-order-list">
                                         <div class="lk-order-list-item">
                                             <div class="img-wrap">
-                                                <img src="img/content/phone-cart.png" width="55" height="65" alt="айфон 8">
+                                                <img src="img/content/phone-cart.png" width="55" height="65"
+                                                     alt="айфон 8">
                                             </div>
                                             <div class="content-wrap">
                                                 <div class="name">
@@ -139,7 +124,8 @@
                                         </div>
                                         <div class="lk-order-list-item">
                                             <div class="img-wrap">
-                                                <img src="img/content/watch-cart.png" width="55" height="65" alt="айфон 8">
+                                                <img src="img/content/watch-cart.png" width="55" height="65"
+                                                     alt="айфон 8">
                                             </div>
                                             <div class="content-wrap">
                                                 <div class="name">
@@ -184,7 +170,7 @@
 <script>
 export default {
     name: "Page-LK",
-    props:{
+    props: {
         auth_user:{
             default: null
         }

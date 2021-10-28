@@ -8,7 +8,7 @@
                 <div class="contact">
                     <div class="contact__content">
                         <div class="bread-crumbs ">
-                            <a href="index">Главная</a>
+                            <a href="/">Главная</a>
                             <a href="contact" aria-current="location">Контакты</a>
                         </div>
                         <h1 class="title">Контакты</h1>

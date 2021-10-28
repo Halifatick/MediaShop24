@@ -8,26 +8,25 @@
                 <div class="modal-main">
                     <form @submit.prevent="registerUser"
                           @keydown="form.onKeydown($event)"
-                          class="form form--register" method="post" autocomplete="on">
+                          class="form form--register" method="post">
+                        <AlertError :form="form" />
                         <label class="form__field-wrap">
-                            Ваше имя*
-                            <input type="text" name="name" placeholder="Ваше имя" data-validate required
+                            Ваш логин
+                            <input type="text" name="name" placeholder="Ваш логин" required
                                    id="name" v-model="form.name">
                         </label>
                         <HasError :form="form" field="name"/>
                         <label class="form__field-wrap">
                             Электронная почта*
-                            <input type="email" name="email" placeholder="Введите адрес электронной почты"
-                                   data-validate="email" required
+                            <input type="email" name="email" placeholder="Введите адрес электронной почты" required
                                    id="email" v-model="form.email">
                         </label>
                         <HasError :form="form" field="email"/>
                         <span class="form__field-wrap">
                             Пароль*
                             <label class="form__field-password">
-                              <input type="password" placeholder="Введите пароль" name="password" data-pass-origin
-                                     data-validate="password" required
-                                     id="password" v-model="form.password" autocomplete="new-password">
+                              <input type="password" placeholder="Введите пароль" name="password" required
+                                     id="password" v-model="form.password">
                               <span class="show-password">
                                 <svg width="20" height="20">
                                   <use href="#icon-password-eye"></use>
@@ -39,9 +38,8 @@
                         <span class="form__field-wrap">
                             Повторите пароль*
                             <label class="form__field-password password-repeat">
-                              <input type="password" placeholder="Повторите пароль" name="password_confirmation" data-pass-repeat
-                                     data-validate="password" required
-                                     id="password_confirmation" v-model="form.password_confirmation" autocomplete="new-password">
+                              <input type="password" placeholder="Повторите пароль" name="password_confirmation" required
+                                     id="password_confirmation" v-model="form.password_confirmation">
                               <span class="show-password">
                                 <svg width="20" height="20">
                                   <use href="#icon-password-eye"></use>
@@ -51,7 +49,7 @@
                             <HasError :form="form" field="password_confirmation"/>
                         </span>
                         <label class="form__checkbox-wrap">
-                            <input class="visually-hidden" type="checkbox" name="agreement" data-validate required
+                            <input class="visually-hidden" type="checkbox" name="submitted" required
                                    v-model="form.submitted">
                             <span class="checkbox-item"></span>
                             <span>Нажимая кнопку вы даете согласие на обработку персональных данных и соглашаетесь с <a
@@ -59,8 +57,7 @@
                                 конфиденциальности.</a></span>
                             <HasError :form="form" field="submitted"/>
                         </label>
-                        <button class="form__submit btn btn-purple form__btn-register" type="submit"
-                                :disabled='form.errors.any() || !isComplete'>Регистрация</button>
+                        <Button class="form__submit btn btn-purple form__btn-register" :form="form">Регистрация</Button>
                     </form>
                     <div class="modal-login-footer">
                         <p>Уже зарегистрированы? <a class="form__link" href="#!" data-modal-open="modal-login">Авторизоваться</a>
@@ -68,42 +65,42 @@
                         <strong>Войти через социальные сети:</strong>
                         <ul class="social-icons">
                             <li>
-                                <a href="#!" aria-label="наша страница фейсбук">
+                                <a href="social-auth/facebook" aria-label="Вход через Facebook">
                                     <svg width="40" height="40">
                                         <use href="#icon-fb"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="#!" aria-label="наша страница в контакте">
+                                <a href="social-auth/vkontakte" aria-label="Вход через ВКонтакте">
                                     <svg width="40" height="40">
                                         <use href="#icon-vk"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="#!" aria-label="наша страница твиттер">
+                                <a href="social-auth/twitter" aria-label="Вход через Twitter">
                                     <svg width="40" height="40">
                                         <use href="#icon-tw"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="#!" aria-label="наша страница одноклассники">
+                                <a href="social-auth/odnoklassniki" aria-label="Вход через Одноклассники">
                                     <svg width="40" height="40">
                                         <use href="#icon-ok"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="#!" aria-label="наша страница гугл плюс">
+                                <a href="social-auth/google" aria-label="Вход через Google+">
                                     <svg width="40" height="40">
                                         <use href="#icon-gp"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="#!" aria-label="наша страница майл ру">
+                                <a href="social-auth/mailru" aria-label="Вход через Mail.ru">
                                     <svg width="40" height="40">
                                         <use href="#icon-mr"></use>
                                     </svg>
@@ -121,10 +118,10 @@
 
 <script>
 import Form from "vform"
-import {HasError} from "vform/src/components/bootstrap5"
+import {HasError, Button, AlertError} from "vform/src/components/bootstrap5"
 
 export default {
-    components: {HasError},
+    components: {HasError, Button, AlertError},
     name: "Modal-Register",
     data: function () {
         return {
@@ -143,9 +140,9 @@ export default {
         }
     },
     computed: {
-        isComplete () {
+       /* isComplete () {
             return this.form.name && this.form.email && this.form.password && this.form.password_confirmation && this.form.submitted;
-        }
+        }*/
     }
 }
 </script>

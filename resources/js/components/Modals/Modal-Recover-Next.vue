@@ -3,7 +3,7 @@
         <div class="modal-wrap submenu-block-desktop">
             <div class="form-wrap modal-body">
                 <div class="menu-head">
-                    <h3 class="menu-title">Восстановление пароля</h3>
+                    <h3 class="menu-title">Изменение пароля</h3>
                 </div>
                 <div class="modal-main">
                     <form class="form form--recover-next" method="post" autocomplete="on">
