@@ -102,7 +102,8 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/cart', [CartController::class, 'getAuthUser']);
     Route::get('/cart1', [Cart1Controller::class, 'getAuthUser']);
     Route::get('/cartcomplete', [CartCompleteController::class, 'getAuthUser']);
-    Route::get('/catalog', [CatalogController::class, 'getAuthUser']);
+  //  Route::get('/catalog', [CatalogController::class, 'getAuthUser']);
+    Route::get('/catalog-type={type}-id={id}',[CatalogController::class, 'getProductsByFilter']);
     Route::get('/catalogmain', [CatalogMainController::class, 'getAuthUser']);
     Route::get('/compare', [CompareController::class, 'getAuthUser']);
     Route::get('/contact', [ContactController::class, 'getAuthUser']);
@@ -135,7 +136,6 @@ Route::group(['middleware' => ['web']], function () {
     /*
     |--------------------------------------------------------------------------
     */
-    Route::get('/catalog-type={type}-id={id}',[CatalogController::class, 'getProductsByFilter']);
     Route::get('/add/cart/{id}', [CartController::class, 'addToCart']);
     Route::get('/add-to-cart', [CartController::class, 'addToCartUnique']);
     Route::get('/update/cart/{id}', [CartController::class, 'updateCart']);
