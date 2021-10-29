@@ -135,7 +135,19 @@ Route::group(['middleware' => ['web']], function () {
     /*
     |--------------------------------------------------------------------------
     */
-    Route::group( ['middleware' => ['auth'], 'prefix' => 'admin'], function () {
+    Route::get('/catalog-type={type}-id={id}',[CatalogController::class, 'getProductsByFilter']);
+    Route::get('/add/cart/{id}', [CartController::class, 'addToCart']);
+    Route::get('/add-to-cart', [CartController::class, 'addToCartUnique']);
+    Route::get('/update/cart/{id}', [CartController::class, 'updateCart']);
+    Route::post('/delete/cart', [CartController::class, 'deleteFromCart']);
+    Route::post('/update/favourites/{id}', [FavoriteController::class, 'updateFavourites']);
+    Route::get('/delete/favourites', [FavoriteController::class, 'deleteFavourites']);
+    Route::post('/update/compared/{id}', [CompareController::class, 'updateCompared']);
+    Route::get('/delete/compared', [CompareController::class, 'deleteCompared']);
+    Route::get('/auth/user', [IndexController::class, 'getUser']);
+
+
+    Route::group(['prefix' => 'admin'], function () {
         Voyager::routes();
     });
 });

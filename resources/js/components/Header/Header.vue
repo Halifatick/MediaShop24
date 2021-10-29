@@ -2926,7 +2926,7 @@
                         </div>
                     </div>
                     <a id="header-equal" class="header__btn link-compare-js header__btn--equal" href="/compare">
-                        <span class="counter counter--red" data-count="3">
+                        <span class="counter counter--red" :data-count="compares">
                             <svg width="24" height="24">
                                 <use href="#icon-equal"></use>
                             </svg>
@@ -2934,7 +2934,7 @@
                         Сравнить
                     </a>
                     <a id="header-favorite" class="header__btn link-compare-js header__btn--favorite" href="/favorite">
-                        <span class="counter counter--red" data-count="4">
+                        <span class="counter counter--red" :data-count="favourites">
                             <svg width="24" height="24">
                                 <use href="#icon-favorite"></use>
                             </svg>
@@ -2943,7 +2943,7 @@
                     </a>
                     <a id="header-cart" class="header__btn header__btn--cart" href="/cart"
                        aria-label="открыть корзину">
-                        <span class="counter counter--red" data-count="4">
+                        <span class="counter counter--red" :data-count="count">
                             <svg width="24" height="24">
                                 <use href="#icon-cart"></use>
                             </svg>
@@ -2974,11 +2974,12 @@
                         </svg>
                     </a>
                     <a class="header__make-call" href="#!" data-modal-open="modal-call">Заказать звонок</a>
-                    <button class="header__btn-mob header__cart-btn" type="button">
+                    <a  class="header__btn-mob header__cart-btn" href='/cart'
+                        aria-label="открыть корзину">
                         <svg width="24" height="24">
                             <use href="#icon-cart"></use>
                         </svg>
-                    </button>
+                    </a>
                 </div>
                 <div class="header__bottom-level">
                     <a class="header__btn header__btn--location arrow arrow--down" href="#!" data-city="Санкт-Петербург"
@@ -3014,12 +3015,65 @@ export default {
             default: null
         }
     },
+    data(){
+        return{
+            cart: [],
+            favourite: [],
+            compared: [],
+            subscription: []
+        }
+    },
+    mounted() {
+        this.saveCart()
+    },
     methods: {
         async logout() {
             await axios.post('/logout').then(response => {
                 if (response.status === 302 || 401) {
                     location.reload()
                 } else {}}).catch(error => {});
+        },
+        saveCart() {
+            axios.get('/add-to-cart').then(response=>{
+                this.cart = response.data.products
+                this.favourite = response.data.favourite
+                this.compared = response.data.compared
+                this.subscription = response.data.subscription
+                if(this.cart.length>0){
+                    for (let item of this.cart) {
+                        this.$store.commit('addToCartUnique', item);
+                    }
+                }
+                if(this.favourite.length>0){
+                    for(let item of this.favourite){
+                        this.$store.commit('addToFavouriteUnique', item);
+                    }
+                }
+                if(this.compared.length>0){
+                    for(let item of this.compared){
+                        this.$store.commit('addToCompareUnique', item);
+                    }
+                }
+                if(this.subscription.length>0){
+                    for(let item of this.subscription){
+                        this.$store.commit('addToSubscriptionUnique', item);
+                    }
+                }
+            })
+
+
+        }
+
+    },
+    computed: {
+        count() {
+            return  this.$store.state.cartCount;
+        },
+        favourites(){
+            return  this.$store.state.favouriteCount;
+        },
+        compares(){
+            return this.$store.state.compareCount;
         }
     }
 }

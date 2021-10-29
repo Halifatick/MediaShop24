@@ -19,6 +19,7 @@ class CreateSubcategoriesTable extends Migration
             $table->bigInteger('category_id')->unsigned()->nullable();
             $table->foreign('category_id')
                 ->references('id')->on('categories');
+            $table->string('icon')->nullable();
             $table->timestamps();
         });
     }

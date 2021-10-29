@@ -22,6 +22,7 @@ class CreateProductsTable extends Migration
             $table->integer('new_price');
             $table->integer('previous_price')->nullable();
             $table->json('images');
+            $table->json('icons')->nullable();
             $table->bigInteger('status_id')->unsigned();
             $table->foreign('status_id')
                 ->references('id')->on('product_statuses');

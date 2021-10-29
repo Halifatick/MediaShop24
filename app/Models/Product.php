@@ -4,13 +4,15 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
 
 class Product extends Model
 {
     use HasFactory;
     protected $table = 'products';
     protected $fillable = ['article', 'title', 'description', 'properties', 'new_price',
-        'previous_price', 'images', 'status_id', 'subcategory_id'];
+        'previous_price', 'images', 'icons', 'status_id', 'subcategory_id'];
+    protected $appends = ['category', 'filters'];
     public function status(){
         return $this->belongsTo(ProductStatus::class, 'status_id');
 
@@ -21,7 +23,11 @@ class Product extends Model
     }
     public function orders()
     {
-        return $this->belongsToMany(Order::class)->using(ProductOrder::class);
+        return $this->HasMany(ProductOrder::class);
+    }
+    public function similar()
+    {
+        return $this->HasMany(SimilarProduct::class);
     }
     public function favourites()
     {
@@ -47,6 +53,16 @@ class Product extends Model
     }
     public function filters()
     {
-        return $this->belongsToMany(ProductFilter::class)->using(ProductsFilters::class);
+        return $this->belongsToMany(ProductFilter::class, 'products_filters', 'product_id', 'filter_id');
+    }
+
+    public function getCategoryAttribute()
+    {
+        $subcategory = Subcategory::where('id',  $this->subcategory_id)->pluck('category_id');
+        return DB::table('categories')->where('id', $subcategory )->value('title');
+    }
+    public function getFiltersAttribute()
+    {
+        return $this->filters()->get();
     }
 }

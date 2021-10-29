@@ -31,7 +31,6 @@ class CreateOrdersTable extends Migration
             $table->string('phone')->nullable();
             $table->integer('price');
             $table->integer('quantity');
-            $table->json('properties')->nullable();
             $table->dateTime('delivery_datetime');
             $table->timestamps();
             $table->softDeletes();

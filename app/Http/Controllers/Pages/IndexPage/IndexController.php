@@ -16,6 +16,12 @@ class IndexController extends Controller
         $profile = Auth::user();
         return view('index', compact('profile'));
     }
+    public function getUser()
+    {
+        return response()->json([
+            'user' => Auth::user()
+        ]);
+    }
     public function updateUserProfileNewPassword(Request $request)
     {
         $profile = User::find($request->id);

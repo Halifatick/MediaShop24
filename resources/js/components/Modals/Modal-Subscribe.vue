@@ -10,7 +10,7 @@
                         <p>Оставьте почту и мы сообщим, когда товар появится в наличии</p>
                         <label class="form__field-wrap">
                             Электронная почта
-                            <input type="text" name="email" placeholder="Введите адрес электронной почты"
+                            <input v-model="user.email" type="text" name="email" placeholder="Введите адрес электронной почты"
                                    data-validate="email"
                                    required>
                         </label>
@@ -21,7 +21,7 @@
                   данных и соглашаетесь с <a class="privacy-policy-link link" href="#!" data-tab="policy"
                                              data-modal-open="help">политикой конфиденциальности.</a></span>
                         </label>
-                        <button class="form__submit btn btn-purple form__btn-register" type="submit">Подписаться
+                        <button class="form__submit btn btn-purple form__btn-register" type="submit" @click="addSubscription()">Подписаться
                         </button>
                     </form>
                     <button class="modal-close-mobile" type="button" data-modal-close="subscribe">Вернуться назад
@@ -34,8 +34,45 @@
 </template>
 
 <script>
+import Form from "vform";
+
 export default {
-    name: "Modal-Subscribe"
+    name: "Modal-Subscribe",
+    props:{
+        product:{
+            required: true
+        }
+    },
+    data() {
+        return {
+            user: new Form({
+                'id': 0,
+                'email': '',
+                'product': 0
+            })
+        }
+    },
+    methods: {
+        getUser() {
+            try {
+                axios.get('/auth/user').then((response) => {
+                    if(response.data.user!==null) {
+                        this.user.id = response.data.user.id
+                        this.user.email = response.data.user.email
+                    }
+                    this.user.product = this.product.id
+                })
+            }
+            catch(e){}
+        },
+        addSubscription(){
+            this.user.post('api/add/subscription')
+            this.$store.commit('addToSubscriptionUnique', this.product);
+        }
+    },
+    mounted() {
+        this.getUser()
+    }
 }
 </script>
 

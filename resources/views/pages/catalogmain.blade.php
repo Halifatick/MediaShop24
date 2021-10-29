@@ -12,5 +12,6 @@
     class="parent"
 @endsection
 @section('content')
-    <page-catalog-main :auth_user='{!! json_encode($profile) !!}'></page-catalog-main>
+    <page-catalog-main :auth_user='{!! json_encode($profile) !!}'
+                       :categories='{!! json_encode($categories) !!}'></page-catalog-main>
 @endsection

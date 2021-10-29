@@ -21,9 +21,11 @@ class CreateFavouritesTable extends Migration
             $table->bigInteger('product_id')->unsigned();
             $table->foreign('product_id')
                 ->references('id')->on('products');
-            $table->boolean('is_favourite');
-            $table->boolean('is_in_basket');
-            $table->boolean('is_in_waitlist');
+            $table->boolean('is_favourite')->nullable();
+            $table->boolean('is_in_basket')->nullable();
+            $table->integer('lot')->default(0);
+            $table->boolean('is_in_waitlist')->nullable();
+            $table->boolean('is_compared')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

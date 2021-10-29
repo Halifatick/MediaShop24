@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Pages\IndexPage\IndexController;
 use App\Http\Controllers\Pages\PersonalAccount\ProfilePage\ProfileController;
+use App\Http\Controllers\Pages\CatalogMainPage\CatalogMainController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -26,3 +27,8 @@ Route::post('/settings/profile', [ProfileController::class, 'updateUserProfile']
 Route::post('/settings/profile/public', [ProfileController::class, 'updateUserProfilePublic'])->name('updateUserProfilePublic');
 Route::post('/settings/profile/password', [ProfileController::class, 'updateUserProfilePassword'])->name('updateUserProfilePassword');
 Route::post('/settings/profile/subscription', [ProfileController::class, 'updateUserProfileSubscription'])->name('updateUserProfileSubscription');
+Route::get('subcategories/{id}', [CatalogMainController::class, 'getSubcategories']);
+Route::get('filters/{id}', [CatalogMainController::class, 'getFilters']);
+Route::get('category-product/{id}', [CatalogMainController::class, 'getCategoryProductsNumber']);
+Route::post('products/categories', [\App\Http\Controllers\Pages\CartPage\CartController::class, 'getProductsByCategory']);
+Route::post('add/subscription', [\App\Http\Controllers\Pages\PersonalAccount\WaitListPage\WaitListController::class, 'addSubscription']);

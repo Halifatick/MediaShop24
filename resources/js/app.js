@@ -8,6 +8,7 @@ require('./bootstrap');
 
 window.Vue = require('vue').default;
 
+export const eventBus = new Vue()
 import Fragment from 'vue-fragment'
 
 Vue.use(Fragment.Plugin)
@@ -26,6 +27,21 @@ Vue.use(VueSweetalert2);
 
 import VueTheMask from 'vue-the-mask'
 Vue.use(VueTheMask)
+import Swal from 'sweetalert2'
+window.Swal = Swal;
+const Toast = Swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 3000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+        toast.addEventListener('mouseenter', Swal.stopTimer)
+        toast.addEventListener('mouseleave', Swal.resumeTimer)
+    }
+})
+window.Toast = Toast;
+window.Fire = new Vue();
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -198,6 +214,19 @@ Vue.component('comment-content', require('./components/PagesComponents/Comments/
 
 // Личный кабинет Левая менюшка (на всех страницах)
 Vue.component('lk-left', require('./components/PagesComponents/Profile/LKLeft').default);
+
+//---------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------
+// Товары (страница Каталог общий)
+// Категории
+Vue.component('product-categories', require('./components/PagesComponents/Products/ProductCategories').default);
+// Подкатегории
+Vue.component('product-sub-categories', require('./components/PagesComponents/Products/ProductSubCategories').default);
+//---------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------
+import store from './store/index'
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -206,4 +235,5 @@ Vue.component('lk-left', require('./components/PagesComponents/Profile/LKLeft').
 
 const app = new Vue({
     el: '#app',
+    store
 });

@@ -9,5 +9,7 @@
     <link href="{{ asset('css/catalog.css') }}" rel="stylesheet">
 @endsection
 @section('content')
-    <page-catalog :auth_user='{!! json_encode($profile) !!}'></page-catalog>
+    <page-catalog :auth_user='{!! json_encode($profile) !!}' :category='{!! json_encode($category) !!}'
+                  :subcategories='{!! json_encode($subcategories) !!}' :products='{!! json_encode($products) !!}'
+                  :filters='{!! $filters !!}'></page-catalog>
 @endsection
