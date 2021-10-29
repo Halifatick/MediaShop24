@@ -21,7 +21,6 @@ class ProfileController extends Controller
     public function updateUserProfile(Request $request)
     {
         $profile = User::find($request->id);
-
         $validator = Validator::make($request->all(), [
             'firstname' => 'string|nullable|alpha',
             'lastname' => 'string|nullable|alpha',
@@ -34,8 +33,7 @@ class ProfileController extends Controller
         ]);
         if ($validator->fails()) {
             return response()->json(['newProfileUserError' => 'Ошибка. Проверьте правильность ввода'], 200);
-        }
-        else {
+        } else {
             $profile->email = $request->email;
             $profile->firstname = $request->firstname;
             $profile->lastname = $request->lastname;
@@ -58,8 +56,7 @@ class ProfileController extends Controller
         ]);
         if ($validator->fails()) {
             return response()->json(['newProfileUserPublicError' => 'Ошибка. Проверьте правильность ввода'], 200);
-        }
-        else {
+        } else {
             $profile->name = $request->name;
             $profile->city = $request->city;
             $profile->save();

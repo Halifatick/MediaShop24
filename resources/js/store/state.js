@@ -14,4 +14,4 @@ let state = {
     compareCount: compareCount ? parseInt(compareCount) : 0,
     subscription: subscription ? JSON.parse(subscription) : [],
 }
-export default  state
+export default state

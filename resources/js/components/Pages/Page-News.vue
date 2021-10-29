@@ -98,6 +98,7 @@
 
 <script>
 import moment from "moment";
+
 moment.locale('ru');
 
 export default {
@@ -113,50 +114,60 @@ export default {
             ],
 
             newsArticles: [
-                { title: 'Iphone 5, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
+                {
+                    title: 'Iphone 5, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
                     description: '5 Видео разбор с ответами на самые часто задаваемые вопросы может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые',
                     image: 'img/content/news/news.jpg',
                     image1: 'img/content/news/news@2x.jpg',
                     image2: 'img/content/news/news.webp',
                     image3: 'img/content/news/news@2x.webp',
-                    dateOfPublication: moment().format('LL')},
+                    dateOfPublication: moment().format('LL')
+                },
 
-                { title: 'Iphone 6, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
+                {
+                    title: 'Iphone 6, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
                     description: '6 Видео разбор с ответами на самые часто задаваемые вопросы может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые',
                     image: 'img/content/news/news.jpg',
                     image1: 'img/content/news/news@2x.jpg',
                     image2: 'img/content/news/news.webp',
                     image3: 'img/content/news/news@2x.webp',
-                    dateOfPublication: moment().format('LL')},
+                    dateOfPublication: moment().format('LL')
+                },
 
-                { title: 'Iphone 7, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
+                {
+                    title: 'Iphone 7, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
                     description: '7 Видео разбор с ответами на самые часто задаваемые вопросы может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые',
                     image: 'img/content/news/news.jpg',
                     image1: 'img/content/news/news@2x.jpg',
                     image2: 'img/content/news/news.webp',
                     image3: 'img/content/news/news@2x.webp',
-                    dateOfPublication: moment().format('LL')},
+                    dateOfPublication: moment().format('LL')
+                },
 
-                { title: 'Iphone 8, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
+                {
+                    title: 'Iphone 8, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
                     description: '8 Видео разбор с ответами на самые часто задаваемые вопросы может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые',
                     image: 'img/content/news/news.jpg',
                     image1: 'img/content/news/news@2x.jpg',
                     image2: 'img/content/news/news.webp',
                     image3: 'img/content/news/news@2x.webp',
-                    dateOfPublication: moment().format('LL')},
+                    dateOfPublication: moment().format('LL')
+                },
 
-                { title: 'Iphone 9, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
+                {
+                    title: 'Iphone 9, почему такой же как и Pro Max, может быть в 3 строки и вот таким большим',
                     description: '9 Видео разбор с ответами на самые часто задаваемые вопросы может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые',
                     image: 'img/content/news/news.jpg',
                     image1: 'img/content/news/news@2x.jpg',
                     image2: 'img/content/news/news.webp',
                     image3: 'img/content/news/news@2x.webp',
-                    dateOfPublication: moment().format('LL')},
+                    dateOfPublication: moment().format('LL')
+                },
             ],
         }
     },
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     }

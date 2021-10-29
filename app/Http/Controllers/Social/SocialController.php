@@ -19,14 +19,12 @@ class SocialController extends Controller
     {
         return Socialite::driver($provider)->redirect();
     }
+
     public function handleProviderCallback($provider)
     {
         $socialiteUser = Socialite::driver($provider)->user();
-
         $user = $this->findOrCreateUser($provider, $socialiteUser);
-
         auth()->login($user, true);
-
         return redirect('/#success-socials');
     }
 
@@ -35,13 +33,10 @@ class SocialController extends Controller
         if ($user = $this->findUserBySocialId($provider, $socialiteUser->getId())) {
             return $user;
         }
-
         if ($user = $this->findUserByEmail($provider, $socialiteUser->getEmail())) {
             $this->addSocialAccount($provider, $user, $socialiteUser);
-
             return $user;
         }
-
         $user = User::create([
             'name' => $socialiteUser->getNickname(),
             'email' => $socialiteUser->getEmail(),
@@ -51,17 +46,15 @@ class SocialController extends Controller
             'employment' => 'Не задано',
             'subscription' => 0
         ]);
-
         $this->addSocialAccount($provider, $user, $socialiteUser);
-
         return $user;
     }
+
     public function findUserBySocialId($provider, $id)
     {
         $socialAccount = SocialAccount::where('provider', $provider)
             ->where('provider_id', $id)
             ->first();
-
         return $socialAccount ? $socialAccount->user : false;
     }
 

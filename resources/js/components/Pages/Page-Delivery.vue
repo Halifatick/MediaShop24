@@ -10,7 +10,7 @@
                         <div class="service-aside__inner">
                             <a class="logo logo--big" href="/">
                                 <svg width="240" height="43">
-                                    <use href="#icon-logo-big"></use>
+                                <use href="#icon-logo-big"></use>
                                 </svg>
                             </a>
                             <div class="service-aside__links">

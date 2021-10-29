@@ -192,8 +192,8 @@
 <script>
 export default {
     name: "Page-Content",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     }

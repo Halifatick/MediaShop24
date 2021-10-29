@@ -11,8 +11,8 @@
         </a>
         <div class="article-el__body">
             <h3><a class="text-limiter" href="#">{{ cardArticle.title }}</a></h3>
-            <time :datetime="cardArticle.dateOfPublication">{{ cardArticle.dateOfPublication | myDate}}</time>
-            <p class="text-limiter"> {{cardArticle.description}}</p>
+            <time :datetime="cardArticle.dateOfPublication">{{ cardArticle.dateOfPublication | myDate }}</time>
+            <p class="text-limiter"> {{ cardArticle.description }}</p>
             <a href="#" class="link">Читать далее</a>
         </div>
     </fragment>

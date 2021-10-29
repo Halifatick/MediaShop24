@@ -8,5 +8,6 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
 class ProductsFilters extends Pivot
 {
     use HasFactory;
+
     protected $table = 'products_filters';
 }

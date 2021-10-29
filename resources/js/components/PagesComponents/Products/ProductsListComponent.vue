@@ -73,13 +73,15 @@
             </div>
 
             <div v-if="size<filteredProducts.length" class="catalog__card-counter">
-                Вы посмотрели <span>{{size}}</span> из <span>{{filteredProducts.length}}</span> товаров
+                Вы посмотрели <span>{{ size }}</span> из <span>{{ filteredProducts.length }}</span> товаров
             </div>
             <div v-if="size>filteredProducts.length" class="catalog__card-counter">
-                Вы посмотрели <span>{{filteredProducts.length}}</span> из <span>{{filteredProducts.length}}</span> товаров
+                Вы посмотрели <span>{{ filteredProducts.length }}</span> из <span>{{ filteredProducts.length }}</span>
+                товаров
             </div>
             <button class="catalog__more btn btn-purple" type="button" @click="increaseSize"
-                    :disabled="size>filteredProducts.length">Показать еще</button>
+                    :disabled="size>filteredProducts.length">Показать еще
+            </button>
             <div class="pagination catalog__pagination">
                 <a href="#!" aria-current="location">1</a>
                 <a href="#!">2</a>
@@ -138,15 +140,15 @@ export default {
             this.amount = isAmount
             console.log(this.amount)
         },
-        getParamFilter(param){
+        getParamFilter(param) {
             this.param = param
             console.log(this.param)
         },
-        getSubcategoryFilter( subcategory){
+        getSubcategoryFilter(subcategory) {
             this.subcategory = subcategory
             console.log(this.subcategory)
         },
-        clear(){
+        clear() {
             this.subcategory = 0
             this.param = 0
             this.discount = false
@@ -155,17 +157,17 @@ export default {
             this.min = 0
             this.max = 0
         },
-        sortByPrice(){
+        sortByPrice() {
             this.sort = 'price'
         },
-        sortByNew(){
+        sortByNew() {
             this.sort = 'new'
         },
-        sortByDiscount(){
+        sortByDiscount() {
             this.sort = 'discount'
         },
-        increaseSize(){
-            this.size+=this.size
+        increaseSize() {
+            this.size += this.size
         },
         /*  addToCart(data){
               console.log(data)
@@ -178,7 +180,7 @@ export default {
         filteredProducts: function () {
             var vm = this;
             vm.trigger += 1;
-            let filtered =  this.products
+            let filtered = this.products
                 .filter(function (product) {
                     return vm.discount === false || product.previous_price > 0;
                 })
@@ -186,41 +188,41 @@ export default {
                     return vm.amount === false || product.status_id === 1;
                 })
                 .filter(function (product) {
-                    return vm.param === 0 || product.filters.filter(function(val){
+                    return vm.param === 0 || product.filters.filter(function (val) {
                         return val.id === vm.param
                     })
                 })
                 .filter(function (product) {
                     return vm.subcategory === 0 || product.subcategory_id === vm.subcategory;
                 });
-            if(this.sort === 'price'){
-                filtered.sort(function(a, b){
-                    if(a.new_price< b.new_price){
+            if (this.sort === 'price') {
+                filtered.sort(function (a, b) {
+                    if (a.new_price < b.new_price) {
                         return -1
                     }
-                    if(a.new_price>b.new_price){
+                    if (a.new_price > b.new_price) {
                         return 1
                     }
                     return 0
                 })
             }
-            if(this.sort === 'new'){
-                filtered.sort(function(a, b){
-                    if(a.created_at< b.created_at){
+            if (this.sort === 'new') {
+                filtered.sort(function (a, b) {
+                    if (a.created_at < b.created_at) {
                         return 1
                     }
-                    if(a.created_at>b.created_at){
+                    if (a.created_at > b.created_at) {
                         return -1
                     }
                     return 0
                 })
             }
-            if(this.sort === 'discount'){
-                filtered.sort(function(a, b){
-                    if((a.previous_price - a.new_price)< (b.previous_price - b.new_price)){
+            if (this.sort === 'discount') {
+                filtered.sort(function (a, b) {
+                    if ((a.previous_price - a.new_price) < (b.previous_price - b.new_price)) {
                         return 1
                     }
-                    if((a.previous_price - a.new_price)> (b.previous_price - b.new_price)){
+                    if ((a.previous_price - a.new_price) > (b.previous_price - b.new_price)) {
                         return -1
                     }
                     return 0
@@ -232,15 +234,15 @@ export default {
         paginatedData() {
             const start = this.pageNumber * this.size,
                 end = start + this.size;
-            if(this.filteredProducts.length>this.size) {
+            if (this.filteredProducts.length > this.size) {
                 return this.filteredProducts.slice(start, end);
             }
             return this.filteredProducts
         },
-        pageCount(){
+        pageCount() {
             let l = this.filteredProducts.length,
                 s = this.size;
-            return Math.ceil(l/s);
+            return Math.ceil(l / s);
         },
     }
 

@@ -2974,8 +2974,8 @@
                         </svg>
                     </a>
                     <a class="header__make-call" href="#!" data-modal-open="modal-call">Заказать звонок</a>
-                    <a  class="header__btn-mob header__cart-btn" href='/cart'
-                        aria-label="открыть корзину">
+                    <a class="header__btn-mob header__cart-btn" href='/cart'
+                       aria-label="открыть корзину">
                         <svg width="24" height="24">
                             <use href="#icon-cart"></use>
                         </svg>
@@ -3005,18 +3005,18 @@
 <script>
 export default {
     name: "Header",
-    props:{
-        isIndex:{
+    props: {
+        isIndex: {
             type: Boolean,
             default: true
         },
-        user:{
-            type:Object,
+        user: {
+            type: Object,
             default: null
         }
     },
-    data(){
-        return{
+    data() {
+        return {
             cart: [],
             favourite: [],
             compared: [],
@@ -3031,31 +3031,34 @@ export default {
             await axios.post('/logout').then(response => {
                 if (response.status === 302 || 401) {
                     location.reload()
-                } else {}}).catch(error => {});
+                } else {
+                }
+            }).catch(error => {
+            });
         },
         saveCart() {
-            axios.get('/add-to-cart').then(response=>{
+            axios.get('/add-to-cart').then(response => {
                 this.cart = response.data.products
                 this.favourite = response.data.favourite
                 this.compared = response.data.compared
                 this.subscription = response.data.subscription
-                if(this.cart.length>0){
+                if (this.cart.length > 0) {
                     for (let item of this.cart) {
                         this.$store.commit('addToCartUnique', item);
                     }
                 }
-                if(this.favourite.length>0){
-                    for(let item of this.favourite){
+                if (this.favourite.length > 0) {
+                    for (let item of this.favourite) {
                         this.$store.commit('addToFavouriteUnique', item);
                     }
                 }
-                if(this.compared.length>0){
-                    for(let item of this.compared){
+                if (this.compared.length > 0) {
+                    for (let item of this.compared) {
                         this.$store.commit('addToCompareUnique', item);
                     }
                 }
-                if(this.subscription.length>0){
-                    for(let item of this.subscription){
+                if (this.subscription.length > 0) {
+                    for (let item of this.subscription) {
                         this.$store.commit('addToSubscriptionUnique', item);
                     }
                 }
@@ -3067,12 +3070,12 @@ export default {
     },
     computed: {
         count() {
-            return  this.$store.state.cartCount;
+            return this.$store.state.cartCount;
         },
-        favourites(){
-            return  this.$store.state.favouriteCount;
+        favourites() {
+            return this.$store.state.favouriteCount;
         },
-        compares(){
+        compares() {
             return this.$store.state.compareCount;
         }
     }

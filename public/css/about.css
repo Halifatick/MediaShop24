@@ -69,7 +69,7 @@
   }
 }
 .about__company {
-  --offset-top:79px;
+  --offset-top: 79px;
   max-width: 1620px;
   margin: 0 auto;
 }
@@ -84,7 +84,7 @@
 @media (min-width: 1365px) {
   .about__company {
     min-height: calc(100vh - var(--header-height) - var(--offset-top));
-    min-height: calc(var(--vh, 1vh)*100 - var(--header-height) - var(--offset-top));
+    min-height: calc(var(--vh, 1vh) * 100 - var(--header-height) - var(--offset-top));
     background: url(/images/m24.svg?3346805fb2b7555ce5f4e5ae385788ad) 50%/1350px auto no-repeat;
   }
 }
@@ -436,11 +436,11 @@
   }
 }
 .about__diagram-graph {
-  --purple-value:calc(360deg*var(--purple));
-  --green-value:calc(360deg*var(--green));
-  --black-value:calc(360deg*var(--black));
-  --green-angle:calc(var(--purple-value) + var(--green-value));
-  --black-angle:calc(var(--green-angle) + var(--black-value));
+  --purple-value: calc(360deg * var(--purple));
+  --green-value: calc(360deg * var(--green));
+  --black-value: calc(360deg * var(--black));
+  --green-angle: calc(var(--purple-value) + var(--green-value));
+  --black-angle: calc(var(--green-angle) + var(--black-value));
   position: relative;
   display: grid;
   width: 250px;
@@ -500,32 +500,32 @@
 }
 @-webkit-keyframes purple {
   to {
-    --purple-value:180deg;
+    --purple-value: 180deg;
   }
 }
 @keyframes purple {
   to {
-    --purple-value:180deg;
+    --purple-value: 180deg;
   }
 }
 @-webkit-keyframes green {
   to {
-    --green-value:calc(360deg*var(--green));
+    --green-value: calc(360deg * var(--green));
   }
 }
 @keyframes green {
   to {
-    --green-value:calc(360deg*var(--green));
+    --green-value: calc(360deg * var(--green));
   }
 }
 @-webkit-keyframes black {
   to {
-    --black-value:calc(360deg*var(--black));
+    --black-value: calc(360deg * var(--black));
   }
 }
 @keyframes black {
   to {
-    --black-value:calc(360deg*var(--black));
+    --black-value: calc(360deg * var(--black));
   }
 }
 .about__diagram-product {
@@ -619,7 +619,7 @@
 
 @media (min-width: 1365px) {
   .about__team-cont {
-    margin-left: max(1px, calc(50vw - 855px));
+    margin-left: max(1px, 50vw - 855px);
     max-width: 640px;
     margin-right: 130px;
   }
@@ -645,7 +645,7 @@
 }
 
 .about__avatars {
-  --avatar-size:100px;
+  --avatar-size: 100px;
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, fit-content(var(--avatar-size)));
@@ -670,7 +670,7 @@
 
 @media (min-width: 1365px) {
   .about__avatars {
-    --avatar-size:200px;
+    --avatar-size: 200px;
     min-width: 530px;
     flex-grow: 1;
     grid-gap: 60px;
@@ -798,7 +798,7 @@
     padding: 150px 0;
     grid-template-columns: 1fr;
     align-content: center;
-    margin-left: max(1px, calc(50vw - 855px));
+    margin-left: max(1px, 50vw - 855px);
     max-width: 600px;
   }
   .about__delivery-address h2 {

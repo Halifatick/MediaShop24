@@ -11,7 +11,9 @@
                 </div>
                 <div class="compare favorite">
                     <div class="compare__head">
-                        <h1 class="subtitle">Избранное<sup class="title-counter">{{ $store.state.favouriteCount }}</sup></h1>
+                        <h1 class="subtitle">Избранное
+                            <sup class="title-counter">{{ $store.state.favouriteCount }}</sup>
+                        </h1>
                         <button class="compare__clear-list" type="button" @click="clearFavourite">Очистить список
                             <svg width="32" height="32">
                                 <use href="#icon-delete"></use>
@@ -21,11 +23,12 @@
                     <div class="compare__category-slider slider-container">
                         <div class="compare__category swiper-wrapper">
                             <label class="compare__category-item swiper-slide" v-for="category in categories">
-                                <input class="visually-hidden" type="radio" name="category" @click="sortByCategory(category)">
+                                <input class="visually-hidden" type="radio" name="category"
+                                       @click="sortByCategory(category)">
                                 <span class="compare__category-type btn">
-                                    {{category}}
+                                    {{ category }}
                                     <span role="button" class="btn-close remove-compare-slide"></span>
-                                    <sup class="title-counter">{{countFavouriteByCategory(category)}}</sup>
+                                    <sup class="title-counter">{{ countFavouriteByCategory(category) }}</sup>
                                 </span>
                             </label>
                         </div>
@@ -107,46 +110,46 @@ import FavouriteItem from "../PagesComponents/Favourite/FavouriteItem";
 export default {
     name: "Page-Favorite",
     components: {FavouriteItem},
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     },
-    data(){
-        return{
-            trigger:0,
+    data() {
+        return {
+            trigger: 0,
             cat: '',
             amount: 0,
             sort: '',
         }
     },
-    methods:{
+    methods: {
 
-        clearFavourite(){
+        clearFavourite() {
             this.$store.commit('clearFavourite');
         },
-        countFavouriteByCategory(category){
-            return this.$store.state.favourite.filter(f=>f.category===category).length
+        countFavouriteByCategory(category) {
+            return this.$store.state.favourite.filter(f => f.category === category).length
         },
 
-        sortByCategory(category){
+        sortByCategory(category) {
             this.cat = category
         },
-        sortByAmount(number){
+        sortByAmount(number) {
             this.amount = number
         },
-        sortParam(param){
+        sortParam(param) {
             this.sort = param
         }
     },
-    computed:{
-        categories(){
-            return [...new Set(this.$store.state.favourite.map(f=>f.category))]
+    computed: {
+        categories() {
+            return [...new Set(this.$store.state.favourite.map(f => f.category))]
         },
-        sortFavourites(){
+        sortFavourites() {
             var vm = this;
             vm.trigger += 1;
-            let filtered =  this.$store.state.favourite
+            let filtered = this.$store.state.favourite
                 .filter(function (product) {
                     return vm.cat === '' || product.category === vm.cat;
                 })
@@ -159,23 +162,23 @@ export default {
                 .filter(function (product) {
                     return vm.amount !== 0 || product;
                 })
-            if(this.sort === 'price'){
-                filtered.sort(function(a, b){
-                    if(a.new_price< b.new_price){
+            if (this.sort === 'price') {
+                filtered.sort(function (a, b) {
+                    if (a.new_price < b.new_price) {
                         return -1
                     }
-                    if(a.new_price>b.new_price){
+                    if (a.new_price > b.new_price) {
                         return 1
                     }
                     return 0
                 })
             }
-            if(this.sort === 'new'){
-                filtered.sort(function(a, b){
-                    if(a.created_at< b.created_at){
+            if (this.sort === 'new') {
+                filtered.sort(function (a, b) {
+                    if (a.created_at < b.created_at) {
                         return 1
                     }
-                    if(a.created_at>b.created_at){
+                    if (a.created_at > b.created_at) {
                         return -1
                     }
                     return 0

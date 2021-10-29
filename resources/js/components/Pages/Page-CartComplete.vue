@@ -10,7 +10,8 @@
                         <div class="cart-complete__top wrap-block">
                             <h1 class="title">Ваш заказ успешно оформлен</h1>
                             <strong class="cart-complete__order-number">Номер заказа <span>ВТБ-122700</span></strong>
-                            <p class="cart-complete__text">Спасибо, за ваш выбор, мы уже обрабатываем ваш заказ, наш оператор
+                            <p class="cart-complete__text">Спасибо, за ваш выбор, мы уже обрабатываем ваш заказ, наш
+                                оператор
                                 свяжется с
                                 вами в ближайшее время для уточнения информации.</p>
                             <p>Детали заказа отправлены на вашу электронную почту</p>
@@ -105,7 +106,8 @@
                   </span>
                 </label>
               </span>
-                                <a class="form__forgot-pass form__link" href="#!" data-modal-open="modal-recover">Не помню
+                                <a class="form__forgot-pass form__link" href="#!" data-modal-open="modal-recover">Не
+                                    помню
                                     пароль</a>
                                 <button class="form__submit btn btn-purple" type="submit">Вход</button>
                             </form>
@@ -186,8 +188,8 @@
 <script>
 export default {
     name: "Page-CartComplete",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     }

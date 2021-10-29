@@ -11,9 +11,9 @@
                 </div>
                 <div class="compare">
                     <div class="compare__head">
-                        <h1 class="subtitle">Сравнение товаров<sup class="title-counter">{{
-                                $store.state.compareCount
-                            }}</sup></h1>
+                        <h1 class="subtitle">Сравнение товаров
+                            <sup class="title-counter">{{ $store.state.compareCount }}</sup>
+                        </h1>
                         <button class="compare__clear-list" type="button" @click="clearCompare">Очистить список
                             <svg width="32" height="32">
                                 <use href="#icon-delete"></use>

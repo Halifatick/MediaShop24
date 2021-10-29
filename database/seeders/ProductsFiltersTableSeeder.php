@@ -15,12 +15,12 @@ class ProductsFiltersTableSeeder extends Seeder
     public function run()
     {
         $counter = 1;
-        while($counter<106) {
+        while ($counter < 106) {
             $filter = rand(1, 45);
             $product = rand(1, 50);
             ProductsFilters::create([
-               'product_id' => $product,
-                'filter_id'=>$filter
+                'product_id' => $product,
+                'filter_id' => $filter
             ]);
             $counter++;
         }

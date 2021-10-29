@@ -27,7 +27,8 @@
                                 <div class="lk-wl__select-wrap">
                                     <div class="lk-wl__sort">
                                         <input id="old" class="visually-hidden" type="radio" value="old" name="sort">
-                                        <input id="new" class="visually-hidden" type="radio" value="new" name="sort" checked>
+                                        <input id="new" class="visually-hidden" type="radio" value="new" name="sort"
+                                               checked>
                                         <label class="arrow arrow--down" for="old"><span
                                             class="sort-title">Сортировать:</span><span
                                             class="sort-type">По дате добавления</span></label>
@@ -43,13 +44,16 @@
                                     <div data-vendor-code="64201" class="product-card product-card--sm-icon">
                                         <div class="product-card__bonuses">
                                             <div class="bonus-icon priority-4">
-                                                <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/delivery.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-3">
-                                                <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-0">
-                                                <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                         </div>
                                         <div class="product-card__icons">
@@ -82,18 +86,21 @@
                                                         srcset="img/content/watch.webp 1x, img/content/watch@2x.webp 2x">
                                                 <img class=content-img src="img/content/watch.jpg"
                                                      srcset="img/content/watch@2x.jpg 2x"
-                                                     width="179" height="108" alt="Apple watch" loading=lazy decoding=async>
+                                                     width="179" height="108" alt="Apple watch" loading=lazy
+                                                     decoding=async>
                                             </picture>
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
                                             <span class="product-card__price">32 230₽</span>
                                             <div class="product-card__buy-wrap">
-                                                <button class="btn btn-purple lk-wl__buy add-to-cart" type="button"><span
+                                                <button class="btn btn-purple lk-wl__buy add-to-cart"
+                                                        type="button"><span
                                                     class="counter counter--red">В корзину</span></button>
                                             </div>
                                         </div>
@@ -148,13 +155,15 @@
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
                                             <span class="product-card__price">32 230₽</span>
                                             <div class="product-card__buy-wrap">
-                                                <button class="btn btn-gray lk-wl__buy" type="button">Нет в наличии</button>
+                                                <button class="btn btn-gray lk-wl__buy" type="button">Нет в наличии
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -163,10 +172,12 @@
                                     <div data-vendor-code="64203" class="product-card product-card--sm-icon">
                                         <div class="product-card__bonuses">
                                             <div class="bonus-icon priority-1">
-                                                <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/stock.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-3">
-                                                <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-2">
                                                 <span class="bonus-discount">-80%</span>
@@ -202,18 +213,21 @@
                                                         srcset="img/content/watch.webp 1x, img/content/watch@2x.webp 2x">
                                                 <img class=content-img src="img/content/watch.jpg"
                                                      srcset="img/content/watch@2x.jpg 2x"
-                                                     width="179" height="108" alt="Apple watch" loading=lazy decoding=async>
+                                                     width="179" height="108" alt="Apple watch" loading=lazy
+                                                     decoding=async>
                                             </picture>
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
                                             <span class="product-card__price">32 230₽</span>
                                             <div class="product-card__buy-wrap">
-                                                <button class="btn btn-purple lk-wl__buy add-to-cart" type="button"><span
+                                                <button class="btn btn-purple lk-wl__buy add-to-cart"
+                                                        type="button"><span
                                                     class="counter counter--red">В корзину</span></button>
                                             </div>
                                         </div>
@@ -223,13 +237,16 @@
                                     <div data-vendor-code="64204" class="product-card product-card--sm-icon">
                                         <div class="product-card__bonuses">
                                             <div class="bonus-icon priority-4">
-                                                <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/delivery.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-3">
-                                                <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-0">
-                                                <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                         </div>
                                         <div class="product-card__icons">
@@ -268,13 +285,15 @@
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
                                             <span class="product-card__price">32 230₽</span>
                                             <div class="product-card__buy-wrap">
-                                                <button class="btn btn-purple lk-wl__buy add-to-cart" type="button"><span
+                                                <button class="btn btn-purple lk-wl__buy add-to-cart"
+                                                        type="button"><span
                                                     class="counter counter--red">В корзину</span></button>
                                             </div>
                                         </div>
@@ -323,18 +342,21 @@
                                                         srcset="img/content/watch.webp 1x, img/content/watch@2x.webp 2x">
                                                 <img class=content-img src="img/content/watch.jpg"
                                                      srcset="img/content/watch@2x.jpg 2x"
-                                                     width="179" height="108" alt="Apple watch" loading=lazy decoding=async>
+                                                     width="179" height="108" alt="Apple watch" loading=lazy
+                                                     decoding=async>
                                             </picture>
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
                                             <span class="product-card__price">32 230₽</span>
                                             <div class="product-card__buy-wrap">
-                                                <button class="btn btn-purple lk-wl__buy add-to-cart" type="button"><span
+                                                <button class="btn btn-purple lk-wl__buy add-to-cart"
+                                                        type="button"><span
                                                     class="counter counter--red">В корзину</span></button>
                                             </div>
                                         </div>
@@ -344,10 +366,12 @@
                                     <div data-vendor-code="64206" class="product-card product-card--sm-icon">
                                         <div class="product-card__bonuses">
                                             <div class="bonus-icon priority-1">
-                                                <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/stock.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-3">
-                                                <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-2">
                                                 <span class="bonus-discount">-80%</span>
@@ -389,13 +413,15 @@
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
                                             <span class="product-card__price">32 230₽</span>
                                             <div class="product-card__buy-wrap">
-                                                <button class="btn btn-purple lk-wl__buy add-to-cart" type="button"><span
+                                                <button class="btn btn-purple lk-wl__buy add-to-cart"
+                                                        type="button"><span
                                                     class="counter counter--red">В корзину</span></button>
                                             </div>
                                         </div>
@@ -405,13 +431,16 @@
                                     <div data-vendor-code="64207" class="product-card product-card--sm-icon">
                                         <div class="product-card__bonuses">
                                             <div class="bonus-icon priority-4">
-                                                <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/delivery.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-3">
-                                                <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-0">
-                                                <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                         </div>
                                         <div class="product-card__icons">
@@ -444,18 +473,21 @@
                                                         srcset="img/content/watch.webp 1x, img/content/watch@2x.webp 2x">
                                                 <img class=content-img src="img/content/watch.jpg"
                                                      srcset="img/content/watch@2x.jpg 2x"
-                                                     width="179" height="108" alt="Apple watch" loading=lazy decoding=async>
+                                                     width="179" height="108" alt="Apple watch" loading=lazy
+                                                     decoding=async>
                                             </picture>
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
                                             <span class="product-card__price">32 230₽</span>
                                             <div class="product-card__buy-wrap">
-                                                <button class="btn btn-purple lk-wl__buy add-to-cart" type="button"><span
+                                                <button class="btn btn-purple lk-wl__buy add-to-cart"
+                                                        type="button"><span
                                                     class="counter counter--red">В корзину</span></button>
                                             </div>
                                         </div>
@@ -510,13 +542,15 @@
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
                                             <span class="product-card__price">32 230₽</span>
                                             <div class="product-card__buy-wrap">
-                                                <button class="btn btn-purple lk-wl__buy add-to-cart" type="button"><span
+                                                <button class="btn btn-purple lk-wl__buy add-to-cart"
+                                                        type="button"><span
                                                     class="counter counter--red">В корзину</span></button>
                                             </div>
                                         </div>
@@ -553,8 +587,8 @@
 <script>
 export default {
     name: "Page-WaitList",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     },

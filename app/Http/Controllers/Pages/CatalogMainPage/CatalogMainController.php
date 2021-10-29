@@ -19,12 +19,12 @@ class CatalogMainController extends Controller
         return view('pages.catalogmain', compact('profile', 'categories'));
     }
 
-    public function  getSubcategories($id)
+    public function getSubcategories($id)
     {
         return Subcategory::where('category_id', $id)->get();
     }
 
-    public function  getFilters($id)
+    public function getFilters($id)
     {
         return ProductFilter::where('subcategory_id', $id)->get();
     }

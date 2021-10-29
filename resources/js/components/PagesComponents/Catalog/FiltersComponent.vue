@@ -37,34 +37,35 @@ import PriceFilterComponent from "./PriceFilterComponent";
 import DiscountFilterComponent from "./DiscountFilterComponent";
 import SubcategoriesFilterComponent from "./SubcategoriesFilterComponent";
 import {eventBus} from '../../../app'
+
 export default {
     name: "FiltersComponent",
     components: {SubcategoriesFilterComponent, DiscountFilterComponent, PriceFilterComponent},
-    props:{
-        subcategories:{
+    props: {
+        subcategories: {
             default: null
         },
-        filters:{
+        filters: {
             default: null
         },
-        min:{
-            type:Number
+        min: {
+            type: Number
         },
-        max:{
-            type:Number
+        max: {
+            type: Number
         },
     },
-    data(){
-        return{
+    data() {
+        return {
             isDiscount: false,
             isAmount: false
         }
     },
-    methods:{
-        getDiscount(){
+    methods: {
+        getDiscount() {
             eventBus.$emit('discountFilter', this.isDiscount)
         },
-        getAmount(){
+        getAmount() {
             eventBus.$emit('amountFilter', this.isAmount)
         }
     }

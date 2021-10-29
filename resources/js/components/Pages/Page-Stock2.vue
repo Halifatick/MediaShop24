@@ -20,15 +20,18 @@
               </span>
                             </div>
                         </div>
-                        <p>В этом ролике мы посмотрим на небольшой "не умный" телевизор от компании Philips - Philips 32PHS4203.
+                        <p>В этом ролике мы посмотрим на небольшой "не умный" телевизор от компании Philips - Philips
+                            32PHS4203.
                             Эта
-                            модель стоит менее 15000 рублей и отлично подойдет тем, кому не нужен функционал Smart TV</p>
+                            модель стоит менее 15000 рублей и отлично подойдет тем, кому не нужен функционал Smart
+                            TV</p>
                     </div>
                     <div class="stock__img">
                         <picture>
                             <!-- 1x-2560px/250px 2x-5120px/500px -->
                             <source type="image/webp" srcset="img/content/stock.webp 1x, img/content/stock@2x.webp 2x">
-                            <img src="img/content/stock.jpg" srcset="img/content/stock@2x.jpg 2x" width="2560" height="250"
+                            <img src="img/content/stock.jpg" srcset="img/content/stock@2x.jpg 2x" width="2560"
+                                 height="250"
                                  alt="картинка" loading=lazy decoding=async>
                         </picture>
                     </div>
@@ -42,7 +45,8 @@
                                 <span>Sony</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="samsung" value="Samsung">
+                                <input class="visually-hidden filter-input" type="checkbox" name="samsung"
+                                       value="Samsung">
                                 <span>Samsung</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
@@ -50,19 +54,23 @@
                                 <span>LG</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="phillips" value="Phillips">
+                                <input class="visually-hidden filter-input" type="checkbox" name="phillips"
+                                       value="Phillips">
                                 <span>Phillips</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="proCaster" value="ProCaster">
+                                <input class="visually-hidden filter-input" type="checkbox" name="proCaster"
+                                       value="ProCaster">
                                 <span>ProCaster</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="panasonic" value="Panasonic">
+                                <input class="visually-hidden filter-input" type="checkbox" name="panasonic"
+                                       value="Panasonic">
                                 <span>Panasonic</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="business" value="Для бизнеса">
+                                <input class="visually-hidden filter-input" type="checkbox" name="business"
+                                       value="Для бизнеса">
                                 <span>Для бизнеса</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
@@ -71,15 +79,18 @@
                                 <span>Для гостиной</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="cinema" value="Для киноманов">
+                                <input class="visually-hidden filter-input" type="checkbox" name="cinema"
+                                       value="Для киноманов">
                                 <span>Для киноманов</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="kitchen" value="Для кухни">
+                                <input class="visually-hidden filter-input" type="checkbox" name="kitchen"
+                                       value="Для кухни">
                                 <span>Для кухни</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="bedroom" value="Для спальни">
+                                <input class="visually-hidden filter-input" type="checkbox" name="bedroom"
+                                       value="Для спальни">
                                 <span>Для спальни</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
@@ -96,7 +107,8 @@
                                 <span>ЖК(LED)</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="nanocell" value="Nano Cell">
+                                <input class="visually-hidden filter-input" type="checkbox" name="nanocell"
+                                       value="Nano Cell">
                                 <span>Nano Cell</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
@@ -108,33 +120,40 @@
                                 <span>QLED</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="less20" value="до 20”">
+                                <input class="visually-hidden filter-input" type="checkbox" name="less20"
+                                       value="до 20”">
                                 <span>до 20”</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="20-30" value="20”-30”">
+                                <input class="visually-hidden filter-input" type="checkbox" name="20-30"
+                                       value="20”-30”">
                                 <span>20”-30”</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="30-40" value="30”-40”">
+                                <input class="visually-hidden filter-input" type="checkbox" name="30-40"
+                                       value="30”-40”">
                                 <span>30”-40”</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="40-50" value="40”-50”">
+                                <input class="visually-hidden filter-input" type="checkbox" name="40-50"
+                                       value="40”-50”">
                                 <span>40”-50”</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="50-60" value="50”-60”">
+                                <input class="visually-hidden filter-input" type="checkbox" name="50-60"
+                                       value="50”-60”">
                                 <span>50”-60”</span>
                             </label>
                             <label class="catalog__tag-item swiper-slide">
-                                <input class="visually-hidden filter-input" type="checkbox" name="more60" value="более 60”">
+                                <input class="visually-hidden filter-input" type="checkbox" name="more60"
+                                       value="более 60”">
                                 <span>более 60”</span>
                             </label>
                         </form>
                     </div>
                     <div class="catalog__mobile-actions">
-                        <button class="catalog__filter-btn-mob counter counter--purple" type="button" data-modal-open="filters">
+                        <button class="catalog__filter-btn-mob counter counter--purple" type="button"
+                                data-modal-open="filters">
                             <svg width="24" height="24">
                                 <use href="#icon-filter"></use>
                             </svg>
@@ -149,10 +168,12 @@
                             <form class="filters" method="post" autocomplete="on">
                                 <h2 class="filters__caption">Фильтр</h2>
                                 <div class="filters__fieldset">
-                                    <div class="filters__title filters__title--price filters__title-active arrow arrow--down">
+                                    <div
+                                        class="filters__title filters__title--price filters__title-active arrow arrow--down">
                                         Цена
                                     </div>
-                                    <div class="filters__list double-range" data-min="1000" data-max="100000" data-step="1000"
+                                    <div class="filters__list double-range" data-min="1000" data-max="100000"
+                                         data-step="1000"
                                          data-low="20000" data-high="50000">
                                         <fieldset class="double-range-inner">
                                             <legend class="visually-hidden">диапазон цен</legend>
@@ -165,7 +186,8 @@
                                                            data-key="low">
                                                 </label>
                                                 <label class="thumb" data-key="high" aria-label="максимальное значение">
-                                                    <input class="visually-hidden" type="range" name="value_to" data-key="high">
+                                                    <input class="visually-hidden" type="range" name="value_to"
+                                                           data-key="high">
                                                 </label>
                                             </div>
                                         </fieldset>
@@ -213,12 +235,14 @@
                                     </div>
                                 </div>
                                 <label class="filters__item sort-fieldset-checkbox filters__single">
-                                    <input class="visually-hidden filter-input" type="checkbox" name="discount" value="Скидка">
+                                    <input class="visually-hidden filter-input" type="checkbox" name="discount"
+                                           value="Скидка">
                                     <span class="custom-checkbox"></span>
                                     <span>Скидка</span>
                                 </label>
                                 <div class="filters__fieldset">
-                                    <div class="filters__title filters__title--vendor arrow arrow--down">Производитель</div>
+                                    <div class="filters__title filters__title--vendor arrow arrow--down">Производитель
+                                    </div>
                                     <div class="filters__list filters__list--vendor" data-visible-elements="4">
                                         <label class="filters__item sort-fieldset-checkbox">
                                             <input class="visually-hidden filter-input" type="checkbox" name="sony"
@@ -257,7 +281,8 @@
                                             <span>okko</span>
                                         </label>
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="lg" value="LG">
+                                            <input class="visually-hidden filter-input" type="checkbox" name="lg"
+                                                   value="LG">
                                             <span class="custom-checkbox"></span>
                                             <span>LG</span>
                                         </label>
@@ -267,7 +292,8 @@
                                             <span class="custom-checkbox"></span>
                                             <span>Phillips</span>
                                         </label>
-                                        <button class="filters__item filters__load-items" type="button">Посмотреть еще 51
+                                        <button class="filters__item filters__load-items" type="button">Посмотреть еще
+                                            51
                                             вариант...
                                         </button>
                                     </div>
@@ -509,7 +535,8 @@
                                             <span>HDR10+</span>
                                         </label>
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="dolby-vision"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="dolby-vision"
                                                    value="Dolby Vision">
                                             <span class="custom-checkbox"></span>
                                             <span>Dolby Vision</span>
@@ -567,7 +594,8 @@
                                             <span>DVB-С</span>
                                         </label>
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="dvb-с-mpeg-4"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="dvb-с-mpeg-4"
                                                    value="DVB-С MPEG-4">
                                             <span class="custom-checkbox"></span>
                                             <span>DVB-С MPEG-4</span>
@@ -591,7 +619,8 @@
                                             <span>DVB-T</span>
                                         </label>
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="dvb-t-mpeg4"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="dvb-t-mpeg4"
                                                    value="DVB-T MPEG4">
                                             <span class="custom-checkbox"></span>
                                             <span>DVB-T MPEG4</span>
@@ -619,25 +648,29 @@
                                     <div class="filters__title arrow arrow--down">Количество динамиков</div>
                                     <div class="filters__list">
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="sound-sum-1"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="sound-sum-1"
                                                    value="Динамиков: 1">
                                             <span class="custom-checkbox"></span>
                                             <span>1</span>
                                         </label>
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="sound-sum-2"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="sound-sum-2"
                                                    value="Динамиков: 2">
                                             <span class="custom-checkbox"></span>
                                             <span>2</span>
                                         </label>
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="sound-sum-3"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="sound-sum-3"
                                                    value="Динамиков: 3">
                                             <span class="custom-checkbox"></span>
                                             <span>3</span>
                                         </label>
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="sound-sum-4"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="sound-sum-4"
                                                    value="Динамиков: 4">
                                             <span class="custom-checkbox"></span>
                                             <span>4</span>
@@ -666,25 +699,29 @@
                                     <div class="filters__title arrow arrow--down">Количество входов HDMI</div>
                                     <div class="filters__list">
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="hdmi-total-1"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="hdmi-total-1"
                                                    value="HDMI: 1">
                                             <span class="custom-checkbox"></span>
                                             <span>1</span>
                                         </label>
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="hdmi-total-2"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="hdmi-total-2"
                                                    value="HDMI: 2">
                                             <span class="custom-checkbox"></span>
                                             <span>2</span>
                                         </label>
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="hdmi-total-3"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="hdmi-total-3"
                                                    value="HDMI: 3">
                                             <span class="custom-checkbox"></span>
                                             <span>3</span>
                                         </label>
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="hdmi-total-4"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="hdmi-total-4"
                                                    value="HDMI: 4">
                                             <span class="custom-checkbox"></span>
                                             <span>4</span>
@@ -695,19 +732,22 @@
                                     <div class="filters__title arrow arrow--down">Количество входов USB</div>
                                     <div class="filters__list">
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="usb-total-1"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="usb-total-1"
                                                    value="USB: 1">
                                             <span class="custom-checkbox"></span>
                                             <span>1</span>
                                         </label>
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="usb-total-2"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="usb-total-2"
                                                    value="USB: 2">
                                             <span class="custom-checkbox"></span>
                                             <span>2</span>
                                         </label>
                                         <label class="filters__item sort-fieldset-checkbox">
-                                            <input class="visually-hidden filter-input" type="checkbox" name="usb-total-3"
+                                            <input class="visually-hidden filter-input" type="checkbox"
+                                                   name="usb-total-3"
                                                    value="USB: 3">
                                             <span class="custom-checkbox"></span>
                                             <span>3</span>
@@ -776,7 +816,8 @@
                                 </div>
                                 <div class="filters__buttons shadows-footer hidden">
                                     <button class="filters__reset btn btn-black" type="reset">Сбросить</button>
-                                    <button class="filters__btn-show btn btn-purple" type="button" data-modal-close="filters"
+                                    <button class="filters__btn-show btn btn-purple" type="button"
+                                            data-modal-close="filters"
                                             data-count="">Посмотреть
                                     </button>
                                 </div>
@@ -794,15 +835,18 @@
                                                 <div class="catalog__sort-price">
                                                     <input id="price-high" class="visually-hidden" type="radio"
                                                            value="price-high" name="sort">
-                                                    <input id="price-low" class="visually-hidden" type="radio" value="price-low"
+                                                    <input id="price-low" class="visually-hidden" type="radio"
+                                                           value="price-low"
                                                            name="sort">
-                                                    <label class="arrow arrow--up catalog__sort-price-high" for="price-high">По
+                                                    <label class="arrow arrow--up catalog__sort-price-high"
+                                                           for="price-high">По
                                                         цене</label>
                                                     <label class="arrow arrow--down" for="price-low">По цене</label>
                                                 </div>
                                             </div>
                                             <div class="catalog__sort-item">
-                                                <input id="sort-popular" class="visually-hidden" type="radio" value="popular"
+                                                <input id="sort-popular" class="visually-hidden" type="radio"
+                                                       value="popular"
                                                        name="sort">
                                                 <label for="sort-popular">По популярности</label>
                                             </div>
@@ -812,7 +856,8 @@
                                                 <label for="sort-new">По новизне</label>
                                             </div>
                                             <div class="catalog__sort-item">
-                                                <input id="sort-discount" class="visually-hidden" type="radio" value="discount"
+                                                <input id="sort-discount" class="visually-hidden" type="radio"
+                                                       value="discount"
                                                        name="sort">
                                                 <label for="sort-discount">По размеру скидки</label>
                                             </div>
@@ -855,10 +900,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__img fast-order-img">
@@ -875,7 +922,8 @@
                                         <div class="catalog__wrap-cont">
                                             <div class="catalog__wrap-title">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <div class="catalog__product-rating">
@@ -926,7 +974,8 @@
                                                     data-modal-open="fast-order">Купить в
                                                 один клик
                                             </button>
-                                            <button class="product-card__cart add-to-cart add-to-cart--catalog" type="button">
+                                            <button class="product-card__cart add-to-cart add-to-cart--catalog"
+                                                    type="button">
                       <span class="counter counter--red" data-count="">
                         <span>В корзину</span>
                       </span>
@@ -956,14 +1005,16 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <div class="catalog__wrap-cont">
                                             <div class="catalog__wrap-title">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <div class="catalog__product-rating">
@@ -1014,7 +1065,8 @@
                                                     data-modal-open="fast-order">Купить в
                                                 один клик
                                             </button>
-                                            <button class="product-card__cart add-to-cart add-to-cart--catalog" type="button">
+                                            <button class="product-card__cart add-to-cart add-to-cart--catalog"
+                                                    type="button">
                       <span class="counter counter--red" data-count="">
                         <span>В корзину</span>
                       </span>
@@ -1031,7 +1083,8 @@
                                             <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-2">
                                             <span class="bonus-discount">-80%</span>
@@ -1051,7 +1104,8 @@
                                         <div class="catalog__wrap-cont">
                                             <div class="catalog__wrap-title">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <div class="catalog__product-rating">
@@ -1102,7 +1156,8 @@
                                                     data-modal-open="fast-order">Купить в
                                                 один клик
                                             </button>
-                                            <button class="product-card__cart add-to-cart add-to-cart--catalog" type="button">
+                                            <button class="product-card__cart add-to-cart add-to-cart--catalog"
+                                                    type="button">
                       <span class="counter counter--red" data-count="">
                         <span>В корзину</span>
                       </span>
@@ -1119,10 +1174,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__img fast-order-img">
@@ -1132,14 +1189,16 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <div class="catalog__wrap-cont">
                                             <div class="catalog__wrap-title">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <div class="catalog__product-rating">
@@ -1190,7 +1249,8 @@
                                                     data-modal-open="fast-order">Купить в
                                                 один клик
                                             </button>
-                                            <button class="product-card__cart add-to-cart add-to-cart--catalog" type="button">
+                                            <button class="product-card__cart add-to-cart add-to-cart--catalog"
+                                                    type="button">
                       <span class="counter counter--red" data-count="">
                         <span>В корзину</span>
                       </span>
@@ -1227,7 +1287,8 @@
                                         <div class="catalog__wrap-cont">
                                             <div class="catalog__wrap-title">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <div class="catalog__product-rating">
@@ -1278,7 +1339,8 @@
                                                     data-modal-open="fast-order">Купить в
                                                 один клик
                                             </button>
-                                            <button class="product-card__cart add-to-cart add-to-cart--catalog" type="button">
+                                            <button class="product-card__cart add-to-cart add-to-cart--catalog"
+                                                    type="button">
                       <span class="counter counter--red" data-count="">
                         <span>В корзину</span>
                       </span>
@@ -1295,7 +1357,8 @@
                                             <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-2">
                                             <span class="bonus-discount">-80%</span>
@@ -1308,14 +1371,16 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <div class="catalog__wrap-cont">
                                             <div class="catalog__wrap-title">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <div class="catalog__product-rating">
@@ -1366,7 +1431,8 @@
                                                     data-modal-open="fast-order">Купить в
                                                 один клик
                                             </button>
-                                            <button class="product-card__cart add-to-cart add-to-cart--catalog" type="button">
+                                            <button class="product-card__cart add-to-cart add-to-cart--catalog"
+                                                    type="button">
                       <span class="counter counter--red" data-count="">
                         <span>В корзину</span>
                       </span>
@@ -1383,10 +1449,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__img fast-order-img">
@@ -1403,7 +1471,8 @@
                                         <div class="catalog__wrap-cont">
                                             <div class="catalog__wrap-title">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <div class="catalog__product-rating">
@@ -1454,7 +1523,8 @@
                                                     data-modal-open="fast-order">Купить в
                                                 один клик
                                             </button>
-                                            <button class="product-card__cart add-to-cart add-to-cart--catalog" type="button">
+                                            <button class="product-card__cart add-to-cart add-to-cart--catalog"
+                                                    type="button">
                       <span class="counter counter--red" data-count="">
                         <span>В корзину</span>
                       </span>
@@ -1484,14 +1554,16 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <div class="catalog__wrap-cont">
                                             <div class="catalog__wrap-title">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <div class="catalog__product-rating">
@@ -1542,7 +1614,8 @@
                                                     data-modal-open="fast-order">Купить в
                                                 один клик
                                             </button>
-                                            <button class="product-card__cart add-to-cart add-to-cart--catalog" type="button">
+                                            <button class="product-card__cart add-to-cart add-to-cart--catalog"
+                                                    type="button">
                       <span class="counter counter--red" data-count="">
                         <span>В корзину</span>
                       </span>
@@ -1579,10 +1652,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__icons">
@@ -1601,10 +1676,12 @@
                                             <span></span>
                                         </button>
                                     </div>
-                                    <div class="product-card__img fast-order-img" data-empty="Товар на фотосессии"></div>
+                                    <div class="product-card__img fast-order-img"
+                                         data-empty="Товар на фотосессии"></div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <p class="product-card__assets">Нет в наличии</p>
@@ -1652,12 +1729,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1686,7 +1765,8 @@
                                             <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-2">
                                             <span class="bonus-discount">-80%</span>
@@ -1720,7 +1800,8 @@
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1749,10 +1830,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__icons">
@@ -1778,12 +1861,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1846,7 +1931,8 @@
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1875,7 +1961,8 @@
                                             <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-2">
                                             <span class="bonus-discount">-80%</span>
@@ -1904,12 +1991,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1938,10 +2027,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__icons">
@@ -1972,7 +2063,8 @@
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -2030,12 +2122,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -2091,8 +2185,8 @@
 <script>
 export default {
     name: "Page-Stock2",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     }

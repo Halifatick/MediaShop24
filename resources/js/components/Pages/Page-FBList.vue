@@ -23,14 +23,16 @@
                                         <span class="lk-fb__vendor-code">Арт. 064206</span>
                                     </div>
                                     <div class="lk-fb__wrap">
-                                        <p class="lk-fb__product-name">Apple MacBook Air 13 дисплей Retina с технологией True Tone Mid 2019, с
+                                        <p class="lk-fb__product-name">Apple MacBook Air 13 дисплей Retina с технологией
+                                            True Tone Mid 2019, с
                                             чехлом, с наушниками, со всякими плюшками и еще бог весть с чем</p>
                                         <div class="lk-fb__img">
                                             <picture>
                                                 <!-- 1x-100px/120px 2x-200px/240px -->
                                                 <source type="image/webp"
                                                         srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
-                                                <img src="img/content/phone-small.jpg" srcset="img/content/phone-small@2x.jpg 2x" width="100"
+                                                <img src="img/content/phone-small.jpg"
+                                                     srcset="img/content/phone-small@2x.jpg 2x" width="100"
                                                      height="120" alt="apple8" loading=lazy decoding=async>
                                             </picture>
                                         </div>
@@ -45,8 +47,10 @@
                                     </div>
                                     <div class="lk-fb__comment">
                                         <b class="caption">Комментарий:</b>
-                                        <p>После 8ки пересел на 11, решил что 6"1 не станет проблемой - но ошибся, не смотря на мои достаточно
-                                            большие руки, пользоваться одной рукой из-за некоторых нюансов интерфейса</p>
+                                        <p>После 8ки пересел на 11, решил что 6"1 не станет проблемой - но ошибся, не
+                                            смотря на мои достаточно
+                                            большие руки, пользоваться одной рукой из-за некоторых нюансов
+                                            интерфейса</p>
                                     </div>
                                     <div class="lk-fb__photos">
                                         <img src="img/content/fb1.jpg" alt="фото телефона">
@@ -68,14 +72,16 @@
                                         <span class="lk-fb__vendor-code">Арт. 064206</span>
                                     </div>
                                     <div class="lk-fb__wrap">
-                                        <p class="lk-fb__product-name">Apple MacBook Air 13 дисплей Retina с технологией True Tone Mid 2019, с
+                                        <p class="lk-fb__product-name">Apple MacBook Air 13 дисплей Retina с технологией
+                                            True Tone Mid 2019, с
                                             чехлом, с наушниками, со всякими плюшками и еще бог весть с чем</p>
                                         <div class="lk-fb__img">
                                             <picture>
                                                 <!-- 1x-100px/120px 2x-200px/240px -->
                                                 <source type="image/webp"
                                                         srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
-                                                <img src="img/content/phone-small.jpg" srcset="img/content/phone-small@2x.jpg 2x" width="100"
+                                                <img src="img/content/phone-small.jpg"
+                                                     srcset="img/content/phone-small@2x.jpg 2x" width="100"
                                                      height="120" alt="apple8" loading=lazy decoding=async>
                                             </picture>
                                         </div>
@@ -90,8 +96,10 @@
                                     </div>
                                     <div class="lk-fb__comment">
                                         <b class="caption">Комментарий:</b>
-                                        <p>После 8ки пересел на 11, решил что 6"1 не станет проблемой - но ошибся, не смотря на мои достаточно
-                                            большие руки, пользоваться одной рукой из-за некоторых нюансов интерфейса</p>
+                                        <p>После 8ки пересел на 11, решил что 6"1 не станет проблемой - но ошибся, не
+                                            смотря на мои достаточно
+                                            большие руки, пользоваться одной рукой из-за некоторых нюансов
+                                            интерфейса</p>
                                     </div>
                                     <div class="lk-fb__photos">
                                         <img src="img/content/fb1.jpg" alt="фото телефона">
@@ -113,14 +121,16 @@
                                         <span class="lk-fb__vendor-code">Арт. 064206</span>
                                     </div>
                                     <div class="lk-fb__wrap">
-                                        <p class="lk-fb__product-name">Apple MacBook Air 13 дисплей Retina с технологией True Tone Mid 2019, с
+                                        <p class="lk-fb__product-name">Apple MacBook Air 13 дисплей Retina с технологией
+                                            True Tone Mid 2019, с
                                             чехлом, с наушниками, со всякими плюшками и еще бог весть с чем</p>
                                         <div class="lk-fb__img">
                                             <picture>
                                                 <!-- 1x-100px/120px 2x-200px/240px -->
                                                 <source type="image/webp"
                                                         srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
-                                                <img src="img/content/phone-small.jpg" srcset="img/content/phone-small@2x.jpg 2x" width="100"
+                                                <img src="img/content/phone-small.jpg"
+                                                     srcset="img/content/phone-small@2x.jpg 2x" width="100"
                                                      height="120" alt="apple8" loading=lazy decoding=async>
                                             </picture>
                                         </div>
@@ -135,8 +145,10 @@
                                     </div>
                                     <div class="lk-fb__comment">
                                         <b class="caption">Комментарий:</b>
-                                        <p>После 8ки пересел на 11, решил что 6"1 не станет проблемой - но ошибся, не смотря на мои достаточно
-                                            большие руки, пользоваться одной рукой из-за некоторых нюансов интерфейса</p>
+                                        <p>После 8ки пересел на 11, решил что 6"1 не станет проблемой - но ошибся, не
+                                            смотря на мои достаточно
+                                            большие руки, пользоваться одной рукой из-за некоторых нюансов
+                                            интерфейса</p>
                                     </div>
                                     <div class="lk-fb__photos">
                                         <img src="img/content/fb1.jpg" alt="фото телефона">
@@ -154,7 +166,9 @@
                                 </div>
                             </div>
                             <div class="lk-fb__btn-wrap shadow">
-                                <button class="btn btn-purple lk-fb__btn" type="button" data-modal-open="feedback">Написать отзыв</button>
+                                <button class="btn btn-purple lk-fb__btn" type="button" data-modal-open="feedback">
+                                    Написать отзыв
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -189,8 +203,8 @@
 <script>
 export default {
     name: "Page-FBList",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     },

@@ -153,7 +153,8 @@
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -182,7 +183,8 @@
                                             <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-2">
                                             <span class="bonus-discount">-80%</span>
@@ -216,7 +218,8 @@
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -245,10 +248,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__icons">
@@ -274,12 +279,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -342,7 +349,8 @@
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -371,7 +379,8 @@
                                             <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-2">
                                             <span class="bonus-discount">-80%</span>
@@ -400,12 +409,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -434,10 +445,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__icons">
@@ -468,7 +481,8 @@
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -526,12 +540,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -571,7 +587,8 @@
                                     <picture>
                                         <source type="image/webp"
                                                 srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
-                                        <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 2x"
+                                        <img src="img/content/review/review.jpg"
+                                             srcset="img/content/review/review@2x.jpg 2x"
                                              alt="обзор гаджета" decoding="async" loading="lazy">
                                     </picture>
                                 </a>
@@ -584,7 +601,8 @@
                 </span>
                                     <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                         задаваемые вопросы
-                                        может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
+                                        может быть большим в 3 строки, видео разбор с ответами на самые часто
+                                        задаваемые</p>
                                     <a href="review2" class="link">Перейти к обзору</a>
                                 </div>
                             </article>
@@ -593,7 +611,8 @@
                                     <picture>
                                         <source type="image/webp"
                                                 srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
-                                        <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 2x"
+                                        <img src="img/content/review/review.jpg"
+                                             srcset="img/content/review/review@2x.jpg 2x"
                                              alt="обзор гаджета" decoding="async" loading="lazy">
                                     </picture>
                                 </a>
@@ -606,7 +625,8 @@
                 </span>
                                     <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                         задаваемые вопросы
-                                        может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
+                                        может быть большим в 3 строки, видео разбор с ответами на самые часто
+                                        задаваемые</p>
                                     <a href="review2" class="link">Перейти к обзору</a>
                                 </div>
                             </article>
@@ -615,7 +635,8 @@
                                     <picture>
                                         <source type="image/webp"
                                                 srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
-                                        <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 2x"
+                                        <img src="img/content/review/review.jpg"
+                                             srcset="img/content/review/review@2x.jpg 2x"
                                              alt="обзор гаджета" decoding="async" loading="lazy">
                                     </picture>
                                 </a>
@@ -628,7 +649,8 @@
                 </span>
                                     <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                         задаваемые вопросы
-                                        может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
+                                        может быть большим в 3 строки, видео разбор с ответами на самые часто
+                                        задаваемые</p>
                                     <a href="review2" class="link">Перейти к обзору</a>
                                 </div>
                             </article>
@@ -637,7 +659,8 @@
                                     <picture>
                                         <source type="image/webp"
                                                 srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
-                                        <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 2x"
+                                        <img src="img/content/review/review.jpg"
+                                             srcset="img/content/review/review@2x.jpg 2x"
                                              alt="обзор гаджета" decoding="async" loading="lazy">
                                     </picture>
                                 </a>
@@ -650,7 +673,8 @@
                 </span>
                                     <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                         задаваемые вопросы
-                                        может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
+                                        может быть большим в 3 строки, видео разбор с ответами на самые часто
+                                        задаваемые</p>
                                     <a href="review2" class="link">Перейти к обзору</a>
                                 </div>
                             </article>
@@ -659,7 +683,8 @@
                                     <picture>
                                         <source type="image/webp"
                                                 srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
-                                        <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 2x"
+                                        <img src="img/content/review/review.jpg"
+                                             srcset="img/content/review/review@2x.jpg 2x"
                                              alt="обзор гаджета" decoding="async" loading="lazy">
                                     </picture>
                                 </a>
@@ -672,7 +697,8 @@
                 </span>
                                     <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                         задаваемые вопросы
-                                        может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
+                                        может быть большим в 3 строки, видео разбор с ответами на самые часто
+                                        задаваемые</p>
                                     <a href="review2" class="link">Перейти к обзору</a>
                                 </div>
                             </article>
@@ -681,7 +707,8 @@
                                     <picture>
                                         <source type="image/webp"
                                                 srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
-                                        <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 2x"
+                                        <img src="img/content/review/review.jpg"
+                                             srcset="img/content/review/review@2x.jpg 2x"
                                              alt="обзор гаджета" decoding="async" loading="lazy">
                                     </picture>
                                 </a>
@@ -694,7 +721,8 @@
                 </span>
                                     <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                         задаваемые вопросы
-                                        может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
+                                        может быть большим в 3 строки, видео разбор с ответами на самые часто
+                                        задаваемые</p>
                                     <a href="review2" class="link">Перейти к обзору</a>
                                 </div>
                             </article>
@@ -703,7 +731,8 @@
                                     <picture>
                                         <source type="image/webp"
                                                 srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
-                                        <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 2x"
+                                        <img src="img/content/review/review.jpg"
+                                             srcset="img/content/review/review@2x.jpg 2x"
                                              alt="обзор гаджета" decoding="async" loading="lazy">
                                     </picture>
                                 </a>
@@ -716,7 +745,8 @@
                 </span>
                                     <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                         задаваемые вопросы
-                                        может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
+                                        может быть большим в 3 строки, видео разбор с ответами на самые часто
+                                        задаваемые</p>
                                     <a href="review2" class="link">Перейти к обзору</a>
                                 </div>
                             </article>
@@ -725,7 +755,8 @@
                                     <picture>
                                         <source type="image/webp"
                                                 srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
-                                        <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 2x"
+                                        <img src="img/content/review/review.jpg"
+                                             srcset="img/content/review/review@2x.jpg 2x"
                                              alt="обзор гаджета" decoding="async" loading="lazy">
                                     </picture>
                                 </a>
@@ -738,7 +769,8 @@
                 </span>
                                     <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                         задаваемые вопросы
-                                        может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
+                                        может быть большим в 3 строки, видео разбор с ответами на самые часто
+                                        задаваемые</p>
                                     <a href="review2" class="link">Перейти к обзору</a>
                                 </div>
                             </article>
@@ -747,7 +779,8 @@
                                     <picture>
                                         <source type="image/webp"
                                                 srcset="img/content/review/review.webp 1x, img/content/review/review@2x.webp 2x">
-                                        <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 2x"
+                                        <img src="img/content/review/review.jpg"
+                                             srcset="img/content/review/review@2x.jpg 2x"
                                              alt="обзор гаджета" decoding="async" loading="lazy">
                                     </picture>
                                 </a>
@@ -760,7 +793,8 @@
                 </span>
                                     <p class="catalog__review-text text-limiter"> Видео разбор с ответами на самые часто
                                         задаваемые вопросы
-                                        может быть большим в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
+                                        может быть большим в 3 строки, видео разбор с ответами на самые часто
+                                        задаваемые</p>
                                     <a href="review2" class="link">Перейти к обзору</a>
                                 </div>
                             </article>
@@ -792,7 +826,7 @@
         </template>
         <a class="to-top arrow arrow--up" href="#top-level" aria-label="подняться в начало страницы"></a>
         <cookies></cookies>
-        </div>
+    </div>
 </template>
 
 <script>
@@ -803,8 +837,8 @@ import {eventBus} from "../../app";
 export default {
     name: "Page-Catalog",
     components: {ProductsListComponent, FiltersComponent},
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         },
         category: {
@@ -816,7 +850,7 @@ export default {
         filters: {
             default: null
         },
-        products:{}
+        products: {}
     },
     data() {
         return {
@@ -824,23 +858,23 @@ export default {
             id: 0
         }
     },
-    computed:{
-        minPrice(){
-            return Math.min.apply(null, this.products.map(item=>item.new_price))
+    computed: {
+        minPrice() {
+            return Math.min.apply(null, this.products.map(item => item.new_price))
         },
-        maxPrice(){
-            return Math.max.apply(null, this.products.map(item=>item.new_price))
+        maxPrice() {
+            return Math.max.apply(null, this.products.map(item => item.new_price))
         }
     },
-    methods:{
-        getParam(filter){
+    methods: {
+        getParam(filter) {
             this.isFilter = !this.isFilter
-            if(this.isFilter===false) {
+            if (this.isFilter === false) {
                 filter.id = 0
             }
             eventBus.$emit('paramFilter', filter.id)
         },
-        getProductSubscribe(id){
+        getProductSubscribe(id) {
             this.id = id
         }
     },

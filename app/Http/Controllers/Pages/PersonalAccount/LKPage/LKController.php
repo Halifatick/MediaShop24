@@ -12,6 +12,6 @@ class LKController extends Controller
     {
         $profile = Auth::user();
         $username = Auth::user()->getAuthIdentifierName();
-        return view('pages.lk', compact('profile','username'));
+        return view('pages.lk', compact('profile', 'username'));
     }
 }

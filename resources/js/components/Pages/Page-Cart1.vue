@@ -37,12 +37,15 @@
                                     </div>
                                     <div>
                                         <p class="cart-checkout__cabinet">У вас уже есть личный кабинет?</p>
-                                        <p class="cart-checkout__enter"><a class="link" href="#" data-modal-open="modal-login">Войдите</a>
+                                        <p class="cart-checkout__enter"><a class="link" href="#"
+                                                                           data-modal-open="modal-login">Войдите</a>
                                             для
-                                            отслеживания статуса заказа в личном кабинете, накопления бонусов и автоматического
+                                            отслеживания статуса заказа в личном кабинете, накопления бонусов и
+                                            автоматического
                                             заполнения форм
                                         </p>
-                                        <strong class="cart-checkout__social-title">Войти через социальные сети:</strong>
+                                        <strong class="cart-checkout__social-title">Войти через социальные
+                                            сети:</strong>
                                         <ul class="social-icons">
                                             <li>
                                                 <a href="#!" aria-label="наша страница фейсбук">
@@ -90,16 +93,19 @@
                                     </div>
                                 </div>
                                 <div class="cart-checkout__radio cart-checkout__radio-shpt">
-                                    <h2 class="wrapper">Доставка в&ensp;<span data-modal-open="location">Санкт петербург</span>
+                                    <h2 class="wrapper">Доставка в&ensp;<span
+                                        data-modal-open="location">Санкт петербург</span>
                                     </h2>
                                     <div class="sort-fieldset">
                                         <h3 class="sort-title wrapper">Способ получения</h3>
                                         <div class="cart-checkout__tabs-wrap">
                                             <div class="sort-fieldset-radio">
-                                                <input class="visually-hidden" id="shpt-courier" type="radio" name="shpt">
+                                                <input class="visually-hidden" id="shpt-courier" type="radio"
+                                                       name="shpt">
                                                 <label for="shpt-courier"><span class="custom-radio"></span>Доставка
                                                     курьером</label>
-                                                <span class="shpt-description">В удобный для вас день и интервал времени</span>
+                                                <span
+                                                    class="shpt-description">В удобный для вас день и интервал времени</span>
                                                 <div class="shpt-footer">
                                                     <span>c 24/06</span>
                                                     <span>Бесплатно</span>
@@ -112,13 +118,15 @@
                                                     <div class="checkout-form__wrap-fields">
                                                         <label class="form__field-wrap">
                                                             Улица*
-                                                            <input type="text" placeholder="Введите вашу улицу" name="street"
+                                                            <input type="text" placeholder="Введите вашу улицу"
+                                                                   name="street"
                                                                    data-validate required>
                                                         </label>
                                                         <div class="form__three-blocks">
                                                             <label class="form__field-wrap">
                                                                 Дом*
-                                                                <input type="text" placeholder="Дом" name="house" data-validate
+                                                                <input type="text" placeholder="Дом" name="house"
+                                                                       data-validate
                                                                        required>
                                                             </label>
                                                             <label class="form__field-wrap">
@@ -142,8 +150,9 @@
                                 </select>
                               </span>
                                                             </label>
-                                                            <label class="form__select checkout-form__time arrow arrow--down"
-                                                                   aria-label="Время доставки">
+                                                            <label
+                                                                class="form__select checkout-form__time arrow arrow--down"
+                                                                aria-label="Время доставки">
                                                                 <select name="time">
                                                                     <option value="12-16">12:00-16:00</option>
                                                                     <option value="16-18">16:00-18:00</option>
@@ -162,8 +171,10 @@
                                             </fieldset>
                                             <div class="sort-fieldset-radio">
                                                 <input class="visually-hidden" id="shpt-self" type="radio" name="shpt">
-                                                <label for="shpt-self"><span class="custom-radio"></span>Самовывоз</label>
-                                                <span class="shpt-description">Без лишних рук и когда удобно 1 пункт</span>
+                                                <label for="shpt-self"><span
+                                                    class="custom-radio"></span>Самовывоз</label>
+                                                <span
+                                                    class="shpt-description">Без лишних рук и когда удобно 1 пункт</span>
                                                 <div class="shpt-footer">
                                                     <span>c 24/06</span>
                                                     <span>Бесплатно</span>
@@ -191,8 +202,9 @@
                               </select>
                             </span>
                                                         </label>
-                                                        <label class="form__select checkout-form__time arrow arrow--down"
-                                                               aria-label="Время доставки">
+                                                        <label
+                                                            class="form__select checkout-form__time arrow arrow--down"
+                                                            aria-label="Время доставки">
                                                             <select name="time">
                                                                 <option value="12-16">12:00-16:00</option>
                                                                 <option value="16-18">16:00-18:00</option>
@@ -204,10 +216,12 @@
                                                 </div>
                                             </fieldset>
                                             <div class="sort-fieldset-radio">
-                                                <input class="visually-hidden" id="shpt-country" type="radio" name="shpt">
+                                                <input class="visually-hidden" id="shpt-country" type="radio"
+                                                       name="shpt">
                                                 <label for="shpt-country"><span class="custom-radio"></span>Доставка по
                                                     РФ</label>
-                                                <span class="shpt-description">Без лишних рук и когда удобно 1 пункт</span>
+                                                <span
+                                                    class="shpt-description">Без лишних рук и когда удобно 1 пункт</span>
                                                 <div class="shpt-footer">
                                                     <span>c 24/06</span>
                                                     <span>Бесплатно</span>
@@ -220,19 +234,22 @@
                                                     <div class="checkout-form__wrap-fields">
                                                         <label class="form__field-wrap">
                                                             Индекс*
-                                                            <input type="text" placeholder="Введите ваш индекс" name="index"
+                                                            <input type="text" placeholder="Введите ваш индекс"
+                                                                   name="index"
                                                                    data-validate="number"
                                                                    required>
                                                         </label>
                                                         <label class="form__field-wrap">
                                                             Улица*
-                                                            <input type="text" placeholder="Введите вашу улицу" name="street"
+                                                            <input type="text" placeholder="Введите вашу улицу"
+                                                                   name="street"
                                                                    data-validate required>
                                                         </label>
                                                         <div class="form__three-blocks">
                                                             <label class="form__field-wrap">
                                                                 Дом*
-                                                                <input type="text" placeholder="Дом" name="house" data-validate
+                                                                <input type="text" placeholder="Дом" name="house"
+                                                                       data-validate
                                                                        required>
                                                             </label>
                                                             <label class="form__field-wrap">
@@ -262,15 +279,18 @@
                                         <div class="sort-fieldset-radio">
                                             <input class="visually-hidden" id="payment-card" type="radio" name="payment"
                                                    required>
-                                            <label for="payment-card"><span class="custom-radio"></span>Оплата банковской картой</label>
-                                            <span class="payment-description">Оплата заказа картами Visa и MasterCard</span>
+                                            <label for="payment-card"><span class="custom-radio"></span>Оплата
+                                                банковской картой</label>
+                                            <span
+                                                class="payment-description">Оплата заказа картами Visa и MasterCard</span>
                                             <div class="pay-card-icon">
                                                 <span class="visa-icon"></span>
                                                 <span class="mc-icon"></span>
                                             </div>
                                         </div>
                                         <div class="sort-fieldset-radio">
-                                            <input class="visually-hidden" id="payment-yandex" type="radio" name="payment"
+                                            <input class="visually-hidden" id="payment-yandex" type="radio"
+                                                   name="payment"
                                                    required>
                                             <label for="payment-yandex"><span class="custom-radio"></span>Яндекс.Деньги</label>
                                             <span class="payment-description">Оплата заказа через сервис</span>
@@ -281,7 +301,8 @@
                                         <div class="sort-fieldset-radio">
                                             <input class="visually-hidden" id="payment-cash" type="radio" name="payment"
                                                    required>
-                                            <label for="payment-cash"><span class="custom-radio"></span>Наличными</label>
+                                            <label for="payment-cash"><span
+                                                class="custom-radio"></span>Наличными</label>
                                             <span class="payment-description">Оплата заказа наличными курьеру при доставке или продавцу в
                       магазине при самовывозе</span>
                                             <div class="pay-card-icon">
@@ -289,7 +310,8 @@
                                             </div>
                                         </div>
                                         <div class="sort-fieldset-radio">
-                                            <input class="visually-hidden" id="payment-credit" type="radio" name="payment"
+                                            <input class="visually-hidden" id="payment-credit" type="radio"
+                                                   name="payment"
                                                    required>
                                             <label for="payment-credit"><span class="custom-radio"></span>Кредит онлайн</label>
                                             <span class="payment-description">Оплата заказа через Банки</span>
@@ -308,7 +330,8 @@
                                             <img src="img/content/phone-cart.jpg" width="55" height="65" alt="айфон 8">
                                         </div>
                                         <div class="cart-products__name">
-                                            <p>Apple MacBook Air 13 дисплей Retina с технологией True Tone Mid 2019 MVFL2
+                                            <p>Apple MacBook Air 13 дисплей Retina с технологией True Tone Mid 2019
+                                                MVFL2
                                                 (i51600/8Gb/256Gb SSD)
                                                 EU</p>
                                             <small>Арт. 064206</small>
@@ -335,7 +358,8 @@
                                 <div class="cart-products__amount">
                                     <div class="cart-products__amount-top wrapper">
                                         <div class="cart-products__promo">
-                                            <button class="cart-products__promo-btn cart-products__promo-accept" type="button"
+                                            <button class="cart-products__promo-btn cart-products__promo-accept"
+                                                    type="button"
                                                     data-toggle-text="Удалить">Применить
                                             </button>
                                             <label class="cart-products__promo-btn cart-products__has-promo">
@@ -343,7 +367,8 @@
                                             </label>
                                         </div>
                                         <div class="cart-products__initial-price">
-                                            <span class="cart-products__amount-name">Товаров (<span>2</span>) на сумму</span>
+                                            <span
+                                                class="cart-products__amount-name">Товаров (<span>2</span>) на сумму</span>
                                             <span class="cart-products__amount-price">112 276₽</span>
                                         </div>
                                     </div>
@@ -354,11 +379,13 @@
                                     <div class="cart-products__amount-bottom wrapper">
                                         <div class="cart-products__total-wrap">Итого<span
                                             class="cart-products__total">99 999₽</span></div>
-                                        <button class="cart-products__btn-order btn btn-purple" type="submit">Оформить заказ
+                                        <button class="cart-products__btn-order btn btn-purple" type="submit">Оформить
+                                            заказ
                                         </button>
                                         <div class="cart-checkout__footer">
                                             <div>
-                                                <p>После осуществления заказа мы свяжемся с вами, чтобы уточнить все детали</p>
+                                                <p>После осуществления заказа мы свяжемся с вами, чтобы уточнить все
+                                                    детали</p>
                                                 <p>*Итоговая стоимость заказа рассчитана без учета стоимости доставки,
                                                     информацию о стоимости
                                                     доставки
@@ -367,7 +394,8 @@
                                             <div class="cart-checkout__links">
                                                 <a class="link" href="#" data-tab="offer" data-modal-open="help">Договор
                                                     оферты</a>
-                                                <a class="link" href="#" data-tab="ship" data-modal-open="help">Доставка и
+                                                <a class="link" href="#" data-tab="ship" data-modal-open="help">Доставка
+                                                    и
                                                     оплата</a>
                                                 <a class="link" href="#" data-tab="policy" data-modal-open="help">Политика
                                                     конфиденциальности</a>
@@ -406,8 +434,8 @@
 <script>
 export default {
     name: "Page-Cart1",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     }

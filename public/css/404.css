@@ -1,13 +1,13 @@
 @charset "UTF-8";
 @media (min-width: 1365px) {
   .body-min {
-    --header-height:130px;
+    --header-height: 130px;
   }
   .body-min .bread-crumbs {
     background: none;
   }
   .body-min .site-container {
-    --header-top-height:130px;
+    --header-top-height: 130px;
     grid-template-columns: 1fr;
     background-color: #f9f9f9;
   }

@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
         $this->call(ProductStatusessTableSeeder::class);
         $this->call(ProductFiltersTableSeeder::class);
         $counter = 1;
-        while($counter<20) {
+        while ($counter < 20) {
             $this->call(ProductsTableSeeder::class);
             $counter++;
         }

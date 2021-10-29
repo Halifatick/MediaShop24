@@ -13,8 +13,8 @@
     <link rel="icon" href="{{ asset('favicon.ico') }}">
     <link rel="icon" href="{{ asset('icon.svg') }}" type="image/svg+xml">
     <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
-    <link rel="preload" href="{{ asset('fonts/ttnorms-medium.woff2') }}" as="font" type="font/woff2" crossorigin="anonymous">
-
+    <link rel="preload" href="{{ asset('fonts/ttnorms-medium.woff2') }}" as="font" type="font/woff2"
+          crossorigin="anonymous">
     <script defer src="{{ asset('js/app.js') }}"></script>
     <script defer src="{{ asset('js/common.js') }}"></script>
     @yield('head-js')

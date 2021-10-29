@@ -15,7 +15,7 @@ Vue.use(Fragment.Plugin)
 
 import moment from 'moment';
 
-Vue.filter('myDate', function(date){
+Vue.filter('myDate', function (date) {
     moment.locale('ru');
     return moment(date).format("LL");
 });
@@ -23,11 +23,14 @@ Vue.filter('myDate', function(date){
 import VueSweetalert2 from 'vue-sweetalert2';
 // If you don't need the styles, do not connect
 import 'sweetalert2/dist/sweetalert2.min.css';
+
 Vue.use(VueSweetalert2);
 
 import VueTheMask from 'vue-the-mask'
+
 Vue.use(VueTheMask)
 import Swal from 'sweetalert2'
+
 window.Swal = Swal;
 const Toast = Swal.mixin({
     toast: true,
@@ -227,6 +230,7 @@ Vue.component('product-sub-categories', require('./components/PagesComponents/Pr
 //---------------------------------------------------------------------------------
 //---------------------------------------------------------------------------------
 import store from './store/index'
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

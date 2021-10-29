@@ -148,7 +148,8 @@
                                                @keyup="inputWords">
                                     </label>
                                     <div class="lk-form__buttons">
-                                        <button class="btn btn-purple lk-form__save" type="button" @click="profileUserPublic">
+                                        <button class="btn btn-purple lk-form__save" type="button"
+                                                @click="profileUserPublic">
                                             Сохранить
                                         </button>
                                         <button class="btn btn-white lk-form__cancel" type="reset">Отменить</button>
@@ -513,12 +514,12 @@ export default {
                 });
         },
         async inputWords() {
-            await $('body').on('input', '.input-words', function() {
+            await $('body').on('input', '.input-words', function () {
                 this.value = this.value.replace(/([^a-zA-Zа-яА-ЯёЁ\s]?|)/gi, '');
             })
         },
         async inputEmail() {
-            await $('body').on('input', '.input-email', function() {
+            await $('body').on('input', '.input-email', function () {
                 this.value = this.value.replace(/^(([^<>()[]\.,;:\s@"]+(.[^<>()[]\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/gi, '');
             })
         }

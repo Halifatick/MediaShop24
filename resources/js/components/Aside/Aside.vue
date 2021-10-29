@@ -18,8 +18,8 @@
 <script>
 export default {
     name: "Aside",
-    props:{
-        isIndex:{
+    props: {
+        isIndex: {
             type: Boolean,
             default: false
         }

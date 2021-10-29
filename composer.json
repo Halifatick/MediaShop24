@@ -10,28 +10,28 @@
     "require": {
         "php": "^7.4|^8.0",
         "ext-json": "*",
-        "fideloper/proxy": "^4.4",
-        "fruitcake/laravel-cors": "^2.0",
-        "guzzlehttp/guzzle": "^7.0.1",
-        "jhaoda/socialite-mailru": "^4.0",
-        "jhaoda/socialite-odnoklassniki": "^4.0",
-        "laravel-lang/lang": "~8.0",
-        "laravel/framework": "^8.40",
-        "laravel/tinker": "^2.5",
-        "laravel/ui": "^3.3",
-        "socialiteproviders/facebook": "^4.1",
-        "socialiteproviders/google": "^4.1",
-        "socialiteproviders/twitter": "^4.1",
-        "socialiteproviders/vkontakte": "^4.2",
-        "tcg/voyager": "^1.4"
+        "fideloper/proxy": "^4.4.1",
+        "fruitcake/laravel-cors": "^2.0.4",
+        "guzzlehttp/guzzle": "^7.4.0",
+        "jhaoda/socialite-mailru": "^4.0.0",
+        "jhaoda/socialite-odnoklassniki": "^4.0.0",
+        "laravel-lang/lang": "^10.1.8",
+        "laravel/framework": "^8.68.1",
+        "laravel/tinker": "^2.6.2",
+        "laravel/ui": "^3.3.0",
+        "socialiteproviders/facebook": "^4.1.0",
+        "socialiteproviders/google": "^4.1.0",
+        "socialiteproviders/twitter": "^4.1.1",
+        "socialiteproviders/vkontakte": "^4.2.2",
+        "tcg/voyager": "^1.5.1"
     },
     "require-dev": {
-        "facade/ignition": "^2.5",
-        "fakerphp/faker": "^1.9.1",
-        "laravel/sail": "^1.0.1",
-        "mockery/mockery": "^1.4.2",
-        "nunomaduro/collision": "^5.0",
-        "phpunit/phpunit": "^9.3.3"
+        "facade/ignition": "^2.16.0",
+        "fakerphp/faker": "^1.16.0",
+        "laravel/sail": "^1.12.2",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^5.10.0",
+        "phpunit/phpunit": "^9.5.10"
     },
     "autoload": {
         "psr-4": {

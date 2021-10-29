@@ -23,8 +23,8 @@
 export default {
     name: "LKNavLink",
     props: {
-        user:{
-            type:Object,
+        user: {
+            type: Object,
             default: null
         }
     },
@@ -33,7 +33,10 @@ export default {
             await axios.post('/logout').then(response => {
                 if (response.status === 302 || 401) {
                     location.reload()
-                } else {}}).catch(error => {});
+                } else {
+                }
+            }).catch(error => {
+            });
         }
     }
 }

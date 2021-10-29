@@ -64,24 +64,24 @@ export default {
             default: null
         },
     },
-    data(){
-        return{
-            products:[],
+    data() {
+        return {
+            products: [],
             id: null
         }
     },
-    methods:{
-        getProductsSimiliar(){
-            let categories = [...new Set(this.$store.state.cart.map(item=>item.category))]
-            axios.post('api/products/categories',{categories: categories}).then((response)=>{
+    methods: {
+        getProductsSimiliar() {
+            let categories = [...new Set(this.$store.state.cart.map(item => item.category))]
+            axios.post('api/products/categories', {categories: categories}).then((response) => {
                 this.products = response.data.products
             })
         },
-        getProductSubscribe(id){
+        getProductSubscribe(id) {
             this.id = id
         }
     },
-    created(){
+    created() {
         this.getProductsSimiliar()
         eventBus.$on('subscribeProduct', this.getProductSubscribe)
     }

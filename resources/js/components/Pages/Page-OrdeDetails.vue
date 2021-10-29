@@ -42,7 +42,8 @@
                                     <div class="lk-order-list">
                                         <div class="lk-order-list-item">
                                             <div class="img-wrap">
-                                                <img src="img/content/phone-cart.png" width="55" height="65" alt="айфон 8">
+                                                <img src="img/content/phone-cart.png" width="55" height="65"
+                                                     alt="айфон 8">
                                             </div>
                                             <div class="content-wrap">
                                                 <div class="name">
@@ -55,7 +56,8 @@
                                         </div>
                                         <div class="lk-order-list-item">
                                             <div class="img-wrap">
-                                                <img src="img/content/watch-cart.png" width="55" height="65" alt="айфон 8">
+                                                <img src="img/content/watch-cart.png" width="55" height="65"
+                                                     alt="айфон 8">
                                             </div>
                                             <div class="content-wrap">
                                                 <div class="name">
@@ -141,8 +143,8 @@
 <script>
 export default {
     name: "Page-OrdeDetails",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     },

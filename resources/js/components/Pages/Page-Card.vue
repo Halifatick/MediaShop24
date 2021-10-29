@@ -27,7 +27,8 @@
                                     <div class="tooltip-bonus">
                                         <div class="tooltip-bonus__inner">
                                             <b>Бесплатная доставка</b>
-                                            <p>Доставим ваш заказ бесплатно в любую точку России. <a href="#">Подробнее</a></p>
+                                            <p>Доставим ваш заказ бесплатно в любую точку России. <a
+                                                href="#">Подробнее</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -47,7 +48,8 @@
                                     </svg>
                                     <span></span>
                                 </button>
-                                <button class="product-card__icon icon-type-share" type="button" aria-label="поделиться">
+                                <button class="product-card__icon icon-type-share" type="button"
+                                        aria-label="поделиться">
                                     <svg width="16" height="16">
                                         <use href="#icon-share"></use>
                                     </svg>
@@ -138,9 +140,10 @@
                                     <div class="slider-pagination"></div>
                                 </div>
                                 <div class="preview-slider-navigation">
-                                    <button class="btn-slider preview-slider-btn-prev btn-slider--prev arrow arrow--left"
-                                            type="button"
-                                            aria-label="предыдущий слайд"></button>
+                                    <button
+                                        class="btn-slider preview-slider-btn-prev btn-slider--prev arrow arrow--left"
+                                        type="button"
+                                        aria-label="предыдущий слайд"></button>
                                     <div class="preview-slider-thumb slider-container">
                                         <div class="preview-slider-thumb__wrap swiper-wrapper">
                                             <div class="preview-slider-thumb__img swiper-slide">
@@ -230,7 +233,8 @@
                             <div class="card-preview__title">
                                 <small class="product-card__name">Смарт-часы</small>
                                 <small class="product-card__vendor-code">Арт. 064206</small>
-                                <p class="product-card-desc">Apple MacBook Air 13 дисплей Retina с технологией True Tone Mid
+                                <p class="product-card-desc">Apple MacBook Air 13 дисплей Retina с технологией True Tone
+                                    Mid
                                     2019 MVFL2
                                     (i51600/8Gb/256Gb SSD) EU (Уцененный)</p>
                                 <p class="card-preview__assets">В наличии</p>
@@ -273,11 +277,13 @@
                                 <div class="card-preview__buy-wrap">
                                     <button class="btn btn-purple product-card__buy add-to-cart" type="button"><span
                                         class="counter counter--red">В корзину</span></button>
-                                    <button class="btn btn-white product-card__buy product-card__buy-click" type="button"
+                                    <button class="btn btn-white product-card__buy product-card__buy-click"
+                                            type="button"
                                             data-modal-open="fast-order">Купить в один клик
                                     </button>
                                 </div>
-                                <a class="card-preview__credit" href="#"><span>В кредит/рассрочку&nbsp;</span>от&nbsp;<span>34
+                                <a class="card-preview__credit"
+                                   href="#"><span>В кредит/рассрочку&nbsp;</span>от&nbsp;<span>34
                   567&nbsp;</span> руб. в мес</a>
                             </div>
                             <div class="card-preview__footer">
@@ -292,10 +298,12 @@
                                 </div>
                                 <div class="card-preview__fieldset card-preview__fieldset--color">
                                     <input id="color-blue" type="radio" name="color" value="#2F9BFF" checked>
-                                    <label for="color-blue" class="card-preview__fieldset-item" aria-label="голубой цвет"
+                                    <label for="color-blue" class="card-preview__fieldset-item"
+                                           aria-label="голубой цвет"
                                            style="background-color: #2F9BFF"></label>
                                     <input id="color-violet" type="radio" name="color" value="#5F3EC0">
-                                    <label for="color-violet" class="card-preview__fieldset-item" aria-label="фиолетовый цвет"
+                                    <label for="color-violet" class="card-preview__fieldset-item"
+                                           aria-label="фиолетовый цвет"
                                            style="background-color: #5F3EC0"></label>
                                     <input id="color-red" type="radio" name="color" value="#D7364F">
                                     <label for="color-red" class="card-preview__fieldset-item" aria-label="красный цвет"
@@ -304,7 +312,8 @@
                                     <label for="color-gray" class="card-preview__fieldset-item" aria-label="серый цвет"
                                            style="background-color: #B4B4B4"></label>
                                     <input id="color-green" type="radio" name="color" value="#00C8AF">
-                                    <label for="color-green" class="card-preview__fieldset-item" aria-label="зеленый цвет"
+                                    <label for="color-green" class="card-preview__fieldset-item"
+                                           aria-label="зеленый цвет"
                                            style="background-color: #00C8AF"></label>
                                     <div class="card-preview__fieldset-title">
                                         <h3>Цвет товара:</h3>
@@ -325,13 +334,15 @@
                     </div>
                     <div class="card-preview__fixed">
                         <div class="card-preview__fixed-text">
-                            <p class="product-card-desc">Apple MacBook Air 13 дисплей Retina с технологией True Tone Mid 2019
+                            <p class="product-card-desc">Apple MacBook Air 13 дисплей Retina с технологией True Tone Mid
+                                2019
                                 MVFL2
                                 (i51600/8Gb/256Gb SSD) EU (Уцененный)</p>
                             <b class="product-card__price">32 230₽</b>
                         </div>
                         <div class="card-preview__fixed-buy">
-                            <button class="btn btn-white product-card__buy fixed-buy-click" type="button">Купить в один клик
+                            <button class="btn btn-white product-card__buy fixed-buy-click" type="button">Купить в один
+                                клик
                             </button>
                             <button class="btn btn-purple product-card__buy add-to-cart" type="button"><span
                                 class="counter counter--red">В корзину</span></button>
@@ -340,7 +351,8 @@
                 </div>
                 <div class="card-special">
                     <div class="card-special__col">
-                        <h3 class="card-special__title">Доставка в <span data-modal-open="location"> Санкт-Петербург</span>
+                        <h3 class="card-special__title">Доставка в <span
+                            data-modal-open="location"> Санкт-Петербург</span>
                             <svg width="24" height="24">
                                 <use href="#icon-location"></use>
                             </svg>
@@ -397,12 +409,14 @@
                                                         srcset="img/content/watch.webp 1x, img/content/watch@2x.webp 2x">
                                                 <img class=content-img src="img/content/watch.jpg"
                                                      srcset="img/content/watch@2x.jpg 2x"
-                                                     width="165" height="108" alt="apple watch" loading=lazy decoding=async>
+                                                     width="165" height="108" alt="apple watch" loading=lazy
+                                                     decoding=async>
                                             </picture>
                                         </div>
                                         <div class="set-cards__info">
                                             <small class="set-cards__name">Смарт-часы</small>
-                                            <p class="set-cards__desc product-card-desc">Apple Watch 5 series 44mm+ремешек
+                                            <p class="set-cards__desc product-card-desc">Apple Watch 5 series
+                                                44mm+ремешек
                                                 HERMES, макс. может
                                                 быть в 3 строки для длинных названий</p>
                                             <s class="set-cards__old-price">53 999₽</s>
@@ -423,7 +437,8 @@
                                         </div>
                                         <div class="set-cards__info">
                                             <small class="set-cards__name">Смарт-часы</small>
-                                            <p class="set-cards__desc product-card-desc">Apple Watch 5 series 44mm+ремешек
+                                            <p class="set-cards__desc product-card-desc">Apple Watch 5 series
+                                                44mm+ремешек
                                                 HERMES, макс. может
                                                 быть в 3 строки для длинных названий</p>
                                             <s class="set-cards__old-price">53 999₽</s>
@@ -435,8 +450,9 @@
                                             <b class="set-cards__price">32 230₽</b>
                                             <s class="set-cards__old-price">53 999₽</s>
                                         </div>
-                                        <button class="set-cards__btn set-cards__btn--complex btn btn-purple add-to-cart"
-                                                type="button">
+                                        <button
+                                            class="set-cards__btn set-cards__btn--complex btn btn-purple add-to-cart"
+                                            type="button">
                                             <svg width="24" height="24">
                                                 <use href="#icon-cart"></use>
                                             </svg>
@@ -458,7 +474,8 @@
                                         <div data-vendor-code="64201" class="product-card">
                                             <div class="product-card__bonuses">
                                                 <div class="bonus-icon priority-4">
-                                                    <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/delivery.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                                 <div class="bonus-icon priority-3">
                                                     <img src="img/content/icon/black-friday.svg" width="70" height="70"
@@ -489,7 +506,8 @@
                                                  data-empty="Товар на фотосессии"></div>
                                             <div class="product-card__info">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <p class="product-card__assets">Нет в наличии</p>
@@ -505,13 +523,16 @@
                                         <div data-vendor-code="64202" class="product-card">
                                             <div class="product-card__bonuses">
                                                 <div class="bonus-icon priority-5">
-                                                    <img src="img/content/icon/gift.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/gift.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                                 <div class="bonus-icon priority-0">
-                                                    <img src="img/content/icon/new.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/new.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                                 <div class="bonus-icon priority-1">
-                                                    <img src="img/content/icon/sale.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/sale.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                             </div>
                                             <div class="product-card__icons">
@@ -536,14 +557,16 @@
                                                     <source type="image/webp"
                                                             srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                                     <img class=content-img src="img/content/phone-small.jpg"
-                                                         srcset="img/content/phone-small@2x.jpg 2x" width="179" height="108"
+                                                         srcset="img/content/phone-small@2x.jpg 2x" width="179"
+                                                         height="108"
                                                          alt="Sumsung phone"
                                                          loading=lazy decoding=async>
                                                 </picture>
                                             </div>
                                             <div class="product-card__info">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <s class="product-card__old-price">53 999₽</s>
@@ -568,7 +591,8 @@
                                         <div data-vendor-code="64203" class="product-card">
                                             <div class="product-card__bonuses">
                                                 <div class="bonus-icon priority-1">
-                                                    <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/stock.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                                 <div class="bonus-icon priority-3">
                                                     <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
@@ -601,12 +625,14 @@
                                                             srcset="img/content/watch.webp 1x, img/content/watch@2x.webp 2x">
                                                     <img class=content-img src="img/content/watch.jpg"
                                                          srcset="img/content/watch@2x.jpg 2x"
-                                                         width="179" height="108" alt="Apple watch" loading=lazy decoding=async>
+                                                         width="179" height="108" alt="Apple watch" loading=lazy
+                                                         decoding=async>
                                                 </picture>
                                             </div>
                                             <div class="product-card__info">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <s class="product-card__old-price">53 999₽</s>
@@ -631,7 +657,8 @@
                                         <div data-vendor-code="64204" class="product-card">
                                             <div class="product-card__bonuses">
                                                 <div class="bonus-icon priority-4">
-                                                    <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/delivery.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                                 <div class="bonus-icon priority-3">
                                                     <img src="img/content/icon/black-friday.svg" width="70" height="70"
@@ -664,14 +691,16 @@
                                                     <source type="image/webp"
                                                             srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                                     <img class=content-img src="img/content/phone-small.jpg"
-                                                         srcset="img/content/phone-small@2x.jpg 2x" width="179" height="108"
+                                                         srcset="img/content/phone-small@2x.jpg 2x" width="179"
+                                                         height="108"
                                                          alt="Sumsung phone"
                                                          loading=lazy decoding=async>
                                                 </picture>
                                             </div>
                                             <div class="product-card__info">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <s class="product-card__old-price">53 999₽</s>
@@ -696,13 +725,16 @@
                                         <div data-vendor-code="64205" class="product-card">
                                             <div class="product-card__bonuses">
                                                 <div class="bonus-icon priority-5">
-                                                    <img src="img/content/icon/gift.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/gift.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                                 <div class="bonus-icon priority-0">
-                                                    <img src="img/content/icon/new.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/new.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                                 <div class="bonus-icon priority-1">
-                                                    <img src="img/content/icon/sale.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/sale.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                             </div>
                                             <div class="product-card__icons">
@@ -728,12 +760,14 @@
                                                             srcset="img/content/watch.webp 1x, img/content/watch@2x.webp 2x">
                                                     <img class=content-img src="img/content/watch.jpg"
                                                          srcset="img/content/watch@2x.jpg 2x"
-                                                         width="179" height="108" alt="Apple watch" loading=lazy decoding=async>
+                                                         width="179" height="108" alt="Apple watch" loading=lazy
+                                                         decoding=async>
                                                 </picture>
                                             </div>
                                             <div class="product-card__info">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <s class="product-card__old-price">53 999₽</s>
@@ -758,7 +792,8 @@
                                         <div data-vendor-code="64206" class="product-card">
                                             <div class="product-card__bonuses">
                                                 <div class="bonus-icon priority-1">
-                                                    <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/stock.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                                 <div class="bonus-icon priority-3">
                                                     <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
@@ -790,14 +825,16 @@
                                                     <source type="image/webp"
                                                             srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                                     <img class=content-img src="img/content/phone-small.jpg"
-                                                         srcset="img/content/phone-small@2x.jpg 2x" width="179" height="108"
+                                                         srcset="img/content/phone-small@2x.jpg 2x" width="179"
+                                                         height="108"
                                                          alt="Sumsung phone"
                                                          loading=lazy decoding=async>
                                                 </picture>
                                             </div>
                                             <div class="product-card__info">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <s class="product-card__old-price">53 999₽</s>
@@ -822,7 +859,8 @@
                                         <div data-vendor-code="64207" class="product-card">
                                             <div class="product-card__bonuses">
                                                 <div class="bonus-icon priority-4">
-                                                    <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/delivery.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                                 <div class="bonus-icon priority-3">
                                                     <img src="img/content/icon/black-friday.svg" width="70" height="70"
@@ -856,12 +894,14 @@
                                                             srcset="img/content/watch.webp 1x, img/content/watch@2x.webp 2x">
                                                     <img class=content-img src="img/content/watch.jpg"
                                                          srcset="img/content/watch@2x.jpg 2x"
-                                                         width="179" height="108" alt="Apple watch" loading=lazy decoding=async>
+                                                         width="179" height="108" alt="Apple watch" loading=lazy
+                                                         decoding=async>
                                                 </picture>
                                             </div>
                                             <div class="product-card__info">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <s class="product-card__old-price">53 999₽</s>
@@ -886,13 +926,16 @@
                                         <div data-vendor-code="64208" class="product-card">
                                             <div class="product-card__bonuses">
                                                 <div class="bonus-icon priority-5">
-                                                    <img src="img/content/icon/gift.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/gift.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                                 <div class="bonus-icon priority-0">
-                                                    <img src="img/content/icon/new.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/new.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                                 <div class="bonus-icon priority-1">
-                                                    <img src="img/content/icon/sale.svg" width="70" height="70" alt="бонус">
+                                                    <img src="img/content/icon/sale.svg" width="70" height="70"
+                                                         alt="бонус">
                                                 </div>
                                             </div>
                                             <div class="product-card__icons">
@@ -917,14 +960,16 @@
                                                     <source type="image/webp"
                                                             srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                                     <img class=content-img src="img/content/phone-small.jpg"
-                                                         srcset="img/content/phone-small@2x.jpg 2x" width="179" height="108"
+                                                         srcset="img/content/phone-small@2x.jpg 2x" width="179"
+                                                         height="108"
                                                          alt="Sumsung phone"
                                                          loading=lazy decoding=async>
                                                 </picture>
                                             </div>
                                             <div class="product-card__info">
                                                 <small class="product-card__name">Смарт-часы</small>
-                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES,
+                                                    макс.
                                                     может быть в 3 строки
                                                     для длинных названий</p>
                                                 <s class="product-card__old-price">53 999₽</s>
@@ -957,94 +1002,124 @@
                                 О товаре
                             </h3>
                             <div class="accordion__content card-main__accordion-content ">
-                                <strong class="card-main__product-name">Apple MacBook Air 13 дисплей Retina с технологией True
+                                <strong class="card-main__product-name">Apple MacBook Air 13 дисплей Retina с
+                                    технологией True
                                     Tone Mid
                                     2019 MVFL2 (i51600/8Gb/256Gb SSD) EU (Уцененный)</strong>
                                 <div class="card-main__text-block">
                                     <b>НИЧЕГО ЛИШНЕГО. ТОЛЬКО САМОЕ</b>
-                                    <p>Новая система двух камер не оставит никого из ваших друзей за кадром. Самый быстрый
+                                    <p>Новая система двух камер не оставит никого из ваших друзей за кадром. Самый
+                                        быстрый
                                         процессор iPhone
-                                        и мощный аккумулятор позволят больше делать и тратить меньше времени на подзарядку. А
+                                        и мощный аккумулятор позволят больше делать и тратить меньше времени на
+                                        подзарядку. А
                                         высочайшее
-                                        качество видео на iPhone означает, что ваши истории станут еще ярче и детальнее.</p>
+                                        качество видео на iPhone означает, что ваши истории станут еще ярче и
+                                        детальнее.</p>
                                 </div>
                                 <div class="card-main__text-block">
                                     <b>ПЛОХОЕ ФОТО? НЕ ВЫЙДЕТ</b>
-                                    <p>Новая система двух камер. Можно делать фотоснимки с широким и сверхшироким углом обзора.
+                                    <p>Новая система двух камер. Можно делать фотоснимки с широким и сверхшироким углом
+                                        обзора.
                                         Обновленный
-                                        интерфейс и новая сверхширокоугольная камера позволят увидеть и снять то, что происходит
+                                        интерфейс и новая сверхширокоугольная камера позволят увидеть и снять то, что
+                                        происходит
                                         за пределами
-                                        кадра. Снимать и редактировать видеоролики теперь так же легко, как фотографии. Это
+                                        кадра. Снимать и редактировать видеоролики теперь так же легко, как фотографии.
+                                        Это
                                         по-прежнему
                                         невероятно популярная камера, но с совершенно новыми перспективами.</p>
                                 </div>
                                 <div class="card-main__text-block">
                                     <b>СНИМАЙТЕ ВИДЕО ВЫСОЧАЙШЕГО КАЧЕСТВА. И РЕДАКТИРУЙТЕ ЕГО</b>
-                                    <p>На все камеры iPhone 11 можно снимать невероятно четкое видео 4K с частотой 60 кадров/﻿с.
+                                    <p>На все камеры iPhone 11 можно снимать невероятно четкое видео 4K с частотой 60
+                                        кадров/﻿с.
                                         С
-                                        объективом сверхширокоугольной камеры область изображения в четыре раза больше. Поэтому
+                                        объективом сверхширокоугольной камеры область изображения в четыре раза больше.
+                                        Поэтому
                                         камера
-                                        отлично подходит для съемки сцен с движением - например, как ваша собака гоняется за
+                                        отлично подходит для съемки сцен с движением - например, как ваша собака
+                                        гоняется за
                                         мячом. А если,
-                                        скажем, вы записываете выступление ребенка на концерте и приближаете изображение, звук
+                                        скажем, вы записываете выступление ребенка на концерте и приближаете
+                                        изображение, звук
                                         приближается
                                         тоже. Кроме того, редактировать видео теперь так же легко, как фото. </p>
                                 </div>
                                 <div class="card-main__text-block">
                                     <b>НОВАЯ СВЕРХШИРОКОУГОЛЬНАЯ КАМЕРА</b>
-                                    <p>Снимайте с размахом - с новой сверхширокоугольной камерой область изображения в четыре
+                                    <p>Снимайте с размахом - с новой сверхширокоугольной камерой область изображения в
+                                        четыре
                                         раза больше. В
-                                        кадр поместится все. Бескрайние пейзажи. Сцена вместе со зрителями на музыкальном
+                                        кадр поместится все. Бескрайние пейзажи. Сцена вместе со зрителями на
+                                        музыкальном
                                         фестивале. Вся семья
-                                        на фоне умопомрачительных видов, ради которых вы пролетели тысячи километров. </p>
+                                        на фоне умопомрачительных видов, ради которых вы пролетели тысячи
+                                        километров. </p>
                                 </div>
                                 <div class="card-main__text-block">
                                     <b>НИЧЕГО ЛИШНЕГО. ТОЛЬКО САМОЕ</b>
-                                    <p>Новая система двух камер не оставит никого из ваших друзей за кадром. Самый быстрый
+                                    <p>Новая система двух камер не оставит никого из ваших друзей за кадром. Самый
+                                        быстрый
                                         процессор iPhone
-                                        и мощный аккумулятор позволят больше делать и тратить меньше времени на подзарядку. А
+                                        и мощный аккумулятор позволят больше делать и тратить меньше времени на
+                                        подзарядку. А
                                         высочайшее
-                                        качество видео на iPhone означает, что ваши истории станут еще ярче и детальнее. </p>
+                                        качество видео на iPhone означает, что ваши истории станут еще ярче и
+                                        детальнее. </p>
                                 </div>
                                 <div class="card-main__text-block">
                                     <b>ПЛОХОЕ ФОТО? НЕ ВЫЙДЕТ</b>
-                                    <p>Новая система двух камер. Можно делать фотоснимки с широким и сверхшироким углом обзора.
+                                    <p>Новая система двух камер. Можно делать фотоснимки с широким и сверхшироким углом
+                                        обзора.
                                         Обновленный
-                                        интерфейс и новая сверхширокоугольная камера позволят увидеть и снять то, что происходит
+                                        интерфейс и новая сверхширокоугольная камера позволят увидеть и снять то, что
+                                        происходит
                                         за пределами
-                                        кадра. Снимать и редактировать видеоролики теперь так же легко, как фотографии. Это
+                                        кадра. Снимать и редактировать видеоролики теперь так же легко, как фотографии.
+                                        Это
                                         по-прежнему
                                         невероятно популярная камера, но с совершенно новыми перспективами. </p>
                                 </div>
                                 <div class="card-main__text-block">
                                     <b>СНИМАЙТЕ ВИДЕО ВЫСОЧАЙШЕГО КАЧЕСТВА. И РЕДАКТИРУЙТЕ ЕГО</b>
-                                    <p>На все камеры iPhone 11 можно снимать невероятно четкое видео 4K с частотой 60 кадров/﻿с.
+                                    <p>На все камеры iPhone 11 можно снимать невероятно четкое видео 4K с частотой 60
+                                        кадров/﻿с.
                                         С
-                                        объективом сверхширокоугольной камеры область изображения в четыре раза больше. Поэтому
+                                        объективом сверхширокоугольной камеры область изображения в четыре раза больше.
+                                        Поэтому
                                         камера
-                                        отлично подходит для съемки сцен с движением - например, как ваша собака гоняется за
+                                        отлично подходит для съемки сцен с движением - например, как ваша собака
+                                        гоняется за
                                         мячом. А если,
-                                        скажем, вы записываете выступление ребенка на концерте и приближаете изображение, звук
+                                        скажем, вы записываете выступление ребенка на концерте и приближаете
+                                        изображение, звук
                                         приближается
-                                        тоже. Кроме того, редактировать видео теперь так же легко, как фото. На все камеры
+                                        тоже. Кроме того, редактировать видео теперь так же легко, как фото. На все
+                                        камеры
                                         iPhone 11 можно
                                         снимать невероятно четкое видео 4K с частотой 60 кадров/﻿с. С объективом
                                         сверхширокоугольной камеры
-                                        область изображения в четыре раза больше. Поэтому камера отлично подходит для съемки
+                                        область изображения в четыре раза больше. Поэтому камера отлично подходит для
+                                        съемки
                                         сцен с движением
                                         - например, как ваша собака гоняется за мячом. А если, скажем, вы записываете
                                         выступление ребенка на
-                                        концерте и приближаете изображение, звук приближается тоже. Кроме того, редактировать
+                                        концерте и приближаете изображение, звук приближается тоже. Кроме того,
+                                        редактировать
                                         видео теперь так
                                         же легко, как фото.</p>
                                 </div>
                                 <div class="card-main__text-block">
                                     <b>НОВАЯ СВЕРХШИРОКОУГОЛЬНАЯ КАМЕРА</b>
-                                    <p>Снимайте с размахом - с новой сверхширокоугольной камерой область изображения в четыре
+                                    <p>Снимайте с размахом - с новой сверхширокоугольной камерой область изображения в
+                                        четыре
                                         раза больше. В
-                                        кадр поместится все. Бескрайние пейзажи. Сцена вместе со зрителями на музыкальном
+                                        кадр поместится все. Бескрайние пейзажи. Сцена вместе со зрителями на
+                                        музыкальном
                                         фестивале. Вся семья
-                                        на фоне умопомрачительных видов, ради которых вы пролетели тысячи километров. </p>
+                                        на фоне умопомрачительных видов, ради которых вы пролетели тысячи
+                                        километров. </p>
                                 </div>
                             </div>
                             <h3 class="card-main__accordion-title accordion__title arrow arrow--down " id=features-tab>
@@ -1054,7 +1129,8 @@
                                 <h4>Связь</h4>
                                 <dl class="card-main__features">
                                     <dt>Спутниковая навигация</dt>
-                                    <dd>Встроенный модуль GPS/ГЛОНАСС / Цифровой компас / Wi-Fi / Сотовая связь / Функция
+                                    <dd>Встроенный модуль GPS/ГЛОНАСС / Цифровой компас / Wi-Fi / Сотовая связь /
+                                        Функция
                                         точного
                                         определения местоположения iBeacon
                                     </dd>
@@ -1068,16 +1144,20 @@
                                 <h4>Питание</h4>
                                 <dl class="card-main__features">
                                     <dt>Время работы</dt>
-                                    <dd>Работает без подзарядки до 4 часов дольше, чем iPhone XS / Воспроизведение видео по
+                                    <dd>Работает без подзарядки до 4 часов дольше, чем iPhone XS / Воспроизведение видео
+                                        по
                                         беспроводной
-                                        сети: до 18 часов / Просмотр видео в режиме стриминга по беспроводной сети: до 11 часов
+                                        сети: до 18 часов / Просмотр видео в режиме стриминга по беспроводной сети: до
+                                        11 часов
                                         /
                                         Воспроизведение аудио по беспроводной сети: до 65 часов
                                     </dd>
                                     <dt>Время зарядки</dt>
-                                    <dd>Возможность быстрой зарядки (до 50% заряда за 30 минут при использовании адаптера
+                                    <dd>Возможность быстрой зарядки (до 50% заряда за 30 минут при использовании
+                                        адаптера
                                         мощностью 18 Вт
-                                        или выше) / Беспроводная зарядка (поддерживаются зарядные устройства стандарта Qi) /
+                                        или выше) / Беспроводная зарядка (поддерживаются зарядные устройства стандарта
+                                        Qi) /
                                         Зарядка от
                                         адаптера питания или через USB-порт компьютера
                                     </dd>
@@ -1087,7 +1167,8 @@
                                     <dt>Диагональ дисплея</dt>
                                     <dd>5,8 дюйма (фактическая область просмотра меньше)</dd>
                                     <dt>Разрешение дисплея</dt>
-                                    <dd>2436×1125 пикселя, 458 пикселей на дюйм / Контрастность 2 000 000:1 (стандартная) /
+                                    <dd>2436×1125 пикселя, 458 пикселей на дюйм / Контрастность 2 000 000:1
+                                        (стандартная) /
                                         Яркость до 800
                                         кд/м² (стандартная), до 1200 кд/м² при просмотре контента в формате HDR
                                     </dd>
@@ -1099,35 +1180,48 @@
                                         Сверхширокоугольная:
                                         диафрагма ƒ/2.4 и угол обзора 120° / Широкоугольная: диафрагма ƒ/1.8 / Телефото:
                                         диафрагма ƒ/2.0 /
-                                        Двукратный оптический зум на увеличение; двукратный оптический зум на уменьшение;
+                                        Двукратный оптический зум на увеличение; двукратный оптический зум на
+                                        уменьшение;
                                         цифровой зум (до 10
                                         раз для фото, до 6 раз для видео) / Режим «Портрет» с улучшенным эффектом боке и
                                         функцией «Глубина» /
-                                        Режим «Таймлапс» со стабилизацией изображения / Портретное освещение (шесть вариантов:
+                                        Режим «Таймлапс» со стабилизацией изображения / Портретное освещение (шесть
+                                        вариантов:
                                         Дневной свет,
-                                        Студийный свет, Контурный свет, Сценический свет, Сценический свет — ч/б, Светлая
+                                        Студийный свет, Контурный свет, Сценический свет, Сценический свет — ч/б,
+                                        Светлая
                                         тональность — ч/б) /
-                                        Двойная оптическая стабилизация изображения при фото и видеосъёмке (широкоугольная
+                                        Двойная оптическая стабилизация изображения при фото и видеосъёмке
+                                        (широкоугольная
                                         камера и
                                         телефотокамера) / Автоматическая стабилизация изображения / Кинематографическая
                                         стабилизация видео
-                                        (4K, 1080p и 720p) / Пятилинзовый объектив (сверхширокоугольная камера); шестилинзовый
+                                        (4K, 1080p и 720p) / Пятилинзовый объектив (сверхширокоугольная камера);
+                                        шестилинзовый
                                         объектив
-                                        (широкоугольная камера и телефото) / Более яркая вспышка True Tone с функцией Slow Sync
+                                        (широкоугольная камера и телефото) / Более яркая вспышка True Tone с функцией
+                                        Slow Sync
                                         / Панорамная
-                                        съёмка (с разрешением до 63 Мп) / Поддержка Focus Pixels на всей матрице (широкоугольная
+                                        съёмка (с разрешением до 63 Мп) / Поддержка Focus Pixels на всей матрице
+                                        (широкоугольная
                                         камера) /
-                                        Расширенный динамический диапазон при съёмке видео с частотой до 60 кадров﻿/﻿с / Ночной
+                                        Расширенный динамический диапазон при съёмке видео с частотой до 60 кадров﻿/﻿с /
+                                        Ночной
                                         режим /
-                                        Автокоррекция / Следящий автофокус / Функция Smart HDR нового поколения для фото /
+                                        Автокоррекция / Следящий автофокус / Функция Smart HDR нового поколения для фото
+                                        /
                                         Широкий цветовой
-                                        диапазон для фотографий и Live Photos / Передовая система устранения эффекта красных
+                                        диапазон для фотографий и Live Photos / Передовая система устранения эффекта
+                                        красных
                                         глаз / Привязка
-                                        фотографий к месту съёмки / Серийная съёмка / Возможность съёмки фотографий 8 Мп во
+                                        фотографий к месту съёмки / Серийная съёмка / Возможность съёмки фотографий 8 Мп
+                                        во
                                         время записи видео
-                                        4К / Функция QuickTake для быстрого переключения в режим видео с отслеживанием объекта
+                                        4К / Функция QuickTake для быстрого переключения в режим видео с отслеживанием
+                                        объекта
                                         съёмки /
-                                        Форматы изображений: HEIF и JPEG / Форматы HEVC и H.264 / Стереозвук / Аудиозум /
+                                        Форматы изображений: HEIF и JPEG / Форматы HEVC и H.264 / Стереозвук / Аудиозум
+                                        /
                                         Увеличение при
                                         воспроизведении
                                     </dd>
@@ -1138,10 +1232,12 @@
                                 Отзывы
                                 <sup class="title-counter">7</sup>
                             </h3>
-                            <div class="accordion__content card-main__accordion-content card-main__accordion-content--feedback">
+                            <div
+                                class="accordion__content card-main__accordion-content card-main__accordion-content--feedback">
                                 <comment-main></comment-main>
 
-                                <button class="card-main__show-more arrow arrow--down" type="button">Показать больше</button>
+                                <button class="card-main__show-more arrow arrow--down" type="button">Показать больше
+                                </button>
                                 <button class="card-main__show-all" type="button">Посмотреть все отзывы</button>
                                 <div class="pagination card-main__pagination">
                                     <a href="#!" aria-current="location">1</a>
@@ -1173,10 +1269,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__icons">
@@ -1195,10 +1293,12 @@
                                             <span></span>
                                         </button>
                                     </div>
-                                    <div class="product-card__img fast-order-img" data-empty="Товар на фотосессии"></div>
+                                    <div class="product-card__img fast-order-img"
+                                         data-empty="Товар на фотосессии"></div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <p class="product-card__assets">Нет в наличии</p>
@@ -1246,12 +1346,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1280,7 +1382,8 @@
                                             <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-2">
                                             <span class="bonus-discount">-80%</span>
@@ -1314,7 +1417,8 @@
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1343,10 +1447,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__icons">
@@ -1372,12 +1478,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1440,7 +1548,8 @@
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1469,7 +1578,8 @@
                                             <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-2">
                                             <span class="bonus-discount">-80%</span>
@@ -1498,12 +1608,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1532,10 +1644,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__icons">
@@ -1566,7 +1680,8 @@
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1624,12 +1739,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1671,10 +1788,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__icons">
@@ -1693,10 +1812,12 @@
                                             <span></span>
                                         </button>
                                     </div>
-                                    <div class="product-card__img fast-order-img" data-empty="Товар на фотосессии"></div>
+                                    <div class="product-card__img fast-order-img"
+                                         data-empty="Товар на фотосессии"></div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <p class="product-card__assets">Нет в наличии</p>
@@ -1744,12 +1865,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1778,7 +1901,8 @@
                                             <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-2">
                                             <span class="bonus-discount">-80%</span>
@@ -1812,7 +1936,8 @@
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1841,10 +1966,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__icons">
@@ -1870,12 +1997,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1938,7 +2067,8 @@
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -1967,7 +2097,8 @@
                                             <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-2">
                                             <span class="bonus-discount">-80%</span>
@@ -1996,12 +2127,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -2030,10 +2163,12 @@
                                             <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-3">
-                                            <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                         <div class="bonus-icon priority-0">
-                                            <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                            <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                 alt="бонус">
                                         </div>
                                     </div>
                                     <div class="product-card__icons">
@@ -2064,7 +2199,8 @@
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -2122,12 +2258,14 @@
                                                     srcset="img/content/phone-small.webp 1x, img/content/phone-small@2x.webp 2x">
                                             <img class=content-img src="img/content/phone-small.jpg"
                                                  srcset="img/content/phone-small@2x.jpg 2x"
-                                                 width="179" height="108" alt="Sumsung phone" loading=lazy decoding=async>
+                                                 width="179" height="108" alt="Sumsung phone" loading=lazy
+                                                 decoding=async>
                                         </picture>
                                     </div>
                                     <div class="product-card__info">
                                         <small class="product-card__name">Смарт-часы</small>
-                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может быть
+                                        <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                            может быть
                                             в 3 строки для
                                             длинных названий</p>
                                         <s class="product-card__old-price">53 999₽</s>
@@ -2232,8 +2370,8 @@
 <script>
 export default {
     name: "Page-Card",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     }

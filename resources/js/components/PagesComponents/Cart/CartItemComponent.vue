@@ -1,4 +1,3 @@
-
 <template>
     <fragment>
         <div class="cart-products__img">
@@ -12,7 +11,7 @@
             <div class="order-element-count" :key="cart_data.quantity">
                 <button class="order-element__btn" @click="totalDecrease" type="button">-
                 </button>
-                <span class="order-element__total" >{{cart_data.quantity }}</span>
+                <span class="order-element__total">{{ cart_data.quantity }}</span>
                 <button class="order-element__btn" @click="totalIncrease" type="button">+
                 </button>
             </div>
@@ -48,22 +47,22 @@ export default {
     methods: {
         totalDecrease() {
             this.$store.commit('removeItemFromCart', this.cart_data);
-            axios.get('/update/cart/'+this.cart_data.id);
+            axios.get('/update/cart/' + this.cart_data.id);
         },
         totalIncrease() {
             this.$store.commit('addToCart', this.cart_data);
-            axios.get('/add/cart/'+this.cart_data.id);
+            axios.get('/add/cart/' + this.cart_data.id);
         },
-        addToFavourite(){
+        addToFavourite() {
             this.$store.commit('addToFavourite', this.cart_data);
         },
-        removeItem(){
+        removeItem() {
             this.$store.commit('removeFromCart', this.cart_data);
-            axios.post('/delete/cart/', {'id':this.cart_data.id});
+            axios.post('/delete/cart/', {'id': this.cart_data.id});
         }
     },
-    computed:{
-        isFavourite(){
+    computed: {
+        isFavourite() {
             return this.$store.getters.getIsFavourite(this.cart_data);
         }
     }

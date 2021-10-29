@@ -1,8 +1,7 @@
-
 <template>
     <section class="cart">
         <h1 class="cart__title cart__title-product title wrapper">Корзина</h1>
-        <div class="cart-products" >
+        <div class="cart-products">
             <div class="cart-products__preview">
                 <div class="cart-products__list">
                     <div class="cart-products__caption">
@@ -36,14 +35,15 @@
                         </div>
                         <div class="cart-products__initial-price">
                             <span class="cart-products__amount-name">Товаров (<span>{{ $store.state.cartCount }}</span>) на сумму</span>
-                            <span class="cart-products__amount-price">{{totalPrice + totalDiscount}}₽</span>
+                            <span class="cart-products__amount-price">{{ totalPrice + totalDiscount }}₽</span>
                         </div>
                     </div>
-                    <div class="cart-products__amount-middle">Скидка<s>{{totalDiscount}}₽</s></div>
+                    <div class="cart-products__amount-middle">Скидка<s>{{ totalDiscount }}₽</s></div>
                     <div class="cart-products__amount-bottom wrapper">
                         <div class="cart-products__total-wrap">Итого<span
                             class="cart-products__total">{{ totalPrice }}₽</span></div>
-                        <button class="cart-products__btn-order btn btn-purple" type="button" @click="makeOrder()">Перейти к оформлению
+                        <button class="cart-products__btn-order btn btn-purple" type="button" @click="makeOrder()">
+                            Перейти к оформлению
                         </button>
                         <p>Оформляя заказ вы подтверждаете свое согласие с нашими <a
                             class="link cart-products__condition"
@@ -62,11 +62,12 @@
 
 <script>
 import CartItemComponent from "./CartItemComponent";
+
 export default {
     name: "CartListComponent",
-    components: { CartItemComponent},
+    components: {CartItemComponent},
 
-    computed:{
+    computed: {
         totalPrice() {
             let total = 0;
             for (let item of this.$store.state.cart) {
@@ -74,11 +75,11 @@ export default {
             }
             return total;
         },
-        totalDiscount(){
+        totalDiscount() {
             let discount = 0;
 
             for (let item of this.$store.state.cart) {
-                if(item.previous_price>item.new_price) {
+                if (item.previous_price > item.new_price) {
                     discount += (item.previous_price - item.new_price) * item.quantity;
                 }
             }
@@ -87,12 +88,12 @@ export default {
 
     },
 
-    methods:{
-        clearAll(){
-            axios.post('/delete/cart', {'id':0})
+    methods: {
+        clearAll() {
+            axios.post('/delete/cart', {'id': 0})
             this.$store.commit('clearCart');
         },
-        makeOrder(){
+        makeOrder() {
             window.location.href = '/cart1'
         }
     }

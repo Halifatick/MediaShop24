@@ -13,7 +13,7 @@
                      alt="бонус">
             </div>
             <div v-if="product.previous_price>0" class="bonus-icon priority-2">
-                <span class="bonus-discount">-{{getDiscountProcent()}}%</span>
+                <span class="bonus-discount">-{{ getDiscountProcent() }}%</span>
             </div>
         </div>
         <div v-if="!JSON.parse(product.images).main.length>0" class="product-card__img fast-order-img"
@@ -31,7 +31,7 @@
         <div class="product-card__info">
             <div class="catalog__wrap-cont">
                 <div class="catalog__wrap-title">
-                    <small class="product-card__name">{{product.category}}</small>
+                    <small class="product-card__name">{{ product.category }}</small>
                     <p class="product-card-desc">{{ product.title }}</p>
                     <div class="catalog__product-rating">
                         <div class="star-rating star-rating--5"></div>
@@ -40,8 +40,8 @@
                 </div>
                 <dl class="catalog__product-features">
                     <fragment v-for="filter in product.filters.slice(0, 4)">
-                        <dt>{{filter.subcategory}}</dt>
-                        <dd>{{filter.filter}}</dd>
+                        <dt>{{ filter.subcategory }}</dt>
+                        <dd>{{ filter.filter }}</dd>
                     </fragment>
                 </dl>
                 <div class="catalog__wrap-price" v-if="product.status_id===1">
@@ -54,7 +54,8 @@
                 <button v-if="!isSubscription" class="btn btn-white product-card__buy" type="button"
                         data-modal-open="subscribe" @click="subscribe">Подписаться
                 </button>
-                <button v-if="isSubscription" class="btn btn-purple product-card__buy" disabled="disabled" type="button" >Вы подписаны
+                <button v-if="isSubscription" class="btn btn-purple product-card__buy" disabled="disabled"
+                        type="button">Вы подписаны
                 </button>
             </div>
             <div class="product-card__buy-wrap" :key="trigger" v-if="product.status_id===1">
@@ -144,12 +145,12 @@ export default {
             this.$store.commit('addToCompare', this.product);
             this.trigger += 1;
         },
-        subscribe(){
+        subscribe() {
             eventBus.$emit('subscribeProduct', this.product.id)
             this.trigger += 1;
         },
-        getDiscountProcent(){
-            return Math.round(((this.product.previous_price - this.product.new_price)/this.product.previous_price)*100)
+        getDiscountProcent() {
+            return Math.round(((this.product.previous_price - this.product.new_price) / this.product.previous_price) * 100)
         }
     },
     computed: {

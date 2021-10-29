@@ -15,12 +15,12 @@ class ProductStatusessTableSeeder extends Seeder
     public function run()
     {
         $productStatuses = [
-            ['title'=>'В наличии'],
-            ['title'=>'Нет в наличии']
+            ['title' => 'В наличии'],
+            ['title' => 'Нет в наличии']
         ];
-        foreach($productStatuses as $productStatus)
+        foreach ($productStatuses as $productStatus)
             ProductStatus::create([
-                'title'=>$productStatus['title']
+                'title' => $productStatus['title']
             ]);
     }
 }

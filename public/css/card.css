@@ -21,7 +21,7 @@
   background: linear-gradient(90deg, #fff 15%, rgba(255, 255, 255, 0.93) 21%, rgba(255, 255, 255, 0) 75%);
 }
 .product-card-container .swiper-slide {
-  --slide-gap:20px;
+  --slide-gap: 20px;
   padding-right: var(--slide-gap);
   transition: opacity 0.3s;
 }
@@ -29,7 +29,7 @@
   padding-right: var(--main-padding);
 }
 .product-card-container .swiper-slide--full {
-  --slide-gap:15px;
+  --slide-gap: 15px;
 }
 .product-card-container .swiper-slide-prev {
   opacity: 0;
@@ -44,12 +44,12 @@
 }
 @media (min-width: 769px) {
   .product-card-container .swiper-slide {
-    --slide-gap:30px;
+    --slide-gap: 30px;
   }
 }
 @media (min-width: 1365px) {
   .product-card-container .swiper-slide {
-    --slide-gap:60px;
+    --slide-gap: 60px;
   }
   .product-card-container .swiper-slide:last-child {
     padding-right: var(--slide-gap);
@@ -57,12 +57,12 @@
 }
 @media (min-width: 769px) {
   .product-card-container .swiper-slide--full {
-    --slide-gap:25px;
+    --slide-gap: 25px;
   }
 }
 @media (min-width: 1365px) {
   .product-card-container .swiper-slide--full {
-    --slide-gap:30px;
+    --slide-gap: 30px;
   }
   .product-card-container .swiper-slide--full:last-child {
     padding-right: 60px;
@@ -85,8 +85,8 @@
 }
 
 .product-card {
-  --bonus-size:30px;
-  --font-size-discount:8px;
+  --bonus-size: 30px;
+  --font-size-discount: 8px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -96,21 +96,21 @@
 }
 
 .product-card--m-icon {
-  --bonus-size:50px;
-  --font-size-discount:15px;
+  --bonus-size: 50px;
+  --font-size-discount: 15px;
 }
 
 @media (min-width: 1365px) {
   .product-card {
-    --bonus-size:70px;
-    --font-size-discount:18px;
+    --bonus-size: 70px;
+    --font-size-discount: 18px;
     width: 309px;
     padding: 66px 0 1px;
   }
 
   .product-card--sm-icon {
-    --bonus-size:50px;
-    --font-size-discount:15px;
+    --bonus-size: 50px;
+    --font-size-discount: 15px;
   }
 }
 .product-card--full {
@@ -1782,6 +1782,7 @@ meter::-webkit-meter-bar {
 @media (min-width: 1365px) {
   .set-cards {
     padding-left: 28px;
+    position: -webkit-sticky;
     position: sticky;
     top: var(--header-height);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
@@ -2058,7 +2059,7 @@ meter::-webkit-meter-bar {
 }
 .card-slider-modal .preview-slider {
   grid-auto-rows: 100vh;
-  grid-auto-rows: calc(var(--vh, 1vh)*100);
+  grid-auto-rows: calc(var(--vh, 1vh) * 100);
 }
 .card-slider-modal .preview-slider-container {
   position: relative;
@@ -2140,7 +2141,7 @@ meter::-webkit-meter-bar {
   .card-slider-modal .preview-slider-navigation {
     position: static;
     height: 100vh;
-    height: calc(var(--vh, 1vh)*100);
+    height: calc(var(--vh, 1vh) * 100);
     padding: 0 58px;
     border-right: 1px solid #b4b4b4;
     order: -1;
@@ -2477,7 +2478,7 @@ meter::-webkit-meter-bar {
   grid-auto-flow: column;
   grid-auto-columns: 100%;
   grid-auto-rows: 100vh;
-  grid-auto-rows: calc(var(--vh, 1vh)*100);
+  grid-auto-rows: calc(var(--vh, 1vh) * 100);
 }
 .fb-slider-container .swiper-slide {
   padding: 80px 0 120px;

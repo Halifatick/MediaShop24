@@ -14,8 +14,9 @@ class WaitListController extends Controller
     {
         $profile = Auth::user();
         $username = Auth::user()->getAuthIdentifierName();
-        return view('pages.waitlist', compact('profile','username'));
+        return view('pages.waitlist', compact('profile', 'username'));
     }
+
     public function addSubscription(Request $request)
     {
         if ($request->id !== 0) {

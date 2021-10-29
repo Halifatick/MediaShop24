@@ -9,7 +9,7 @@
                     <form @submit.prevent="registerUser"
                           @keydown="form.onKeydown($event)"
                           class="form form--register" method="post">
-                        <AlertError :form="form" />
+                        <AlertError :form="form"/>
                         <label class="form__field-wrap">
                             Ваш логин
                             <input type="text" name="name" placeholder="Ваш логин" required
@@ -38,7 +38,8 @@
                         <span class="form__field-wrap">
                             Повторите пароль*
                             <label class="form__field-password password-repeat">
-                              <input type="password" placeholder="Повторите пароль" name="password_confirmation" required
+                              <input type="password" placeholder="Повторите пароль" name="password_confirmation"
+                                     required
                                      id="password_confirmation" v-model="form.password_confirmation">
                               <span class="show-password">
                                 <svg width="20" height="20">
@@ -140,9 +141,9 @@ export default {
         }
     },
     computed: {
-       /* isComplete () {
-            return this.form.name && this.form.email && this.form.password && this.form.password_confirmation && this.form.submitted;
-        }*/
+        /* isComplete () {
+             return this.form.name && this.form.email && this.form.password && this.form.password_confirmation && this.form.submitted;
+         }*/
     }
 }
 </script>

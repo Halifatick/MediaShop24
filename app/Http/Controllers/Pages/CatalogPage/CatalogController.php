@@ -16,16 +16,16 @@ class CatalogController extends Controller
     public function getProductsByFilter($type, $id)
     {
         $profile = Auth::user();
-        if($type==='category'){
+        if ($type === 'category') {
             $category = Category::find($id);
             $subcategories = Subcategory::where('category_id', $id)->get();
-            $subcategoriesIds = Subcategory::where('category_id',  $id)->get()->pluck('id');
+            $subcategoriesIds = Subcategory::where('category_id', $id)->get()->pluck('id');
             $products = Product::whereIn('subcategory_id', $subcategoriesIds)->get();
-            $filters = ProductFilter::whereIn('subcategory_id', $subcategoriesIds )->get();
+            $filters = ProductFilter::whereIn('subcategory_id', $subcategoriesIds)->get();
             return view('pages.catalog', compact('profile',
                 'category', 'subcategories', 'products', 'filters'));
         }
-        if($type==='subcategory'){
+        if ($type === 'subcategory') {
             $category = Subcategory::find($id);
             $products = Product::where('subcategory_id', $id)->get();
             $filters = ProductFilter::where('subcategory_id', $id)->get();
@@ -33,7 +33,7 @@ class CatalogController extends Controller
             return view('pages.catalog', compact('profile',
                 'category', 'subcategories', 'products', 'filters'));
         }
-        if($type==='filter'){
+        if ($type === 'filter') {
             $category = ProductFilter::find($id);
             $filters = ProductFilter::where('subcategory_id', $category->subcategory_id)->get();
             $products = ProductFilter::find($id)->products()->get();
@@ -41,6 +41,5 @@ class CatalogController extends Controller
             return view('pages.catalog', compact('profile',
                 'category', 'subcategories', 'products', 'filters'));
         }
-
     }
 }

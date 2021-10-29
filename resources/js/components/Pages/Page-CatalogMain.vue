@@ -44,11 +44,11 @@
 <script>
 export default {
     name: "Page-CatalogMain",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         },
-        categories:{
+        categories: {
 
             required: true
         }

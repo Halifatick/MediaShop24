@@ -9,7 +9,7 @@ main {
   }
 }
 .lk {
-  --lk-form-offset:50px 20px;
+  --lk-form-offset: 50px 20px;
 }
 .lk .title {
   display: block;
@@ -21,7 +21,7 @@ main {
 
 @media (min-width: 1681px) {
   .lk {
-    --lk-form-offset:50px 40px;
+    --lk-form-offset: 50px 40px;
   }
 }
 @media (min-width: 1365px) {
@@ -43,7 +43,7 @@ main {
 
 @media (min-width: 1365px) {
   .lk__container {
-    --left-col-width:300px;
+    --left-col-width: 300px;
     display: grid;
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -57,7 +57,7 @@ main {
 }
 @media (min-width: 1681px) {
   .lk__container {
-    --left-col-width:405px;
+    --left-col-width: 405px;
   }
 }
 .lk__left {
@@ -80,7 +80,7 @@ main {
 
 @media (min-width: 1365px) {
   .lk__left-inner {
-    --main-padding:30px;
+    --main-padding: 30px;
     font-size: 20px;
     font-weight: 400;
   }
@@ -950,8 +950,8 @@ main {
 }
 
 .lk--main .lk__container {
-  --left-col-width:270px;
-  --right-col-width:250px;
+  --left-col-width: 270px;
+  --right-col-width: 250px;
 }
 .lk--main .lk-form, .lk--main .lk__left {
   display: block;
@@ -982,8 +982,8 @@ main {
 }
 @media (min-width: 1681px) {
   .lk--main .lk__container {
-    --left-col-width:minmax(270px, 405px);
-    --right-col-width:270px;
+    --left-col-width: minmax(270px, 405px);
+    --right-col-width: 270px;
     grid-template-columns: var(--left-col-width) minmax(1135px, 1fr);
   }
 }

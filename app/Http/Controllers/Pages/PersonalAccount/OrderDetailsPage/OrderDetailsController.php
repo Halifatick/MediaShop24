@@ -12,6 +12,6 @@ class OrderDetailsController extends Controller
     {
         $profile = Auth::user();
         $username = Auth::user()->getAuthIdentifierName();
-        return view('pages.orderdetails', compact('profile','username'));
+        return view('pages.orderdetails', compact('profile', 'username'));
     }
 }

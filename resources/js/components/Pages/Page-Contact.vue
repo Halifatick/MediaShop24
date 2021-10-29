@@ -20,7 +20,8 @@
                                 </svg>
                                 Санкт-Петербург станция метро Спортивная, Ждановская набережная, д. 7
                             </p>
-                            <p class="contact__schedule">Ежедневно, по будним дням с 10.00 до 21.00, по выходным с 11.00 до 20.00 </p>
+                            <p class="contact__schedule">Ежедневно, по будним дням с 10.00 до 21.00, по выходным с 11.00
+                                до 20.00 </p>
                             <dl class="contact__requisites">
                                 <dt>Наименование ИП:</dt>
                                 <dd>Демидова Л.И.</dd>
@@ -82,7 +83,9 @@
                                 </li>
                             </ul>
                         </div>
-                        <button class="btn btn-purple contact__btn" type="button" data-modal-open="write-us">Написать нам</button>
+                        <button class="btn btn-purple contact__btn" type="button" data-modal-open="write-us">Написать
+                            нам
+                        </button>
                         <div id="map" class="contact__map"></div>
                     </div>
                 </div>
@@ -115,8 +118,8 @@
 <script>
 export default {
     name: "Page-Contact",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     }

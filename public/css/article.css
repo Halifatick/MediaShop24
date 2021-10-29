@@ -118,6 +118,7 @@
   }
 }
 .article-aside__inner {
+  position: -webkit-sticky;
   position: sticky;
   top: calc(var(--header-height) + 15px);
   font-size: 18px;

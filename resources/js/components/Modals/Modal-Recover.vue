@@ -8,16 +8,14 @@
                 <div class="modal-main">
                     <form class="form form--recover" method="post" autocomplete="on">
                         <p class="form__instruction">Введите адрес вашей электронной почты и мы направим вам инструкцию
-                            для смены
-                            пароля</p>
+                            для смены пароля</p>
                         <label class="form__field-wrap">
                             Электронная почта
                             <input type="text" name="email" placeholder="Введите адрес электронной почты"
                                    data-validate="email"
                                    required>
                         </label>
-                        <button class="form__submit btn btn-purple form__btn-recover" type="submit">Восстановить
-                            пароль
+                        <button class="form__submit btn btn-purple form__btn-recover" type="submit">Восстановить пароль
                         </button>
                         <a class="form__link" href="#!" data-modal-open="modal-login">Войти</a>
                         <a class="form__link" href="#!" data-modal-open="modal-register">Зарегистрироваться</a>

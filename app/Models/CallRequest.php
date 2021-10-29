@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class CallRequest extends Model
 {
     use HasFactory;
+
     protected $table = 'call_requests';
     protected $fillable = ['name', 'phone', 'time', 'status'];
 }

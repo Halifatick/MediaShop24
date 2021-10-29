@@ -17,7 +17,7 @@
                          alt="бонус">
                 </div>
                 <div v-if="compare.previous_price>0" class="bonus-icon priority-2">
-                    <span class="bonus-discount">-{{getDiscountProcent()}}%</span>
+                    <span class="bonus-discount">-{{ getDiscountProcent() }}%</span>
                 </div>
             </div>
             <div class="product-card__icons">
@@ -56,10 +56,10 @@
                 </picture>
             </div>
             <div class="product-card__info">
-                <small class="product-card__name">{{compare.category}}</small>
-                <p class="product-card-desc">{{compare.title}}</p>
-                <s v-if="compare.previous_price>0" class="product-card__old-price">{{compare.previous_price}}₽</s>
-                <b class="product-card__price">{{compare.new_price}}₽</b>
+                <small class="product-card__name">{{ compare.category }}</small>
+                <p class="product-card-desc">{{ compare.title }}</p>
+                <s v-if="compare.previous_price>0" class="product-card__old-price">{{ compare.previous_price }}₽</s>
+                <b class="product-card__price">{{ compare.new_price }}₽</b>
                 <div class="product-card__buy-wrap">
                     <button class="btn btn-purple compare__buy add-to-cart"
                             type="button" @click="addToCart"><span
@@ -73,43 +73,42 @@
 <script>
 export default {
     name: "CompareItem",
-    props:{
-        compare:{
+    props: {
+        compare: {
             required: true
         }
     },
-    data(){
-        return{
+    data() {
+        return {
             trigger: 0
         }
     },
-    methods:{
+    methods: {
         addToFavourite() {
             this.$store.commit('addToFavourite', this.compare);
-            this.trigger+=1;
+            this.trigger += 1;
         },
         deleteItem() {
             this.$store.commit('addToCompare', this.compare);
         },
         addToCart() {
             this.$store.commit('addToCart', this.compare);
-            axios.get('/add/cart/'+this.compare.id);
-            this.trigger+=1;
+            axios.get('/add/cart/' + this.compare.id);
+            this.trigger += 1;
         },
-        getDiscountProcent(){
-            return Math.round(((this.compare.previous_price - this.compare.new_price)/this.compare.previous_price)*100)
+        getDiscountProcent() {
+            return Math.round(((this.compare.previous_price - this.compare.new_price) / this.compare.previous_price) * 100)
         }
     },
-    computed:{
-        getCount(){
-            try{
+    computed: {
+        getCount() {
+            try {
                 return this.$store.getters.getQuantityById(this.compare.id);
-            }
-            catch (e){
+            } catch (e) {
                 return 0
             }
         },
-        isFavourite(){
+        isFavourite() {
             return this.$store.getters.getIsFavourite(this.compare);
         }
     }

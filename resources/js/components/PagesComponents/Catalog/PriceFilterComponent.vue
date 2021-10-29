@@ -6,12 +6,12 @@
 
 
         <div class="filters__list double-range" :data-min="minValue" :data-max="maxValue" data-step="10"
-             :data-low="minValue" :data-high="maxValue" >
+             :data-low="minValue" :data-high="maxValue">
             <fieldset class="double-range-inner">
                 <legend class="visually-hidden">диапазон цен</legend>
-                <output data-key="low" data-value="">От </output>
-                <output data-key="high" data-value="">До </output>
-                <div class="range-wrap" >
+                <output data-key="low" data-value="">От</output>
+                <output data-key="high" data-value="">До</output>
+                <div class="range-wrap">
                     <div class="track"></div>
                     <label class="thumb" data-key="low" aria-label="минимальное значение">
                         <input class="visually-hidden" type="range" name="value_from"
@@ -19,7 +19,7 @@
                     </label>
                     <label class="thumb" data-key="high" aria-label="максимальное значение">
                         <input class="visually-hidden" type="range" name="value_to"
-                               data-key="high" >
+                               data-key="high">
                     </label>
                 </div>
             </fieldset>
@@ -42,8 +42,8 @@ export default {
             default: 100000
         }
     },
-    data(){
-        return{
+    data() {
+        return {
             minPrice: 0,
             maxPrice: 100000
         }

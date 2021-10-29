@@ -80,6 +80,7 @@
   }
 }
 .service-aside__inner {
+  position: -webkit-sticky;
   position: sticky;
   top: 60px;
 }
@@ -196,9 +197,9 @@
 }
 
 .service__banner {
-  width: calc(100% + var(--main-padding)*2);
+  width: calc(100% + var(--main-padding) * 2);
   height: 180px;
-  margin: 0 0 30px calc(var(--main-padding)*-1);
+  margin: 0 0 30px calc(var(--main-padding) * -1);
   background-color: #b4b4b4;
 }
 .service__banner img {

@@ -14,9 +14,9 @@ mix.copyDirectory('resources/assets', 'public');
 
 mix.js('resources/js/app.js', 'public/js')
     .vue()
-/*--------------------------------------------------------------------------
- | sass styles
---------------------------------------------------------------------------*/
+    /*--------------------------------------------------------------------------
+     | sass styles
+    --------------------------------------------------------------------------*/
     .sass('resources/sass/404.scss', 'public/css/404.css')
     .sass('resources/sass/about.scss', 'public/css/about.css')
     .sass('resources/sass/article.scss', 'public/css/article.css')

@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
 class ProductReview extends Pivot
 {
     use HasFactory;
-    protected $table = 'product_reviews';
 
+    protected $table = 'product_reviews';
 }

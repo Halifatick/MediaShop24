@@ -23,38 +23,49 @@
                         <p class="article__product-info">В этом ролике мы посмотрим на небольшой "не умный" телевизор от
                             компании
                             Philips - Philips 32PHS4203. Эта
-                            модель стоит менее 15000 рублей и отлично подойдет тем, кому не нужен функционал Smart TV, а также
+                            модель стоит менее 15000 рублей и отлично подойдет тем, кому не нужен функционал Smart TV, а
+                            также
                             тому,
-                            кто планирует использовать внешнюю Android приставку или Apple TV. При этом телевизор отличается
+                            кто планирует использовать внешнюю Android приставку или Apple TV. При этом телевизор
+                            отличается
                             неплохим качеством изображения хорошей глубиной черного цвета, благодаря.</p>
                         <div class="article__media">
                             <div class="article__iframe">
                                 <iframe src="https://www.youtube.com/embed/3MAfK4vN1Hw" allowfullscreen="" width="16"
                                         height="9"></iframe>
                             </div>
-                            <p>Оператор: Василий Иванов, Комментатор: Еватерина Ионова, Галина Сташевич, Монтажер: Андрей
+                            <p>Оператор: Василий Иванов, Комментатор: Еватерина Ионова, Галина Сташевич, Монтажер:
+                                Андрей
                                 Рюмкин</p>
                         </div>
-                        <p>В сентябре прошлого года компания Apple в очередной раз представила нам свою обновленную серию
+                        <p>В сентябре прошлого года компания Apple в очередной раз представила нам свою обновленную
+                            серию
                             iPhone.
-                            На этот раз линейка пополнилась уже 3-мя устройствами, каждое из которых найдет своего покупателяя,
+                            На этот раз линейка пополнилась уже 3-мя устройствами, каждое из которых найдет своего
+                            покупателяя,
                             а мы
                             рассмотрим с вами основные плюсы и минусы данной линейки в нашем небольшом видео. В сентябре
                             прошлого
-                            года компания Apple в очередной раз представила нам свою обновленную серию iPhone. На этот раз
+                            года компания Apple в очередной раз представила нам свою обновленную серию iPhone. На этот
+                            раз
                             линейка
-                            пополнилась уже 3-мя устройствами, каждое из которых найдет своего покупателяя, а мы рассмотрим с
+                            пополнилась уже 3-мя устройствами, каждое из которых найдет своего покупателяя, а мы
+                            рассмотрим с
                             вами
                             основные плюсы и минусы данной линейки в нашем небольшом видео.</p>
-                        <p>В сентябре прошлого года компания Apple в очередной раз представила нам свою обновленную серию
+                        <p>В сентябре прошлого года компания Apple в очередной раз представила нам свою обновленную
+                            серию
                             iPhone.
-                            На этот раз линейка пополнилась уже 3-мя устройствами, каждое из которых найдет своего покупателяя,
+                            На этот раз линейка пополнилась уже 3-мя устройствами, каждое из которых найдет своего
+                            покупателяя,
                             а мы
                             рассмотрим с вами основные плюсы и минусы данной линейки в нашем небольшом видео. В сентябре
                             прошлого
-                            года компания Apple в очередной раз представила нам свою обновленную серию iPhone. На этот раз
+                            года компания Apple в очередной раз представила нам свою обновленную серию iPhone. На этот
+                            раз
                             линейка
-                            пополнилась уже 3-мя устройствами, каждое из которых найдет своего покупателяя, а мы рассмотрим с
+                            пополнилась уже 3-мя устройствами, каждое из которых найдет своего покупателяя, а мы
+                            рассмотрим с
                             вами
                             основные плюсы и минусы данной линейки в нашем небольшом видео.</p>
                     </div>
@@ -66,13 +77,16 @@
                                     <div data-vendor-code="64201" class="product-card product-card--sm-icon">
                                         <div class="product-card__bonuses">
                                             <div class="bonus-icon priority-4">
-                                                <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/delivery.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-3">
-                                                <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-0">
-                                                <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                         </div>
                                         <div class="product-card__icons">
@@ -91,10 +105,12 @@
                                                 <span></span>
                                             </button>
                                         </div>
-                                        <div class="product-card__img fast-order-img" data-empty="Товар на фотосессии"></div>
+                                        <div class="product-card__img fast-order-img"
+                                             data-empty="Товар на фотосессии"></div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <p class="product-card__assets">Нет в наличии</p>
@@ -148,7 +164,8 @@
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
@@ -174,10 +191,12 @@
                                     <div data-vendor-code="64203" class="product-card product-card--sm-icon">
                                         <div class="product-card__bonuses">
                                             <div class="bonus-icon priority-1">
-                                                <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/stock.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-3">
-                                                <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-2">
                                                 <span class="bonus-discount">-80%</span>
@@ -206,12 +225,14 @@
                                                         srcset="img/content/watch.webp 1x, img/content/watch@2x.webp 2x">
                                                 <img class=content-img src="img/content/watch.jpg"
                                                      srcset="img/content/watch@2x.jpg 2x"
-                                                     width="179" height="108" alt="Apple watch" loading=lazy decoding=async>
+                                                     width="179" height="108" alt="Apple watch" loading=lazy
+                                                     decoding=async>
                                             </picture>
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
@@ -237,13 +258,16 @@
                                     <div data-vendor-code="64204" class="product-card product-card--sm-icon">
                                         <div class="product-card__bonuses">
                                             <div class="bonus-icon priority-4">
-                                                <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/delivery.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-3">
-                                                <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-0">
-                                                <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                         </div>
                                         <div class="product-card__icons">
@@ -275,7 +299,8 @@
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
@@ -333,12 +358,14 @@
                                                         srcset="img/content/watch.webp 1x, img/content/watch@2x.webp 2x">
                                                 <img class=content-img src="img/content/watch.jpg"
                                                      srcset="img/content/watch@2x.jpg 2x"
-                                                     width="179" height="108" alt="Apple watch" loading=lazy decoding=async>
+                                                     width="179" height="108" alt="Apple watch" loading=lazy
+                                                     decoding=async>
                                             </picture>
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
@@ -364,10 +391,12 @@
                                     <div data-vendor-code="64206" class="product-card product-card--sm-icon">
                                         <div class="product-card__bonuses">
                                             <div class="bonus-icon priority-1">
-                                                <img src="img/content/icon/stock.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/stock.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-3">
-                                                <img src="img/content/icon/cyber-monday.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/cyber-monday.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-2">
                                                 <span class="bonus-discount">-80%</span>
@@ -402,7 +431,8 @@
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
@@ -428,13 +458,16 @@
                                     <div data-vendor-code="64207" class="product-card product-card--sm-icon">
                                         <div class="product-card__bonuses">
                                             <div class="bonus-icon priority-4">
-                                                <img src="img/content/icon/delivery.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/delivery.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-3">
-                                                <img src="img/content/icon/black-friday.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/black-friday.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                             <div class="bonus-icon priority-0">
-                                                <img src="img/content/icon/best-seller.svg" width="70" height="70" alt="бонус">
+                                                <img src="img/content/icon/best-seller.svg" width="70" height="70"
+                                                     alt="бонус">
                                             </div>
                                         </div>
                                         <div class="product-card__icons">
@@ -460,12 +493,14 @@
                                                         srcset="img/content/watch.webp 1x, img/content/watch@2x.webp 2x">
                                                 <img class=content-img src="img/content/watch.jpg"
                                                      srcset="img/content/watch@2x.jpg 2x"
-                                                     width="179" height="108" alt="Apple watch" loading=lazy decoding=async>
+                                                     width="179" height="108" alt="Apple watch" loading=lazy
+                                                     decoding=async>
                                             </picture>
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
@@ -529,7 +564,8 @@
                                         </div>
                                         <div class="product-card__info">
                                             <small class="product-card__name">Смарт-часы</small>
-                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс. может
+                                            <p class="product-card-desc">Apple Watch 5 series 44mm+ремешек HERMES, макс.
+                                                может
                                                 быть в 3 строки
                                                 для длинных названий</p>
                                             <s class="product-card__old-price">53 999₽</s>
@@ -618,19 +654,22 @@
                                     <source type="image/webp"
                                             srcset="img/content/review/review.webp 345w, img/content/review/review@2x.webp 700w"
                                             sizes="(max-width: 768px) 100vw, 345px">
-                                    <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 700w"
+                                    <img src="img/content/review/review.jpg"
+                                         srcset="img/content/review/review@2x.jpg 700w"
                                          sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета" decoding="async"
                                          loading="lazy">
                                 </picture>
                             </a>
                             <div class="article-el__body">
-                                <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max, может
+                                <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max,
+                                    может
                                     быть в 3
                                     строки и вот таким большим</a></h3>
                                 <div class="article-el__mark has-video">
                                     <span class="article-el__mark-unpack">Распаковка</span>
                                 </div>
-                                <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть
+                                <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может
+                                    быть
                                     большим в 3
                                     строки, видео разбор с ответами на самые часто задаваемые</p>
                                 <a href="review2" class="link">Читать далее</a>
@@ -642,19 +681,22 @@
                                     <source type="image/webp"
                                             srcset="img/content/review/review.webp 345w, img/content/review/review@2x.webp 700w"
                                             sizes="(max-width: 768px) 100vw, 345px">
-                                    <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 700w"
+                                    <img src="img/content/review/review.jpg"
+                                         srcset="img/content/review/review@2x.jpg 700w"
                                          sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета" decoding="async"
                                          loading="lazy">
                                 </picture>
                             </a>
                             <div class="article-el__body">
-                                <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max, может
+                                <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max,
+                                    может
                                     быть в 3
                                     строки и вот таким большим</a></h3>
                                 <div class="article-el__mark has-video">
                                     <span class="article-el__mark-unpack">Распаковка</span>
                                 </div>
-                                <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть
+                                <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может
+                                    быть
                                     большим в 3
                                     строки, видео разбор с ответами на самые часто задаваемые</p>
                                 <a href="review2" class="link">Читать далее</a>
@@ -689,8 +731,8 @@
 <script>
 export default {
     name: "Page-Review2",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     }

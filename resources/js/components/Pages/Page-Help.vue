@@ -118,8 +118,8 @@
 <script>
 export default {
     name: "Page-Help",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     }

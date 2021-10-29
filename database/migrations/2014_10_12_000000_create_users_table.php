@@ -22,13 +22,13 @@ class CreateUsersTable extends Migration
             $table->string('firstname')->nullable();
             $table->string('lastname')->nullable();
             $table->date('birthdate')->nullable();
-            $table->enum('gender', ['Не задано','Мужской', 'Женский'])->nullable()->default('Не задано');
+            $table->enum('gender', ['Не задано', 'Мужской', 'Женский'])->nullable()->default('Не задано');
             $table->string('city')->nullable();
             $table->json('address')->nullable();
             $table->string('phone')->nullable();
-            $table->enum('status', ['Не задано','Женат/Замужем', 'Холост/Не замужем', 'Разведён(а)', 'Вдовец/Вдова',
+            $table->enum('status', ['Не задано', 'Женат/Замужем', 'Холост/Не замужем', 'Разведён(а)', 'Вдовец/Вдова',
                 'Раздельное проживание', 'Гражданский брак'])->nullable()->default('Не задано');
-            $table->enum('employment', ['Не задано','Работаю', 'Безработный/Безработная', 'Учусь', 'Пенсионер(ка)',
+            $table->enum('employment', ['Не задано', 'Работаю', 'Безработный/Безработная', 'Учусь', 'Пенсионер(ка)',
                 'Домохозяин/Домохозяйка'])->nullable();
             $table->boolean('subscription')->nullable();
             $table->rememberToken();

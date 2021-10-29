@@ -56,7 +56,7 @@ class ProductsTableSeeder extends Seeder
                 'images' => ['main' => 'img/content/preview/phone-apple0.jpg',
                     'subimages' => ['img/content/preview/phone-apple0@2x.jpg', 'img/content/preview/phone-apple1.jpg', 'img/content/preview/phone-apple2.jpg',
                         'img/content/preview/phone-apple3.jpg', 'img/content/preview/phone-apple4.jpg', 'img/content/preview/phone-apple5.jpg', 'img/content/preview/phone-apple6.jpg']],
-                'icons'=>['img/content/icon/gift.svg', 'img/content/icon/new.svg', 'img/content/icon/sale.svg'],
+                'icons' => ['img/content/icon/gift.svg', 'img/content/icon/new.svg', 'img/content/icon/sale.svg'],
                 'status_id' => 1,
             ],
             [
@@ -85,7 +85,7 @@ class ProductsTableSeeder extends Seeder
 НОВАЯ СВЕРХШИРОКОУГОЛЬНАЯ КАМЕРА
 Снимайте с размахом - с новой сверхширокоугольной камерой область изображения в четыре раза больше. В кадр поместится все. Бескрайние пейзажи. Сцена вместе со зрителями на музыкальном фестивале. Вся семья на фоне умопомрачительных видов, ради которых вы пролетели тысячи километров.',
                 'properties' => ['Цвет товара: ' => ['Голубой', 'Серый', 'Фиолетовый', 'Красный'], 'Встроенная память:' => ['64GB', '128GB', '512GB'],
-                'Связь' => ['Спутниковая навигация' => 'Встроенный модуль GPS/ГЛОНАСС / Цифровой компас / Wi-Fi / Сотовая связь / Функция точного определения местоположения iBeacon', 'Поддержка Bluetooth' => 'Bluetooth 5.0',
+                    'Связь' => ['Спутниковая навигация' => 'Встроенный модуль GPS/ГЛОНАСС / Цифровой компас / Wi-Fi / Сотовая связь / Функция точного определения местоположения iBeacon', 'Поддержка Bluetooth' => 'Bluetooth 5.0',
                         'Поддержка Wi-Fi' => 'Wi-Fi 802.11ax (Wi-Fi 6) с технологией MIMO 2×2', 'Поддержка 3G/4G/LTE' => 'Gigabit Class LTE с технологиями MIMO 4×4 и LAA'],
                     'Питание' => ['Время работы' => 'Работает без подзарядки до 4 часов дольше, чем iPhone XS / Воспроизведение видео по беспроводной сети: до 18 часов / Просмотр видео в режиме стриминга по беспроводной сети: до 11 часов / Воспроизведение аудио по беспроводной сети: до 65 часов', 'Время зарядки' => '
 Возможность быстрой зарядки (до 50% заряда за 30 минут при использовании адаптера мощностью 18 Вт или выше) / Беспроводная зарядка (поддерживаются зарядные устройства стандарта Qi) / Зарядка от адаптера питания или через USB-порт компьютера'],
@@ -98,7 +98,7 @@ class ProductsTableSeeder extends Seeder
                 'images' => ['main' => 'img/content/preview/phone-apple0.jpg',
                     'subimages' => ['img/content/preview/phone-apple0@2x.jpg', 'img/content/preview/phone-apple1.jpg', 'img/content/preview/phone-apple2.jpg',
                         'img/content/preview/phone-apple3.jpg', 'img/content/preview/phone-apple4.jpg']],
-                'icons'=>['img/content/icon/best-seller.svg', 'img/content/icon/new.svg', 'img/content/icon/sale.svg'],
+                'icons' => ['img/content/icon/best-seller.svg', 'img/content/icon/new.svg', 'img/content/icon/sale.svg'],
                 'status_id' => 2,
             ],
 
@@ -128,7 +128,7 @@ class ProductsTableSeeder extends Seeder
 НОВАЯ СВЕРХШИРОКОУГОЛЬНАЯ КАМЕРА
 Снимайте с размахом - с новой сверхширокоугольной камерой область изображения в четыре раза больше. В кадр поместится все. Бескрайние пейзажи. Сцена вместе со зрителями на музыкальном фестивале. Вся семья на фоне умопомрачительных видов, ради которых вы пролетели тысячи километров.',
                 'properties' => ['Цвет товара: ' => ['Голубой', 'Серый', 'Фиолетовый'], 'Встроенная память:' => ['128GB', '512GB'],
-                  'Связь' => ['Спутниковая навигация' => 'Встроенный модуль GPS/ГЛОНАСС / Цифровой компас / Wi-Fi / Сотовая связь / Функция точного определения местоположения iBeacon', 'Поддержка Bluetooth' => 'Bluetooth 5.0',
+                    'Связь' => ['Спутниковая навигация' => 'Встроенный модуль GPS/ГЛОНАСС / Цифровой компас / Wi-Fi / Сотовая связь / Функция точного определения местоположения iBeacon', 'Поддержка Bluetooth' => 'Bluetooth 5.0',
                         'Поддержка Wi-Fi' => 'Wi-Fi 802.11ax (Wi-Fi 6) с технологией MIMO 2×2', 'Поддержка 3G/4G/LTE' => 'Gigabit Class LTE с технологиями MIMO 4×4 и LAA'],
                     'Питание' => ['Время работы' => 'Работает без подзарядки до 4 часов дольше, чем iPhone XS / Воспроизведение видео по беспроводной сети: до 18 часов / Просмотр видео в режиме стриминга по беспроводной сети: до 11 часов / Воспроизведение аудио по беспроводной сети: до 65 часов', 'Время зарядки' => '
 Возможность быстрой зарядки (до 50% заряда за 30 минут при использовании адаптера мощностью 18 Вт или выше) / Беспроводная зарядка (поддерживаются зарядные устройства стандарта Qi) / Зарядка от адаптера питания или через USB-порт компьютера'],
@@ -141,7 +141,7 @@ class ProductsTableSeeder extends Seeder
                 'images' => ['main' => 'img/content/preview/phone-apple0.jpg',
                     'subimages' => ['img/content/preview/phone-apple0@2x.jpg', 'img/content/preview/phone-apple1.jpg', 'img/content/preview/phone-apple2.jpg',
                         'img/content/preview/phone-apple3.jpg', 'img/content/preview/phone-apple4.jpg', 'img/content/preview/phone-apple5.jpg', 'img/content/preview/phone-apple6.jpg']],
-                'icons'=>['"img/content/icon/black-friday.svg"', 'img/content/icon/new.svg', 'img/content/icon/sale.svg'],
+                'icons' => ['"img/content/icon/black-friday.svg"', 'img/content/icon/new.svg', 'img/content/icon/sale.svg'],
                 'status_id' => 1,
             ],
             [
@@ -169,7 +169,7 @@ class ProductsTableSeeder extends Seeder
 
 НОВАЯ СВЕРХШИРОКОУГОЛЬНАЯ КАМЕРА
 Снимайте с размахом - с новой сверхширокоугольной камерой область изображения в четыре раза больше. В кадр поместится все. Бескрайние пейзажи. Сцена вместе со зрителями на музыкальном фестивале. Вся семья на фоне умопомрачительных видов, ради которых вы пролетели тысячи километров.',
-                'properties' => ['Цвет товара: ' => [ 'Голубой', 'Серый', 'Фиолетовый', 'Красный', ' Зеленый'], 'Встроенная память:' => ['64GB', '128GB', '512GB'],
+                'properties' => ['Цвет товара: ' => ['Голубой', 'Серый', 'Фиолетовый', 'Красный', ' Зеленый'], 'Встроенная память:' => ['64GB', '128GB', '512GB'],
                     'Связь' => ['Спутниковая навигация' => 'Встроенный модуль GPS/ГЛОНАСС / Цифровой компас / Wi-Fi / Сотовая связь / Функция точного определения местоположения iBeacon', 'Поддержка Bluetooth' => 'Bluetooth 5.0',
                         'Поддержка Wi-Fi' => 'Wi-Fi 802.11ax (Wi-Fi 6) с технологией MIMO 2×2', 'Поддержка 3G/4G/LTE' => 'Gigabit Class LTE с технологиями MIMO 4×4 и LAA'],
                     'Питание' => ['Время работы' => 'Работает без подзарядки до 4 часов дольше, чем iPhone XS / Воспроизведение видео по беспроводной сети: до 18 часов / Просмотр видео в режиме стриминга по беспроводной сети: до 11 часов / Воспроизведение аудио по беспроводной сети: до 65 часов', 'Время зарядки' => '
@@ -180,7 +180,7 @@ class ProductsTableSeeder extends Seeder
                 'previous_price' => 15999,
                 'images' => ['main' => 'img/content/preview/phone-apple0.jpg',
                     'subimages' => ['img/content/preview/phone-apple0@2x.jpg', 'img/content/preview/phone-apple1.jpg', 'img/content/preview/phone-apple3.jpg', 'img/content/preview/phone-apple4.jpg', 'img/content/preview/phone-apple5.jpg', 'img/content/preview/phone-apple6.jpg']],
-                'icons'=>['img/content/icon/black-friday.svg', 'img/content/icon/delivery.svg', 'img/content/icon/sale.svg'],
+                'icons' => ['img/content/icon/black-friday.svg', 'img/content/icon/delivery.svg', 'img/content/icon/sale.svg'],
                 'status_id' => 1,
             ],
 
@@ -209,7 +209,7 @@ class ProductsTableSeeder extends Seeder
 
 НОВАЯ СВЕРХШИРОКОУГОЛЬНАЯ КАМЕРА
 Снимайте с размахом - с новой сверхширокоугольной камерой область изображения в четыре раза больше. В кадр поместится все. Бескрайние пейзажи. Сцена вместе со зрителями на музыкальном фестивале. Вся семья на фоне умопомрачительных видов, ради которых вы пролетели тысячи километров.',
-                'properties' => ['Цвет товара: ' => [ 'Голубой', 'Серый', 'Фиолетовый', 'Красный', ' Зеленый'], 'Встроенная память:' => ['64GB', '128GB', '512GB'],
+                'properties' => ['Цвет товара: ' => ['Голубой', 'Серый', 'Фиолетовый', 'Красный', ' Зеленый'], 'Встроенная память:' => ['64GB', '128GB', '512GB'],
                     'Связь' => '',
                     'Питание' => ['Время работы' => 'Работает без подзарядки до 4 часов дольше, чем iPhone XS / Воспроизведение видео по беспроводной сети: до 18 часов / Просмотр видео в режиме стриминга по беспроводной сети: до 11 часов / Воспроизведение аудио по беспроводной сети: до 65 часов', 'Время зарядки' => '
 Возможность быстрой зарядки (до 50% заряда за 30 минут при использовании адаптера мощностью 18 Вт или выше) / Беспроводная зарядка (поддерживаются зарядные устройства стандарта Qi) / Зарядка от адаптера питания или через USB-порт компьютера'],
@@ -221,7 +221,7 @@ class ProductsTableSeeder extends Seeder
                 'previous_price' => 0,
                 'images' => ['main' => 'img/content/preview/phone-apple0.jpg',
                     'subimages' => ['img/content/preview/phone-apple0@2x.jpg', 'img/content/preview/phone-apple1.jpg']],
-                'icons'=>['img/content/icon/cyber-monday.svg', 'img/content/icon/stock.svg', 'img/content/icon/sale.svg'],
+                'icons' => ['img/content/icon/cyber-monday.svg', 'img/content/icon/stock.svg', 'img/content/icon/sale.svg'],
                 'status_id' => 2,
             ],
 
@@ -233,11 +233,11 @@ class ProductsTableSeeder extends Seeder
                 'article' => $article_rand,
                 'title' => $product['title'],
                 'description' => $product['description'],
-                'properties' =>json_encode($product['properties']),
+                'properties' => json_encode($product['properties']),
                 'new_price' => $product['new_price'],
                 'previous_price' => $product['previous_price'],
                 'images' => json_encode($product['images']),
-                'icons'=>json_encode($product['icons']),
+                'icons' => json_encode($product['icons']),
                 'status_id' => $product['status_id'],
                 'subcategory_id' => rand(1, 21),
             ]);

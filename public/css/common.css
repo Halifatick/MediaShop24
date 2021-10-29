@@ -38,29 +38,29 @@ fieldset, legend, ul {
 }
 
 :root {
-  --column-width-sm:165px;
-  --main-padding:15px;
-  --header-height:54px;
-  --viewport-s:769px;
-  --viewport-m:1365px;
+  --column-width-sm: 165px;
+  --main-padding: 15px;
+  --header-height: 54px;
+  --viewport-s: 769px;
+  --viewport-m: 1365px;
 }
 
 @media (min-width: 769px) {
   :root {
-    --main-padding:39px;
+    --main-padding: 39px;
   }
 }
 @media (min-width: 1365px) {
   :root {
-    --header-height:160px;
-    --column-width-sm:270px;
-    --main-padding:45px;
+    --header-height: 160px;
+    --column-width-sm: 270px;
+    --main-padding: 45px;
   }
 }
 body {
-  --aside-width:90px;
-  --header-top-height:90px;
-  --search-menu-height:70px;
+  --aside-width: 90px;
+  --header-top-height: 90px;
+  --search-menu-height: 70px;
   display: flex;
   flex-direction: column;
   min-width: 320px;
@@ -384,7 +384,7 @@ select, textarea {
 }
 
 .social-icons {
-  --icon-width:40px;
+  --icon-width: 40px;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fill, var(--icon-width));
@@ -411,7 +411,7 @@ select, textarea {
 
 @media (min-width: 1365px) {
   .social-icons {
-    --icon-width:60px;
+    --icon-width: 60px;
     grid-gap: 32px;
     gap: 32px;
   }
@@ -868,7 +868,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
   left: 0;
   width: 100vw;
   height: 100vh;
-  height: calc(var(--vh, 1vh)*100);
+  height: calc(var(--vh, 1vh) * 100);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1094,7 +1094,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
   width: 100vw;
   overflow-y: scroll;
   height: 100vh;
-  height: calc(var(--vh, 1vh)*100);
+  height: calc(var(--vh, 1vh) * 100);
   visibility: hidden;
   transition-property: visibility, opacity, transform;
   transition-duration: 0.5s;
@@ -1341,6 +1341,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
 }
 
 .header {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 11;
@@ -1429,9 +1430,9 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
   }
 }
 .header__menu-icon {
-  --width:20px;
-  --height:2px;
-  --offset:7px;
+  --width: 20px;
+  --height: 2px;
+  --offset: 7px;
   display: inline-block;
   top: 50%;
   left: 50%;
@@ -1451,7 +1452,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
 }
 .header__menu-icon:after, .header__menu-icon:before {
   content: "";
-  top: calc(var(--offset)*-1);
+  top: calc(var(--offset) * -1);
   right: 0;
 }
 .header__menu-icon:after {
@@ -1465,7 +1466,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
   bottom: 0;
   width: 100vw;
   height: 100vh;
-  height: calc(var(--vh, 1vh)*100);
+  height: calc(var(--vh, 1vh) * 100);
   display: flex;
   flex-direction: column;
   padding-bottom: 15px;
@@ -1477,6 +1478,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
   overflow-x: clip;
 }
 .header__burger-menu .menu-head {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #fff;
@@ -1944,7 +1946,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
 }
 @media (min-width: 1365px) {
   .header__action-btn {
-    --search-menu-height:var(--header-top-height);
+    --search-menu-height: var(--header-top-height);
     flex-shrink: 0;
     order: 1;
   }
@@ -2218,7 +2220,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  height: calc(var(--vh, 1vh)*100);
+  height: calc(var(--vh, 1vh) * 100);
   padding-bottom: 15px;
   background: #fff;
   transition-property: opacity, left;
@@ -2227,6 +2229,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
   overflow-y: scroll;
 }
 .submenu-block .menu-head {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #fff;
@@ -2511,7 +2514,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
 }
 
 .aside-container {
-  --submenu-width:300px;
+  --submenu-width: 300px;
   display: none;
   position: relative;
   flex-shrink: 0;
@@ -2550,6 +2553,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
 
 @media (min-width: 1365px) {
   .aside-main {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     width: var(--aside-width);
@@ -3022,7 +3026,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
     display: none;
   }
   .footer__bottom .social-icons {
-    --icon-width:50px;
+    --icon-width: 50px;
     grid-gap: 20px;
     gap: 20px;
   }
@@ -3069,7 +3073,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
   }
 }
 .help {
-  --max-width:1160px;
+  --max-width: 1160px;
 }
 
 @media (min-width: 1365px) {
@@ -3107,7 +3111,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
 }
 @media (min-width: 1365px) {
   .help__modal-body {
-    --main-padding:0;
+    --main-padding: 0;
     max-width: none;
   }
   .help__modal-body .title {
@@ -3151,7 +3155,7 @@ input[type=password]:focus, input[type=search]:focus, input[type=text]:focus {
 
 @media (min-width: 1365px) {
   .help__bread-crumbs {
-    padding: 30px calc(50% - var(--max-width)/2) 0;
+    padding: 30px calc(50% - var(--max-width) / 2) 0;
     font-size: 18px;
   }
 }

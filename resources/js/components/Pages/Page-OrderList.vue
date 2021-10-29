@@ -18,19 +18,24 @@
                             <h2 class="title title--order-top wrapper">Мои заказы</h2>
                             <div class="lk__tab-container">
                                 <div class="lk__tablist" role="tablist" aria-label="сортировка заказов">
-                                    <button id="tab-1-btn" class="lk__tab-btn" type="button" role="tab" aria-controls="tab-1"
+                                    <button id="tab-1-btn" class="lk__tab-btn" type="button" role="tab"
+                                            aria-controls="tab-1"
                                             aria-selected="true">
                                         <span>Активные</span><sup class="title-counter">27</sup></button>
                                     <button id="tab-2-btn" class="lk__tab-btn" type="button" role="tab"
-                                            aria-controls="tab-2"><span>Выполненные</span><sup class="title-counter">12</sup>
+                                            aria-controls="tab-2"><span>Выполненные</span><sup
+                                        class="title-counter">12</sup>
                                     </button>
                                     <button id="tab-3-btn" class="lk__tab-btn" type="button" role="tab"
-                                            aria-controls="tab-3"><span>Отмененные</span><sup class="title-counter">43</sup>
+                                            aria-controls="tab-3"><span>Отмененные</span><sup
+                                        class="title-counter">43</sup>
                                     </button>
                                     <button id="tab-4-btn" class="lk__tab-btn" type="button" role="tab"
-                                            aria-controls="tab-4"><span>Все</span><sup class="title-counter">82</sup></button>
+                                            aria-controls="tab-4"><span>Все</span><sup class="title-counter">82</sup>
+                                    </button>
                                 </div>
-                                <div id="tab-1" class="lk__tabpanel wrapper" role="tabpanel" aria-labelledby="tab-1-btn">
+                                <div id="tab-1" class="lk__tabpanel wrapper" role="tabpanel"
+                                     aria-labelledby="tab-1-btn">
                                     <div class="order-tab">
                                         <div class="order-tab__top">
                                             <div class="order-title">
@@ -48,7 +53,8 @@
                                             <a class="order-details-link" :href="'/'+auth_user.name+'/orderdetails'">подробнее</a>
                                         </div>
                                         <div class="accordion order-tab__middle">
-                                            <button class="accordion__title accordion-title arrow arrow--down" type="button">
+                                            <button class="accordion__title accordion-title arrow arrow--down"
+                                                    type="button">
                                                 Товары в
                                                 заказе
                                             </button>
@@ -62,7 +68,8 @@
                                                         <div class="content-wrap">
                                                             <div class="name">
                                                                 <small>Арт. 064206</small>
-                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina display </p>
+                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina
+                                                                    display </p>
                                                             </div>
                                                             <span class="amount">1шт</span>
                                                             <b class="price">99 999₽</b>
@@ -94,7 +101,8 @@
                                             <span class="counter counter--red"
                                                   data-count=""><span>Повторить заказ</span></span>
                                                 </button>
-                                                <button class="btn btn-white" type="button" data-modal-open="cancel-order"
+                                                <button class="btn btn-white" type="button"
+                                                        data-modal-open="cancel-order"
                                                         data-order=064206>
                                                     Отменить
                                                 </button>
@@ -118,7 +126,8 @@
                                             <a class="order-details-link" :href="'/'+auth_user.name+'/orderdetails'">подробнее</a>
                                         </div>
                                         <div class="accordion order-tab__middle">
-                                            <button class="accordion__title accordion-title arrow arrow--down" type="button">
+                                            <button class="accordion__title accordion-title arrow arrow--down"
+                                                    type="button">
                                                 Товары в
                                                 заказе
                                             </button>
@@ -132,7 +141,8 @@
                                                         <div class="content-wrap">
                                                             <div class="name">
                                                                 <small>Арт. 064206</small>
-                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina display </p>
+                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina
+                                                                    display </p>
                                                             </div>
                                                             <span class="amount">1шт</span>
                                                             <b class="price">99 999₽</b>
@@ -164,7 +174,8 @@
                                             <span class="counter counter--red"
                                                   data-count=""><span>Повторить заказ</span></span>
                                                 </button>
-                                                <button class="btn btn-white" type="button" data-modal-open="cancel-order"
+                                                <button class="btn btn-white" type="button"
+                                                        data-modal-open="cancel-order"
                                                         data-order=064206>
                                                     Отменить
                                                 </button>
@@ -172,7 +183,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div id="tab-2" class="lk__tabpanel wrapper" role="tabpanel" aria-labelledby="tab-2-btn" hidden>
+                                <div id="tab-2" class="lk__tabpanel wrapper" role="tabpanel" aria-labelledby="tab-2-btn"
+                                     hidden>
                                     <div class="order-tab">
                                         <div class="order-tab__top">
                                             <div class="order-title">
@@ -190,7 +202,8 @@
                                             <a class="order-details-link" :href="'/'+auth_user.name+'/orderdetails'">подробнее</a>
                                         </div>
                                         <div class="accordion order-tab__middle">
-                                            <button class="accordion__title accordion-title arrow arrow--down" type="button">
+                                            <button class="accordion__title accordion-title arrow arrow--down"
+                                                    type="button">
                                                 Товары в
                                                 заказе
                                             </button>
@@ -204,7 +217,8 @@
                                                         <div class="content-wrap">
                                                             <div class="name">
                                                                 <small>Арт. 064206</small>
-                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina display </p>
+                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina
+                                                                    display </p>
                                                             </div>
                                                             <span class="amount">1шт</span>
                                                             <b class="price">99 999₽</b>
@@ -243,7 +257,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div id="tab-3" class="lk__tabpanel wrapper" role="tabpanel" aria-labelledby="tab-3-btn" hidden>
+                                <div id="tab-3" class="lk__tabpanel wrapper" role="tabpanel" aria-labelledby="tab-3-btn"
+                                     hidden>
                                     <div class="order-tab">
                                         <div class="order-tab__top">
                                             <div class="order-title">
@@ -261,7 +276,8 @@
                                             <a class="order-details-link" :href="'/'+auth_user.name+'/orderdetails'">подробнее</a>
                                         </div>
                                         <div class="accordion order-tab__middle">
-                                            <button class="accordion__title accordion-title arrow arrow--down" type="button">
+                                            <button class="accordion__title accordion-title arrow arrow--down"
+                                                    type="button">
                                                 Товары в
                                                 заказе
                                             </button>
@@ -275,7 +291,8 @@
                                                         <div class="content-wrap">
                                                             <div class="name">
                                                                 <small>Арт. 064206</small>
-                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina display </p>
+                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina
+                                                                    display </p>
                                                             </div>
                                                             <span class="amount">1шт</span>
                                                             <b class="price">99 999₽</b>
@@ -330,7 +347,8 @@
                                             <a class="order-details-link" :href="'/'+auth_user.name+'/orderdetails'">подробнее</a>
                                         </div>
                                         <div class="accordion order-tab__middle">
-                                            <button class="accordion__title accordion-title arrow arrow--down" type="button">
+                                            <button class="accordion__title accordion-title arrow arrow--down"
+                                                    type="button">
                                                 Товары в
                                                 заказе
                                             </button>
@@ -344,7 +362,8 @@
                                                         <div class="content-wrap">
                                                             <div class="name">
                                                                 <small>Арт. 064206</small>
-                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina display </p>
+                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina
+                                                                    display </p>
                                                             </div>
                                                             <span class="amount">1шт</span>
                                                             <b class="price">99 999₽</b>
@@ -399,7 +418,8 @@
                                             <a class="order-details-link" :href="'/'+auth_user.name+'/orderdetails'">подробнее</a>
                                         </div>
                                         <div class="accordion order-tab__middle">
-                                            <button class="accordion__title accordion-title arrow arrow--down" type="button">
+                                            <button class="accordion__title accordion-title arrow arrow--down"
+                                                    type="button">
                                                 Товары в
                                                 заказе
                                             </button>
@@ -413,7 +433,8 @@
                                                         <div class="content-wrap">
                                                             <div class="name">
                                                                 <small>Арт. 064206</small>
-                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina display </p>
+                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina
+                                                                    display </p>
                                                             </div>
                                                             <span class="amount">1шт</span>
                                                             <b class="price">99 999₽</b>
@@ -452,7 +473,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div id="tab-4" class="lk__tabpanel wrapper" role="tabpanel" aria-labelledby="tab-4-btn" hidden>
+                                <div id="tab-4" class="lk__tabpanel wrapper" role="tabpanel" aria-labelledby="tab-4-btn"
+                                     hidden>
                                     <div class="order-tab">
                                         <div class="order-tab__top">
                                             <div class="order-title">
@@ -470,7 +492,8 @@
                                             <a class="order-details-link" :href="'/'+auth_user.name+'/orderdetails'">подробнее</a>
                                         </div>
                                         <div class="accordion order-tab__middle">
-                                            <button class="accordion__title accordion-title arrow arrow--down" type="button">
+                                            <button class="accordion__title accordion-title arrow arrow--down"
+                                                    type="button">
                                                 Товары в
                                                 заказе
                                             </button>
@@ -484,7 +507,8 @@
                                                         <div class="content-wrap">
                                                             <div class="name">
                                                                 <small>Арт. 064206</small>
-                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina display </p>
+                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina
+                                                                    display </p>
                                                             </div>
                                                             <span class="amount">1шт</span>
                                                             <b class="price">99 999₽</b>
@@ -539,7 +563,8 @@
                                             <a class="order-details-link" :href="'/'+auth_user.name+'/orderdetails'">подробнее</a>
                                         </div>
                                         <div class="accordion order-tab__middle">
-                                            <button class="accordion__title accordion-title arrow arrow--down" type="button">
+                                            <button class="accordion__title accordion-title arrow arrow--down"
+                                                    type="button">
                                                 Товары в
                                                 заказе
                                             </button>
@@ -553,7 +578,8 @@
                                                         <div class="content-wrap">
                                                             <div class="name">
                                                                 <small>Арт. 064206</small>
-                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina display </p>
+                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina
+                                                                    display </p>
                                                             </div>
                                                             <span class="amount">1шт</span>
                                                             <b class="price">99 999₽</b>
@@ -608,7 +634,8 @@
                                             <a class="order-details-link" :href="'/'+auth_user.name+'/orderdetails'">подробнее</a>
                                         </div>
                                         <div class="accordion order-tab__middle">
-                                            <button class="accordion__title accordion-title arrow arrow--down" type="button">
+                                            <button class="accordion__title accordion-title arrow arrow--down"
+                                                    type="button">
                                                 Товары в
                                                 заказе
                                             </button>
@@ -622,7 +649,8 @@
                                                         <div class="content-wrap">
                                                             <div class="name">
                                                                 <small>Арт. 064206</small>
-                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina display </p>
+                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina
+                                                                    display </p>
                                                             </div>
                                                             <span class="amount">1шт</span>
                                                             <b class="price">99 999₽</b>
@@ -677,7 +705,8 @@
                                             <a class="order-details-link" :href="'/'+auth_user.name+'/orderdetails'">подробнее</a>
                                         </div>
                                         <div class="accordion order-tab__middle">
-                                            <button class="accordion__title accordion-title arrow arrow--down" type="button">
+                                            <button class="accordion__title accordion-title arrow arrow--down"
+                                                    type="button">
                                                 Товары в
                                                 заказе
                                             </button>
@@ -691,7 +720,8 @@
                                                         <div class="content-wrap">
                                                             <div class="name">
                                                                 <small>Арт. 064206</small>
-                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina display </p>
+                                                                <p>Смартфон Apple iPhone 11 Pro Max 64GB Retina
+                                                                    display </p>
                                                             </div>
                                                             <span class="amount">1шт</span>
                                                             <b class="price">99 999₽</b>
@@ -765,8 +795,8 @@
 <script>
 export default {
     name: "Page-OrderList",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     },

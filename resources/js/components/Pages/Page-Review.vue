@@ -132,17 +132,21 @@
                                             <source type="image/webp"
                                                     srcset="img/content/review/review.webp 345w, img/content/review/review@2x.webp 700w"
                                                     sizes="(max-width: 768px) 100vw, 345px">
-                                            <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 700w"
-                                                 sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета" decoding="async" loading="lazy">
+                                            <img src="img/content/review/review.jpg"
+                                                 srcset="img/content/review/review@2x.jpg 700w"
+                                                 sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета"
+                                                 decoding="async" loading="lazy">
                                         </picture>
                                     </a>
                                     <div class="article-el__body">
-                                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max, может быть в
+                                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro
+                                            Max, может быть в
                                             3 строки и вот таким большим</a></h3>
                                         <div class="article-el__mark has-video">
                                             <span class="article-el__mark-crush">Краш видео</span>
                                         </div>
-                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть большим
+                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые
+                                            вопросы может быть большим
                                             в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
                                         <a href="review2" class="link">Читать далее</a>
                                     </div>
@@ -153,17 +157,21 @@
                                             <source type="image/webp"
                                                     srcset="img/content/review/review.webp 345w, img/content/review/review@2x.webp 700w"
                                                     sizes="(max-width: 768px) 100vw, 345px">
-                                            <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 700w"
-                                                 sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета" decoding="async" loading="lazy">
+                                            <img src="img/content/review/review.jpg"
+                                                 srcset="img/content/review/review@2x.jpg 700w"
+                                                 sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета"
+                                                 decoding="async" loading="lazy">
                                         </picture>
                                     </a>
                                     <div class="article-el__body">
-                                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max, может быть в
+                                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro
+                                            Max, может быть в
                                             3 строки и вот таким большим</a></h3>
                                         <div class="article-el__mark has-video">
                                             <span class="article-el__mark-review">Обзоры</span>
                                         </div>
-                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть большим
+                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые
+                                            вопросы может быть большим
                                             в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
                                         <a href="review2" class="link">Читать далее</a>
                                     </div>
@@ -174,17 +182,21 @@
                                             <source type="image/webp"
                                                     srcset="img/content/review/review.webp 345w, img/content/review/review@2x.webp 700w"
                                                     sizes="(max-width: 768px) 100vw, 345px">
-                                            <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 700w"
-                                                 sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета" decoding="async" loading="lazy">
+                                            <img src="img/content/review/review.jpg"
+                                                 srcset="img/content/review/review@2x.jpg 700w"
+                                                 sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета"
+                                                 decoding="async" loading="lazy">
                                         </picture>
                                     </a>
                                     <div class="article-el__body">
-                                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max, может быть в
+                                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro
+                                            Max, может быть в
                                             3 строки и вот таким большим</a></h3>
                                         <div class="article-el__mark has-video">
                                             <span class="article-el__mark-compare">Сравнение</span>
                                         </div>
-                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть большим
+                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые
+                                            вопросы может быть большим
                                             в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
                                         <a href="review2" class="link">Читать далее</a>
                                     </div>
@@ -195,17 +207,21 @@
                                             <source type="image/webp"
                                                     srcset="img/content/review/review.webp 345w, img/content/review/review@2x.webp 700w"
                                                     sizes="(max-width: 768px) 100vw, 345px">
-                                            <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 700w"
-                                                 sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета" decoding="async" loading="lazy">
+                                            <img src="img/content/review/review.jpg"
+                                                 srcset="img/content/review/review@2x.jpg 700w"
+                                                 sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета"
+                                                 decoding="async" loading="lazy">
                                         </picture>
                                     </a>
                                     <div class="article-el__body">
-                                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max, может быть в
+                                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro
+                                            Max, может быть в
                                             3 строки и вот таким большим</a></h3>
                                         <div class="article-el__mark has-video">
                                             <span class="article-el__mark-unpack">Распаковка</span>
                                         </div>
-                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть большим
+                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые
+                                            вопросы может быть большим
                                             в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
                                         <a href="review2" class="link">Читать далее</a>
                                     </div>
@@ -216,17 +232,21 @@
                                             <source type="image/webp"
                                                     srcset="img/content/review/review.webp 345w, img/content/review/review@2x.webp 700w"
                                                     sizes="(max-width: 768px) 100vw, 345px">
-                                            <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 700w"
-                                                 sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета" decoding="async" loading="lazy">
+                                            <img src="img/content/review/review.jpg"
+                                                 srcset="img/content/review/review@2x.jpg 700w"
+                                                 sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета"
+                                                 decoding="async" loading="lazy">
                                         </picture>
                                     </a>
                                     <div class="article-el__body">
-                                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max, может быть в
+                                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro
+                                            Max, может быть в
                                             3 строки и вот таким большим</a></h3>
                                         <div class="article-el__mark has-video">
                                             <span class="article-el__mark-crush">Краш видео</span>
                                         </div>
-                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть большим
+                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые
+                                            вопросы может быть большим
                                             в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
                                         <a href="review2" class="link">Читать далее</a>
                                     </div>
@@ -237,17 +257,21 @@
                                             <source type="image/webp"
                                                     srcset="img/content/review/review.webp 345w, img/content/review/review@2x.webp 700w"
                                                     sizes="(max-width: 768px) 100vw, 345px">
-                                            <img src="img/content/review/review.jpg" srcset="img/content/review/review@2x.jpg 700w"
-                                                 sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета" decoding="async" loading="lazy">
+                                            <img src="img/content/review/review.jpg"
+                                                 srcset="img/content/review/review@2x.jpg 700w"
+                                                 sizes="(max-width: 769px) 100vw, 345px" alt="обзор гаджета"
+                                                 decoding="async" loading="lazy">
                                         </picture>
                                     </a>
                                     <div class="article-el__body">
-                                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro Max, может быть в
+                                        <h3><a class="text-limiter" href="review2">Iphone 11, почему такой же как и Pro
+                                            Max, может быть в
                                             3 строки и вот таким большим</a></h3>
                                         <div class="article-el__mark has-video">
                                             <span class="article-el__mark-review">Обзоры</span>
                                         </div>
-                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые вопросы может быть большим
+                                        <p class="text-limiter"> Видео разбор с ответами на самые часто задаваемые
+                                            вопросы может быть большим
                                             в 3 строки, видео разбор с ответами на самые часто задаваемые</p>
                                         <a href="review2" class="link">Читать далее</a>
                                     </div>
@@ -291,8 +315,8 @@
 <script>
 export default {
     name: "Page-Review",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     }

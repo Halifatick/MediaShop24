@@ -171,7 +171,7 @@
 export default {
     name: "Page-LK",
     props: {
-        auth_user:{
+        auth_user: {
             default: null
         }
     }

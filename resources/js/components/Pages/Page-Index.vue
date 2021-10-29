@@ -2284,8 +2284,8 @@ import Form from "vform"
 
 export default {
     name: "Page-Index",
-    props:{
-        auth_user:{
+    props: {
+        auth_user: {
             default: null
         }
     },
@@ -2328,10 +2328,10 @@ export default {
                 });
         },
         async successLoginSocial() {
-            const { value: formValues } = await this.$swal.fire({
+            const {value: formValues} = await this.$swal.fire({
                 title: 'Пароль',
                 html:
-                '<span class="form__field-wrap swal-form__field-wrap">Введите новый пароль<label class="form__field-password">\n' +
+                    '<span class="form__field-wrap swal-form__field-wrap">Введите новый пароль<label class="form__field-password">\n' +
                     '<input type="password" placeholder="Введите новый пароль" name="password" data-pass-origin\n' +
                     'data-validate="password" required id="swal-password" autocomplete="new-password">\n' +
                     '<span class="show-password"><svg width="20" height="20"><use href="#icon-password-eye"></use>\n' +

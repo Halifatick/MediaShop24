@@ -12,7 +12,7 @@
                      alt="бонус">
             </div>
             <div v-if="product.previous_price>0" class="bonus-icon priority-2">
-                <span class="bonus-discount">-{{getDiscountProcent()}}%</span>
+                <span class="bonus-discount">-{{ getDiscountProcent() }}%</span>
             </div>
 
         </div>
@@ -60,15 +60,17 @@
             </picture>
         </div>
         <div class="product-card__info">
-            <small class="product-card__name">{{product.category}}</small>
-            <p class="product-card-desc">{{product.title}}</p>
-            <s v-if="product.previous_price>0 && product.status_id===1" class="product-card__old-price">{{product.previous_price}}₽</s>
-            <b v-if="product.status_id===1" class="product-card__price">{{product.new_price}}₽</b>
+            <small class="product-card__name">{{ product.category }}</small>
+            <p class="product-card-desc">{{ product.title }}</p>
+            <s v-if="product.previous_price>0 && product.status_id===1"
+               class="product-card__old-price">{{ product.previous_price }}₽</s>
+            <b v-if="product.status_id===1" class="product-card__price">{{ product.new_price }}₽</b>
             <div class="product-card__buy-wrap" v-if="product.status_id!==1">
                 <button v-if="!isSubscription" class="btn btn-white product-card__buy" type="button"
                         data-modal-open="subscribe" @click="subscribe">Подписаться
                 </button>
-                <button v-if="isSubscription" class="btn btn-purple product-card__buy" disabled="disabled" type="button" >Вы подписаны
+                <button v-if="isSubscription" class="btn btn-purple product-card__buy" disabled="disabled"
+                        type="button">Вы подписаны
                 </button>
             </div>
             <div class="product-card__buy-wrap" v-if="product.status_id===1">
@@ -94,8 +96,8 @@ import {eventBus} from "../../../app";
 
 export default {
     name: "SameProductItem",
-    props:{
-        product:{
+    props: {
+        product: {
             required: true
         }
     },
@@ -118,12 +120,12 @@ export default {
             this.$store.commit('addToCompare', this.product);
             this.trigger += 1;
         },
-        subscribe(){
+        subscribe() {
             eventBus.$emit('subscribeProduct', this.product)
             this.trigger += 1;
         },
-        getDiscountProcent(){
-            return Math.round(((this.product.previous_price - this.product.new_price)/this.product.previous_price)*100)
+        getDiscountProcent() {
+            return Math.round(((this.product.previous_price - this.product.new_price) / this.product.previous_price) * 100)
         }
     },
     computed: {

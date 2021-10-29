@@ -76,7 +76,7 @@ let mutations = {
             let index = state.favourite.indexOf(item);
             state.favouriteCount -= 1;
             state.favourite.splice(index, 1);
-            axios.post('/update/favourites/'+item.id, {'add': false})
+            axios.post('/update/favourites/' + item.id, {'add': false})
 
         }
         this.commit('saveFavourite');
@@ -113,7 +113,7 @@ let mutations = {
             let index = state.compare.indexOf(item);
             state.compareCount -= 1;
             state.compare.splice(index, 1);
-            axios.post('/update/compared/'+item.id, {'add': false})
+            axios.post('/update/compared/' + item.id, {'add': false})
 
         }
         this.commit('saveCompare');

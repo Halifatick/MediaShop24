@@ -20,7 +20,7 @@
   background: linear-gradient(90deg, #fff 15%, rgba(255, 255, 255, 0.93) 21%, rgba(255, 255, 255, 0) 75%);
 }
 .product-card-container .swiper-slide {
-  --slide-gap:20px;
+  --slide-gap: 20px;
   padding-right: var(--slide-gap);
   transition: opacity 0.3s;
 }
@@ -28,7 +28,7 @@
   padding-right: var(--main-padding);
 }
 .product-card-container .swiper-slide--full {
-  --slide-gap:15px;
+  --slide-gap: 15px;
 }
 .product-card-container .swiper-slide-prev {
   opacity: 0;
@@ -43,12 +43,12 @@
 }
 @media (min-width: 769px) {
   .product-card-container .swiper-slide {
-    --slide-gap:30px;
+    --slide-gap: 30px;
   }
 }
 @media (min-width: 1365px) {
   .product-card-container .swiper-slide {
-    --slide-gap:60px;
+    --slide-gap: 60px;
   }
   .product-card-container .swiper-slide:last-child {
     padding-right: var(--slide-gap);
@@ -56,12 +56,12 @@
 }
 @media (min-width: 769px) {
   .product-card-container .swiper-slide--full {
-    --slide-gap:25px;
+    --slide-gap: 25px;
   }
 }
 @media (min-width: 1365px) {
   .product-card-container .swiper-slide--full {
-    --slide-gap:30px;
+    --slide-gap: 30px;
   }
   .product-card-container .swiper-slide--full:last-child {
     padding-right: 60px;
@@ -84,8 +84,8 @@
 }
 
 .product-card {
-  --bonus-size:30px;
-  --font-size-discount:8px;
+  --bonus-size: 30px;
+  --font-size-discount: 8px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -95,21 +95,21 @@
 }
 
 .product-card--m-icon {
-  --bonus-size:50px;
-  --font-size-discount:15px;
+  --bonus-size: 50px;
+  --font-size-discount: 15px;
 }
 
 @media (min-width: 1365px) {
   .product-card {
-    --bonus-size:70px;
-    --font-size-discount:18px;
+    --bonus-size: 70px;
+    --font-size-discount: 18px;
     width: 309px;
     padding: 66px 0 1px;
   }
 
   .product-card--sm-icon {
-    --bonus-size:50px;
-    --font-size-discount:15px;
+    --bonus-size: 50px;
+    --font-size-discount: 15px;
   }
 }
 .product-card--full {
@@ -710,7 +710,7 @@
   padding-right: 20px;
 }
 .cart-products__name p {
-  max-width: calc(100vw - var(--main-padding)*2 - 130px);
+  max-width: calc(100vw - var(--main-padding) * 2 - 130px);
   margin-bottom: 5px;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -837,7 +837,8 @@
 
 @media (min-width: 1365px) {
   .cart-products__amount {
-    --main-padding:0;
+    --main-padding: 0;
+    position: -webkit-sticky;
     position: sticky;
     top: var(--header-height);
     padding: 34px 20px;

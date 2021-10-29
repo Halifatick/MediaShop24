@@ -21,9 +21,8 @@ class User extends \TCG\Voyager\Models\User implements MustVerifyEmail
         'name',
         'email',
         'password',
-
         'firstname',
-        'lastname' ,
+        'lastname',
         'birthdate',
         'gender',
         'city',
@@ -58,10 +57,12 @@ class User extends \TCG\Voyager\Models\User implements MustVerifyEmail
     {
         return $this->HasMany(Order::class);
     }
+
     public function favourites()
     {
         return $this->HasMany(Favourite::class);
     }
+
     public function comments()
     {
         return $this->HasMany(Comment::class);

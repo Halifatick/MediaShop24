@@ -8,8 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class DeliveryMethod extends Model
 {
     use HasFactory;
+
     protected $table = 'delivery_methods';
     protected $fillable = ['title'];
+
     public function orders()
     {
         return $this->HasMany(Order::class);
